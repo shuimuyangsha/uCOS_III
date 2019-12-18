@@ -9,6 +9,20 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_3UseSemaphoresForTaskSyn
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_1MessageQueue", "11_1MessageQueue\Project\VS\11_1MessageQueue\11_1MessageQueue.vcxproj", "{9E3836D0-1C74-4752-BF6D-493B928D2B53}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_1MemoryManagement", "14_1MemoryManagement\Project\VS\14_1MemoryManagement\14_1MemoryManagement.vcxproj", "{E4C672AB-6597-49F6-8954-D5A865DD3056}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_1TaskCreationAndDeletion", "06_1TaskCreationAndDeletion\Project\VS\06_1TaskCreationAndDeletion\06_1TaskCreationAndDeletion.vcxproj", "{79E67232-B646-4B0B-AD8E-818B6849563D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_2TaskSuspendAndResume", "06_2TaskSuspendAndResume\Project\VS\06_2TaskSuspendAndResume\06_2TaskSuspendAndResume.vcxproj", "{63A5086E-08EF-4BAC-9990-ADF4AA6C13A4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07_1UseIdleTaskHookFunction", "07_1UseIdleTaskHookFunction\Project\VS\07_1UseIdleTaskHookFunction\07_1UseIdleTaskHookFunction.vcxproj", "{DD8BEADC-639F-44D4-B90A-54C09CF992A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B7BB0EB0-908C-42E1-95B4-CF7C62745890}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\嵌入式学习\资料\探索者F4\探索者F4 资料盘(A盘)\3，ALIENTEK探索者STM32F4开发板原理图\Explorer STM32F4_V2.2_SCH.pdf = ..\..\..\嵌入式学习\资料\探索者F4\探索者F4 资料盘(A盘)\3，ALIENTEK探索者STM32F4开发板原理图\Explorer STM32F4_V2.2_SCH.pdf
+		..\..\..\嵌入式学习\资料\野火STM32\1-F429至尊版\A盘（资料盘）\8-C语言学习资料\嵌入式实时操作系统μC／OS-III-原版书籍.pdf = ..\..\..\嵌入式学习\资料\野火STM32\1-F429至尊版\A盘（资料盘）\8-C语言学习资料\嵌入式实时操作系统μC／OS-III-原版书籍.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|VisualGDB = Debug|VisualGDB
@@ -27,6 +41,22 @@ Global
 		{9E3836D0-1C74-4752-BF6D-493B928D2B53}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
 		{9E3836D0-1C74-4752-BF6D-493B928D2B53}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
 		{9E3836D0-1C74-4752-BF6D-493B928D2B53}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{E4C672AB-6597-49F6-8954-D5A865DD3056}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{E4C672AB-6597-49F6-8954-D5A865DD3056}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{E4C672AB-6597-49F6-8954-D5A865DD3056}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{E4C672AB-6597-49F6-8954-D5A865DD3056}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{79E67232-B646-4B0B-AD8E-818B6849563D}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{79E67232-B646-4B0B-AD8E-818B6849563D}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{79E67232-B646-4B0B-AD8E-818B6849563D}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{79E67232-B646-4B0B-AD8E-818B6849563D}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{63A5086E-08EF-4BAC-9990-ADF4AA6C13A4}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{63A5086E-08EF-4BAC-9990-ADF4AA6C13A4}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{63A5086E-08EF-4BAC-9990-ADF4AA6C13A4}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{63A5086E-08EF-4BAC-9990-ADF4AA6C13A4}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{DD8BEADC-639F-44D4-B90A-54C09CF992A5}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{DD8BEADC-639F-44D4-B90A-54C09CF992A5}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{DD8BEADC-639F-44D4-B90A-54C09CF992A5}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{DD8BEADC-639F-44D4-B90A-54C09CF992A5}.Release|VisualGDB.Build.0 = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

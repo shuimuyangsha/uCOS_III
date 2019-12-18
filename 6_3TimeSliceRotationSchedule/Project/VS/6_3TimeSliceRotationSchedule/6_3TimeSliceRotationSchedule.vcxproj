@@ -16,6 +16,7 @@
     <BSP_ID>KEIL:Keil/STM32F4xx_DFP</BSP_ID>
     <BSP_VERSION>2.6.0</BSP_VERSION>
     <InPlaceBSPSubdir />
+    <ProjectName>6_3TimeSliceRotationSchedule</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">

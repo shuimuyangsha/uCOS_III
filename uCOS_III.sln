@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6_3TimeSliceRotationSchedule", "6_3TimeSliceRotationSchedule\Project\VS\6_3TimeSliceRotationSchedule\6_3TimeSliceRotationSchedule.vcxproj", "{50D3BA4C-1F27-4288-ABEF-779F2829E8B9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_3UseSemaphoresForTaskSynchronization", "10_3UseSemaphoresForTaskSynchronization\Project\VS\10_3UseSemaphoresForTaskSynchronization\10_3UseSemaphoresForTaskSynchronization.vcxproj", "{BC0DC83F-C34B-4FD6-A3DE-B645E37C2727}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_1MessageQueue", "11_1MessageQueue\Project\VS\11_1MessageQueue\11_1MessageQueue.vcxproj", "{9E3836D0-1C74-4752-BF6D-493B928D2B53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|VisualGDB = Debug|VisualGDB
@@ -15,6 +19,14 @@ Global
 		{50D3BA4C-1F27-4288-ABEF-779F2829E8B9}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
 		{50D3BA4C-1F27-4288-ABEF-779F2829E8B9}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
 		{50D3BA4C-1F27-4288-ABEF-779F2829E8B9}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{BC0DC83F-C34B-4FD6-A3DE-B645E37C2727}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{BC0DC83F-C34B-4FD6-A3DE-B645E37C2727}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{BC0DC83F-C34B-4FD6-A3DE-B645E37C2727}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{BC0DC83F-C34B-4FD6-A3DE-B645E37C2727}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{9E3836D0-1C74-4752-BF6D-493B928D2B53}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{9E3836D0-1C74-4752-BF6D-493B928D2B53}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{9E3836D0-1C74-4752-BF6D-493B928D2B53}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{9E3836D0-1C74-4752-BF6D-493B928D2B53}.Release|VisualGDB.Build.0 = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -67,6 +67,7 @@ int main(void)
 	LED_Init();         //LED初始化	
 	LCD_Init();			//LCD初始化	
 	KEY_Init();			//按键初始化
+	StandbyIO_Init();
 	
 	POINT_COLOR = RED;
 	LCD_ShowString(30,10,200,16,16,"Explorer STM32F4");	
@@ -134,7 +135,7 @@ void start_task(void *p_arg)
 	OSTmrCreate((OS_TMR		*)&tmr1,		//定时器1
                 (CPU_CHAR	*)"tmr1",		//定时器名字
                 (OS_TICK	 )20,			//20*10=200ms
-                (OS_TICK	 )100,          //100*10=1000ms
+                (OS_TICK	 )5,          //100*10=1000ms
                 (OS_OPT		 )OS_OPT_TMR_PERIODIC, //周期模式
                 (OS_TMR_CALLBACK_PTR)tmr1_callback,//定时器1回调函数
                 (void	    *)0,			//参数为0
@@ -168,6 +169,8 @@ void start_task(void *p_arg)
 }
 
 //任务1的任务函数
+char Debug_GetLED0State = 0;
+char Debug_GetLED1State = 0;
 void task1_task(void *p_arg)
 {
 	u8 key,num;
@@ -196,17 +199,29 @@ void task1_task(void *p_arg)
 		{
 			num = 0;
 			LED0 = ~LED0;	
+			Debug_GetLED0State = GPIO_ReadOutputDataBit(GPIOF, GPIO_Pin_9);
 		}
 		OSTimeDlyHMSM(0,0,0,10,OS_OPT_TIME_PERIODIC,&err);   //延时10ms
 	}
 }
 
+unsigned int DebugSetColor = 0;
 //定时器1的回调函数
 void tmr1_callback(void *p_tmr, void *p_arg)
 {
+	unsigned int colorR, colorG, colorB, colorCompound;
 	static u8 tmr1_num=0;
+
+	colorR = (DebugSetColor & 0x00FF0000) >> (3 + 16);
+	colorG = (DebugSetColor & 0x0000FF00) >> (2 + 8);
+	colorB = (DebugSetColor & 0x000000ff) >> (3 + 0);
+	colorCompound = (colorR << (3 + 8)) | (colorG << (1 + 4)) | (colorB);//合成色
+	
 	LCD_ShowxNum(62,111,tmr1_num,3,16,0x80); //显示定时器1的执行次数
-	LCD_Fill(6,131,114,313,lcd_discolor[tmr1_num%14]);//填充区域
+	//LCD_Fill(6,131,114,313,lcd_discolor[tmr1_num%14]);//填充区域
+
+
+	LCD_Fill(6, 131, 114, 313, colorCompound);//填充区域
 	tmr1_num++;		//定时器1执行次数加1
 }
 
@@ -218,6 +233,7 @@ void tmr2_callback(void *p_tmr,void *p_arg)
 	LCD_ShowxNum(182,111,tmr2_num,3,16,0x80);  //显示定时器1执行次数
 	LCD_Fill(126,131,233,313,lcd_discolor[tmr2_num%14]); //填充区域
 	LED1 = ~LED1;
+	Debug_GetLED1State = GPIO_ReadOutputDataBit(GPIOF, GPIO_Pin_10);
 	printf("定时器2运行结束\r\n");
 }
 

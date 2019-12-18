@@ -262,23 +262,23 @@
       <ImportedConfiguration>
         <Settings>
           <IncludeDirectories>
-            <string>E:\VS_GDB\LearningC\uCOS_III\6_3TimeSliceRotationSchedule\CORE</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\6_3TimeSliceRotationSchedule\SYSTEM\delay</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\6_3TimeSliceRotationSchedule\SYSTEM\sys</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\6_3TimeSliceRotationSchedule\SYSTEM\usart</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\6_3TimeSliceRotationSchedule\FWLIB\STM32F4xx_StdPeriph_Driver\inc</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\6_3TimeSliceRotationSchedule\USER</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\6_3TimeSliceRotationSchedule\HARDWARE\LED</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\6_3TimeSliceRotationSchedule\HARDWARE\LCD</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\6_3TimeSliceRotationSchedule\UCOSIII\uC-CPU</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\6_3TimeSliceRotationSchedule\UCOSIII\uC-LIB</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\6_3TimeSliceRotationSchedule\UCOSIII\uCOS-III</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\6_3TimeSliceRotationSchedule\UCOSIII\UCOS_BSP</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\6_3TimeSliceRotationSchedule\UCOSIII\uCOS_CONFIG</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\6_3TimeSliceRotationSchedule\UCOSIII\uCOS-III\Source</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\6_3TimeSliceRotationSchedule\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\6_3TimeSliceRotationSchedule\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\6_3TimeSliceRotationSchedule\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\06_3TimeSliceRotationSchedule\CORE</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\06_3TimeSliceRotationSchedule\SYSTEM\delay</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\06_3TimeSliceRotationSchedule\SYSTEM\sys</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\06_3TimeSliceRotationSchedule\SYSTEM\usart</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\06_3TimeSliceRotationSchedule\FWLIB\STM32F4xx_StdPeriph_Driver\inc</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\06_3TimeSliceRotationSchedule\USER</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\06_3TimeSliceRotationSchedule\HARDWARE\LED</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\06_3TimeSliceRotationSchedule\HARDWARE\LCD</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\06_3TimeSliceRotationSchedule\UCOSIII\uC-CPU</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\06_3TimeSliceRotationSchedule\UCOSIII\uC-LIB</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\06_3TimeSliceRotationSchedule\UCOSIII\uCOS-III</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\06_3TimeSliceRotationSchedule\UCOSIII\UCOS_BSP</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\06_3TimeSliceRotationSchedule\UCOSIII\uCOS_CONFIG</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\06_3TimeSliceRotationSchedule\UCOSIII\uCOS-III\Source</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\06_3TimeSliceRotationSchedule\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\06_3TimeSliceRotationSchedule\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\06_3TimeSliceRotationSchedule\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView</string>
           </IncludeDirectories>
           <PreprocessorMacros>
             <string>STM32F40_41xxx</string>

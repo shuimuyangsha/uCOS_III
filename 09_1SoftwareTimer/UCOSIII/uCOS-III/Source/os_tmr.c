@@ -1056,6 +1056,7 @@ void  OS_TmrTask (void  *p_arg)
 
     p_arg = p_arg;                                               /* Not using 'p_arg', prevent compiler warning       */
     while (DEF_ON) {
+		StandbyIO1_TOGGLE;
         (void)OSTaskSemPend((OS_TICK )0,                         /* Wait for signal indicating time to update tmrs    */
                             (OS_OPT  )OS_OPT_PEND_BLOCKING,
                             (CPU_TS *)&ts,

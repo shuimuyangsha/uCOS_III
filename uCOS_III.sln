@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6_3TimeSliceRotationSchedule", "6_3TimeSliceRotationSchedule\Project\VS\6_3TimeSliceRotationSchedule\6_3TimeSliceRotationSchedule.vcxproj", "{50D3BA4C-1F27-4288-ABEF-779F2829E8B9}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_3UseSemaphoresForTaskSynchronization", "10_3UseSemaphoresForTaskSynchronization\Project\VS\10_3UseSemaphoresForTaskSynchronization\10_3UseSemaphoresForTaskSynchronization.vcxproj", "{BC0DC83F-C34B-4FD6-A3DE-B645E37C2727}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_1MessageQueue", "11_1MessageQueue\Project\VS\11_1MessageQueue\11_1MessageQueue.vcxproj", "{9E3836D0-1C74-4752-BF6D-493B928D2B53}"
@@ -23,16 +21,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\..\..\嵌入式学习\资料\野火STM32\1-F429至尊版\A盘（资料盘）\8-C语言学习资料\嵌入式实时操作系统μC／OS-III-原版书籍.pdf = ..\..\..\嵌入式学习\资料\野火STM32\1-F429至尊版\A盘（资料盘）\8-C语言学习资料\嵌入式实时操作系统μC／OS-III-原版书籍.pdf
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_3TimeSliceRotationSchedule", "06_3TimeSliceRotationSchedule\Project\VS\06_3TimeSliceRotationSchedule\06_3TimeSliceRotationSchedule.vcxproj", "{7A4B9E8D-D23A-4DE7-A848-D2C2D9F12936}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09_1SoftwareTimer", "09_1SoftwareTimer\Project\VS\09_1SoftwareTimer\09_1SoftwareTimer.vcxproj", "{BEA539E7-0FBB-4801-81FB-732B92A76666}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|VisualGDB = Debug|VisualGDB
 		Release|VisualGDB = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{50D3BA4C-1F27-4288-ABEF-779F2829E8B9}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
-		{50D3BA4C-1F27-4288-ABEF-779F2829E8B9}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
-		{50D3BA4C-1F27-4288-ABEF-779F2829E8B9}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
-		{50D3BA4C-1F27-4288-ABEF-779F2829E8B9}.Release|VisualGDB.Build.0 = Release|VisualGDB
 		{BC0DC83F-C34B-4FD6-A3DE-B645E37C2727}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
 		{BC0DC83F-C34B-4FD6-A3DE-B645E37C2727}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
 		{BC0DC83F-C34B-4FD6-A3DE-B645E37C2727}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
@@ -57,6 +55,14 @@ Global
 		{DD8BEADC-639F-44D4-B90A-54C09CF992A5}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
 		{DD8BEADC-639F-44D4-B90A-54C09CF992A5}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
 		{DD8BEADC-639F-44D4-B90A-54C09CF992A5}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{7A4B9E8D-D23A-4DE7-A848-D2C2D9F12936}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{7A4B9E8D-D23A-4DE7-A848-D2C2D9F12936}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{7A4B9E8D-D23A-4DE7-A848-D2C2D9F12936}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{7A4B9E8D-D23A-4DE7-A848-D2C2D9F12936}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{BEA539E7-0FBB-4801-81FB-732B92A76666}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{BEA539E7-0FBB-4801-81FB-732B92A76666}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{BEA539E7-0FBB-4801-81FB-732B92A76666}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{BEA539E7-0FBB-4801-81FB-732B92A76666}.Release|VisualGDB.Build.0 = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

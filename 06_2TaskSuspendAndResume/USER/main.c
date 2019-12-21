@@ -4,6 +4,7 @@
 #include "led.h"
 #include "lcd.h"
 #include "includes.h"
+#include "StandbyGPIO.h"
 //ALIENTEK 探索者STM32F407开发板 UCOSIII实验
 //例6-2 UCOSIII 任务挂起和恢复
 
@@ -67,7 +68,9 @@ int main(void)
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);//中断分组配置
 	uart_init(115200);   //串口初始化
 	LED_Init();         //LED初始化	
+	StandbyIO_Init();
 	LCD_Init();			//LCD初始化	
+
 	
 	POINT_COLOR = RED;
 	LCD_ShowString(30,10,200,16,16,"Explorer STM32F4");	
@@ -172,6 +175,7 @@ void task1_task(void *p_arg)
 	{
 		task1_num++;	//任务1执行次数加1 注意task1_num1加到255的时候会清零！！
 		LED0= ~LED0;
+		//StandbyIO1_TOGGLE;
 		printf("任务1已经执行：%d次\r\n",task1_num);
 		if(task1_num==5) 
 		{
@@ -187,6 +191,9 @@ void task1_task(void *p_arg)
 		LCD_ShowxNum(86,111,task1_num,3,16,0x80);	//显示任务执行次数
 		OSTimeDlyHMSM(0,0,1,0,OS_OPT_TIME_HMSM_STRICT,&err); //延时1s
 		
+		if (task1_num == 20) {
+			task1_num = 0;
+		}
 	}
 }
 

@@ -273,5 +273,13 @@
     <ClCompile Include="..\..\..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView\lib_mem_a.s">
       <Filter>Source files\UCOSIII_LIB</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\HARDWARE\StandbyGPIO\StandbyGPIO.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\readme.txt">
+      <Filter>Resource files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

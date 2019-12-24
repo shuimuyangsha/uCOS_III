@@ -155,6 +155,7 @@ void start_task(void *p_arg)
 	OSTaskDel((OS_TCB*)0,&err);	//删除start_task任务自身
 }
 
+u8 Debug_task1_num;
 
 //task1任务函数
 void task1_task(void *p_arg)
@@ -174,12 +175,15 @@ void task1_task(void *p_arg)
 	while(1)
 	{
 		task1_num++;	//任务1执行次数加1 注意task1_num1加到255的时候会清零！！
+		Debug_task1_num = task1_num;
 		LED0= ~LED0;
+		DebugLED0.DebugGetLED = GPIO_ReadOutputDataBit(GPIOF, GPIO_Pin_9);
 		//StandbyIO1_TOGGLE;
 		printf("任务1已经执行：%d次\r\n",task1_num);
 		if(task1_num==5) 
 		{
 			OSTaskSuspend((OS_TCB*)&Task2_TaskTCB,&err);//任务1执行5次后挂起任务2
+
 			printf("任务1挂起了任务2!\r\n");
 		}
 		if(task1_num==10) 
@@ -197,6 +201,7 @@ void task1_task(void *p_arg)
 	}
 }
 
+u8 Debug_task2_num;
 //task2任务函数
 void task2_task(void *p_arg)
 {
@@ -215,11 +220,16 @@ void task2_task(void *p_arg)
 	while(1)
 	{
 		task2_num++;	//任务2执行次数加1 注意task1_num2加到255的时候会清零！！
+		Debug_task2_num = task2_num;
 		LED1=~LED1;
+		DebugLED1.DebugGetLED = GPIO_ReadOutputDataBit(GPIOF, GPIO_Pin_10);
 		printf("任务2已经执行：%d次\r\n",task2_num);
 		LCD_ShowxNum(206,111,task2_num,3,16,0x80);  //显示任务执行次数
 		LCD_Fill(126,131,233,313,lcd_discolor[13-task2_num%14]); //填充区域
-		OSTimeDlyHMSM(0,0,1,0,OS_OPT_TIME_HMSM_STRICT,&err); //延时1s
+		OSTimeDlyHMSM(0,0,0,200,OS_OPT_TIME_HMSM_STRICT,&err); //延时1s
 	}
 }
+
+
+
 

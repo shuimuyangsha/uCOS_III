@@ -34,6 +34,7 @@
     <GNUConfigurationType>Debug</GNUConfigurationType>
     <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
     <ToolchainVersion>5.x//r1</ToolchainVersion>
+    <TargetExt>.elf</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
     <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
@@ -120,6 +121,9 @@
     <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_var.c" />
     <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu_c.c" />
     <ClCompile Include="..\..\..\UCOSIII\uCOS_CONFIG\os_app_hooks.c" />
+    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第10讲 UCOSIII任务挂起和恢复\第10讲 UCOSIII任务基础API函数.ppt" />
+    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第10讲 UCOSIII任务挂起和恢复\第10讲 UCOSIII任务挂起和恢复.rmvb" />
+    <None Include="..\..\uC_Probe\06_2TaskSuspendAndResume.wspx" />
     <None Include="mcu.props" />
     <ClInclude Include="..\..\..\CORE\core_cm4.h" />
     <ClInclude Include="..\..\..\CORE\core_cm4_simd.h" />

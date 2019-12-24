@@ -282,4 +282,13 @@
       <Filter>Resource files</Filter>
     </Text>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第10讲 UCOSIII任务挂起和恢复\第10讲 UCOSIII任务挂起和恢复.rmvb">
+      <Filter>Resource files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第10讲 UCOSIII任务挂起和恢复\第10讲 UCOSIII任务基础API函数.ppt">
+      <Filter>Resource files</Filter>
+    </None>
+    <None Include="..\..\uC_Probe\06_2TaskSuspendAndResume.wspx" />
+  </ItemGroup>
 </Project>

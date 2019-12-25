@@ -1,4 +1,4 @@
-#include "../StandbyGPIO/StandbyGPIO.h"
+#include "StandbyGPIO.h"
 
 void StandbyIO_Init(void)
 {

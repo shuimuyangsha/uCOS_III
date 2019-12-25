@@ -11,6 +11,7 @@
 //Copyright(C) 广州市星翼电子科技有限公司 2014-2024
 //All rights reserved									  
 ////////////////////////////////////////////////////////////////////////////////// 	
+struct DebugLEDType DebugLED0, DebugLED1;
 
 //初始化PF9和PF10为输出口.并使能这两个口的时钟		    
 //LED IO初始化

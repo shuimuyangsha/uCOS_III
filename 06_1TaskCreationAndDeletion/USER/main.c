@@ -96,7 +96,7 @@ int main(void)
 	OSStart(&err);      //开启UCOSIII
 }
 
-
+CPU_TS Debug_start_task_CyclesStart, Debug_start_task_CyclesDelta;
 //开始任务任务函数
 void start_task(void *p_arg)
 {
@@ -117,8 +117,9 @@ void start_task(void *p_arg)
 	 //使能时间片轮转调度功能,时间片长度为1个系统时钟节拍，既1*5=5ms
 	OSSchedRoundRobinCfg(DEF_ENABLED,1,&err);  
 #endif	
-	
+	Debug_start_task_CyclesStart = OS_TS_GET();
 	OS_CRITICAL_ENTER();	//进入临界区
+
 	//创建TASK1任务
 	OSTaskCreate((OS_TCB 	* )&Task1_TaskTCB,		
 				 (CPU_CHAR	* )"Task1 task", 		
@@ -149,10 +150,11 @@ void start_task(void *p_arg)
                  (OS_OPT      )OS_OPT_TASK_STK_CHK|OS_OPT_TASK_STK_CLR, 
                  (OS_ERR 	* )&err);			 
 	OS_CRITICAL_EXIT();	//退出临界区
+	Debug_start_task_CyclesDelta = OS_TS_GET() - Debug_start_task_CyclesStart;
 	OSTaskDel((OS_TCB*)0,&err);	//删除start_task任务自身
 }
 
-
+u8 Debug_task1_num;
 //task1任务函数
 void task1_task(void *p_arg)
 {
@@ -171,8 +173,11 @@ void task1_task(void *p_arg)
 	while(1)
 	{
 		task1_num++;	//任务执1行次数加1 注意task1_num1加到255的时候会清零！！
+		Debug_task1_num = task1_num;
 		LED0= ~LED0;
+		DebugLED0.DebugGetLED = GPIO_ReadOutputDataBit(GPIOF, GPIO_Pin_9);
 		printf("任务1已经执行：%d次\r\n",task1_num);
+
 		if(task1_num==5) 
 		{
 			OSTaskDel((OS_TCB*)&Task2_TaskTCB,&err);	//任务1执行5此后删除掉任务2
@@ -185,6 +190,7 @@ void task1_task(void *p_arg)
 	}
 }
 
+u8 Debug_task2_num;
 //task2任务函数
 void task2_task(void *p_arg)
 {
@@ -203,7 +209,9 @@ void task2_task(void *p_arg)
 	while(1)
 	{
 		task2_num++;	//任务2执行次数加1 注意task1_num2加到255的时候会清零！！
+		Debug_task2_num = task2_num;
 		LED1=~LED1;
+		DebugLED1.DebugGetLED = GPIO_ReadOutputDataBit(GPIOF, GPIO_Pin_10);
 		printf("任务2已经执行：%d次\r\n",task2_num);
 		LCD_ShowxNum(206,111,task2_num,3,16,0x80);  //显示任务执行次数
 		LCD_Fill(126,131,233,313,lcd_discolor[13-task2_num%14]); //填充区域

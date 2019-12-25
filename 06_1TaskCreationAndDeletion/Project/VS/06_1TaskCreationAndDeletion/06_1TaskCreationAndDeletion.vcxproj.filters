@@ -274,4 +274,18 @@
       <Filter>Source files\UCOSIII_LIB</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第9讲 UCOSIII任务创建和删除\第9讲 UCOSIII任务创建和删除.rmvb">
+      <Filter>Resource files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第9讲 UCOSIII任务创建和删除\第9讲 UCOSIII任务基础API函数.ppt">
+      <Filter>Resource files</Filter>
+    </None>
+    <None Include="..\..\uC_Probe\06_1TaskCreationAndDeletion.wspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\readme.txt">
+      <Filter>Resource files</Filter>
+    </Text>
+  </ItemGroup>
 </Project>

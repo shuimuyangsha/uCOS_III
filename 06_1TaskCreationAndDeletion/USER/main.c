@@ -67,7 +67,10 @@ int main(void)
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);//中断分组配置
 	uart_init(115200);   //串口初始化
 
+	TIM3_Int_Init(10 - 1, 840 - 1);	//定时器时钟84M，分频系数8400，所以84M/8400=10Khz的计数频率，计数5000次为500ms  
+	ProbeScope_Init(PROBE_SCOPE_SAMPLING_CLK_HZ_DFLT);
 	StandbyIO_Init();//初始化	
+	 
 
 	LED_Init();         //LED初始化	
 	LCD_Init();			//LCD初始化	
@@ -201,7 +204,7 @@ void task1_task(void *p_arg)
 
 		if(task1_num==5) 
 		{
-			OSTaskDel((OS_TCB*)&Task2_TaskTCB,&err);	//任务1执行5此后删除掉任务2
+			//OSTaskDel((OS_TCB*)&Task2_TaskTCB,&err);	//任务1执行5此后删除掉任务2
 			printf("任务1删除了任务2!\r\n");
 		}
 		LCD_Fill(6,131,114,313,lcd_discolor[task1_num%14]); //填充区域
@@ -209,7 +212,7 @@ void task1_task(void *p_arg)
 
 		Debug_task1_ts = OS_TS_GET() - Debug_task1_CyclesStart;
 
-		OSTimeDlyHMSM(0,0,1,0,OS_OPT_TIME_HMSM_STRICT,&err); //延时1s
+		OSTimeDlyHMSM(0,0,0,20,OS_OPT_TIME_HMSM_STRICT,&err); //延时1s
 
 		StandbyIO1_TOGGLE;
 		Debug_task1_CyclesDelta = OS_TS_GET() - Debug_task1_CyclesStart;
@@ -249,7 +252,7 @@ void task2_task(void *p_arg)
 
 		task2_num++;	//任务2执行次数加1 注意task1_num2加到255的时候会清零！！
 		Debug_task2_num = task2_num;
-		LED1=~LED1;
+		//LED1=~LED1;
 		DebugLED1.DebugGetLED = GPIO_ReadOutputDataBit(GPIOF, GPIO_Pin_10);
 		printf("任务2已经执行：%d次\r\n",task2_num);
 		LCD_ShowxNum(206,111,task2_num,3,16,0x80);  //显示任务执行次数
@@ -257,7 +260,7 @@ void task2_task(void *p_arg)
 
 		Debug_task2_ts = OS_TS_GET() - Debug_task2_CyclesStart;
 
-		OSTimeDlyHMSM(0,0,1,0,OS_OPT_TIME_HMSM_STRICT,&err); //延时1s
+		OSTimeDlyHMSM(0,0,0,300,OS_OPT_TIME_HMSM_STRICT,&err); //延时1s
 
 		StandbyIO2_TOGGLE;
 		Debug_task2_CyclesDelta = OS_TS_GET() - Debug_task2_CyclesStart;

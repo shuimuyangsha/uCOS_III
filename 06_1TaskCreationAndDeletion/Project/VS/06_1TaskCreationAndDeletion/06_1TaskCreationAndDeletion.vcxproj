@@ -42,7 +42,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\..\CORE;..\..\..\SYSTEM\delay;..\..\..\SYSTEM\sys;..\..\..\SYSTEM\usart;..\..\..\FWLIB\STM32F4xx_StdPeriph_Driver\inc;..\..\..\USER;..\..\..\HARDWARE\LED;..\..\..\HARDWARE\LCD;..\..\..\UCOSIII\uC-CPU;..\..\..\UCOSIII\uC-LIB;..\..\..\UCOSIII\uCOS-III;..\..\..\UCOSIII\UCOS_BSP;..\..\..\UCOSIII\uCOS_CONFIG;..\..\..\UCOSIII\uCOS-III\Source;..\..\..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView;..\..\..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView;..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView;../../../HARDWARE/StandbyGPIO;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\CORE;..\..\..\SYSTEM\delay;..\..\..\SYSTEM\sys;..\..\..\SYSTEM\usart;..\..\..\FWLIB\STM32F4xx_StdPeriph_Driver\inc;..\..\..\USER;..\..\..\HARDWARE\LED;..\..\..\HARDWARE\LCD;..\..\..\UCOSIII\uC-CPU;..\..\..\UCOSIII\uC-LIB;..\..\..\UCOSIII\uCOS-III;..\..\..\UCOSIII\UCOS_BSP;..\..\..\UCOSIII\uCOS_CONFIG;..\..\..\UCOSIII\uCOS-III\Source;..\..\..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView;..\..\..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView;..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView;../../../HARDWARE/StandbyGPIO;../../../UCOSIII/uC-Probe/Target/Scope/cfg;../../../UCOSIII/uC-Probe/Target/Scope;../../../HARDWARE/TIMER;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>STM32F40_41xxx;USE_STDPERIPH_DRIVER;__FPU_USED=1;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions />
       <CLanguageStandard />
@@ -75,8 +75,10 @@
   </ImportGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\HARDWARE\StandbyGPIO\StandbyGPIO.c" />
+    <ClCompile Include="..\..\..\HARDWARE\TIMER\timer.c" />
     <ClCompile Include="..\..\..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu_a.s" />
     <ClCompile Include="..\..\..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView\lib_mem_a.s" />
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Scope\probe_scope.c" />
     <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu_a.s" />
     <ClCompile Include="..\..\..\USER\main.c" />
     <ClCompile Include="..\..\..\USER\stm32f4xx_it.c" />

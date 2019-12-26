@@ -88,6 +88,9 @@
     <Filter Include="VisualGDB settings">
       <UniqueIdentifier>{8409aff3-7a43-4b3e-a02d-bc3e9fb0cfb3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source files\UC_PROBE">
+      <UniqueIdentifier>{2bb8ae16-af91-4e81-b110-67f134b30c9d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\USER\main.c">
@@ -274,6 +277,12 @@
       <Filter>Source files\UCOSIII_LIB</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\HARDWARE\StandbyGPIO\StandbyGPIO.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Scope\probe_scope.c">
+      <Filter>Source files\UC_PROBE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HARDWARE\TIMER\timer.c">
       <Filter>Source files\HARDWARE</Filter>
     </ClCompile>
   </ItemGroup>

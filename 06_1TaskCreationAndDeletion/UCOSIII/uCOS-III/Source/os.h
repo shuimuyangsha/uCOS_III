@@ -63,6 +63,7 @@ extern "C" {
 #include <os_type.h>
 #include <os_cpu.h>
 
+#include <probe_scope.h>
 #include "StandbyGPIO.h"
 
 

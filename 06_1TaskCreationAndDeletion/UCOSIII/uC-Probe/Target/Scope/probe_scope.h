@@ -21,7 +21,10 @@
 #define PROBE_SCOPE_H
 
 #include  <stdint.h>
+
 #include  <probe_scope_cfg.h>
+#include "led.h"
+#include "StandbyGPIO.h"
 
 /*
 *********************************************************************************************************

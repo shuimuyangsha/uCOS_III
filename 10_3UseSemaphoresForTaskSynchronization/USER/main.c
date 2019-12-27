@@ -181,6 +181,12 @@ void task1_task(void *p_arg)
 			OSSemPost(&SYNC_SEM,OS_OPT_POST_1,&err);//发送信号量
 			LCD_ShowxNum(150,111,SYNC_SEM.Ctr,3,16,0);	//显示信号量值
 		}
+
+		if (key == KEY1_PRES)
+		{
+			OSSemDel(&SYNC_SEM, OS_OPT_DEL_ALWAYS, &err);
+			
+		}
 		OSTimeDlyHMSM(0,0,0,10,OS_OPT_TIME_PERIODIC,&err);   //延时10ms
 	}
 }

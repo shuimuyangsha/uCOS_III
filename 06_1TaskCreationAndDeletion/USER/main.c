@@ -191,7 +191,7 @@ void task1_task(void *p_arg)
 
 	while(1)
 	{
-		StandbyIO1_TOGGLE;
+		//StandbyIO1_TOGGLE;
 		Debug_task1_CyclesStart = OS_TS_GET();
 
 		task1_num++;	//任务执1行次数加1 注意task1_num1加到255的时候会清零！！
@@ -214,7 +214,7 @@ void task1_task(void *p_arg)
 
 		OSTimeDlyHMSM(0,0,0,20,OS_OPT_TIME_HMSM_STRICT,&err); //延时1s
 
-		StandbyIO1_TOGGLE;
+		//StandbyIO1_TOGGLE;
 		Debug_task1_CyclesDelta = OS_TS_GET() - Debug_task1_CyclesStart;
 	}
 }

@@ -66,6 +66,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <Text Include="..\..\..\readme.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
@@ -118,6 +119,10 @@
     <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_var.c" />
     <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu_c.c" />
     <ClCompile Include="..\..\..\UCOSIII\uCOS_CONFIG\os_app_hooks.c" />
+    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第15讲 UCOSIII信号量和互斥信号量(上)\第15讲 UCOSIII信号量和互斥信号量(上).ppt" />
+    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第15讲 UCOSIII信号量和互斥信号量(上)\第15讲 UCOSIII信号量和互斥信号量(上).rmvb" />
+    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第16讲 UCOSIII信号量和互斥信号量(下)\第16讲 UCOSIII信号量和互斥信号量(下).ppt" />
+    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第16讲 UCOSIII信号量和互斥信号量(下)\第16讲 UCOSIII信号量和互斥信号量(下).rmvb" />
     <None Include="mcu.props" />
     <ClInclude Include="..\..\..\CORE\core_cm4.h" />
     <ClInclude Include="..\..\..\CORE\core_cm4_simd.h" />

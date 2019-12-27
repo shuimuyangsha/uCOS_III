@@ -36,6 +36,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "F103_10_5MutexSemaphore", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "F103_10_6TaskSem", "F103_10_6TaskSem\Project\VS\F103_10_6TaskSem\F103_10_6TaskSem.vcxproj", "{5D7C1D49-DF9F-48E2-91FF-944C6C09923B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "F103_11_1MessageQueue", "F103_11_1MessageQueue\Project\VS\F103_11_1MessageQueue\F103_11_1MessageQueue.vcxproj", "{40E3E8BF-F897-45A3-8751-D01400656D1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|VisualGDB = Debug|VisualGDB
@@ -94,6 +96,10 @@ Global
 		{5D7C1D49-DF9F-48E2-91FF-944C6C09923B}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
 		{5D7C1D49-DF9F-48E2-91FF-944C6C09923B}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
 		{5D7C1D49-DF9F-48E2-91FF-944C6C09923B}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{40E3E8BF-F897-45A3-8751-D01400656D1A}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{40E3E8BF-F897-45A3-8751-D01400656D1A}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{40E3E8BF-F897-45A3-8751-D01400656D1A}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{40E3E8BF-F897-45A3-8751-D01400656D1A}.Release|VisualGDB.Build.0 = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

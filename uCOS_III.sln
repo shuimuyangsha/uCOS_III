@@ -26,6 +26,16 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_3TimeSliceRotationSchedu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09_1SoftwareTimer", "09_1SoftwareTimer\Project\VS\09_1SoftwareTimer\09_1SoftwareTimer.vcxproj", "{BEA539E7-0FBB-4801-81FB-732B92A76666}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "F103_10_3UseSemaphoresForTaskSynchronization", "F103_10_3UseSemaphoresForTaskSynchronization\Project\VS\F103_10_3UseSemaphoresForTaskSynchronization\F103_10_3UseSemaphoresForTaskSynchronization.vcxproj", "{28B59B64-55B7-4A16-B337-FA3B9F8DADAB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "F103_10_2UseSemaphoresToAccessTheShared", "F103_10_2UseSemaphoresToAccessTheSharedResource\Project\VS\F103_10_2UseSemaphoresToAccessTheShared\F103_10_2UseSemaphoresToAccessTheShared.vcxproj", "{44E3CEDB-2480-4887-87FA-85AC568D8482}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "F103_10_4PriorityInversion", "F103_10_4PriorityInversion\Project\VS\F103_10_4PriorityInversion\F103_10_4PriorityInversion.vcxproj", "{02FABF0B-B8A8-485C-909A-603DC2579085}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "F103_10_5MutexSemaphore", "F103_10_5MutexSemaphore\Project\VS\F103_10_5MutexSemaphore\F103_10_5MutexSemaphore.vcxproj", "{D505619C-933A-4DBA-B27B-204F634282D1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "F103_10_6TaskSem", "F103_10_6TaskSem\Project\VS\F103_10_6TaskSem\F103_10_6TaskSem.vcxproj", "{5D7C1D49-DF9F-48E2-91FF-944C6C09923B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|VisualGDB = Debug|VisualGDB
@@ -64,6 +74,26 @@ Global
 		{BEA539E7-0FBB-4801-81FB-732B92A76666}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
 		{BEA539E7-0FBB-4801-81FB-732B92A76666}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
 		{BEA539E7-0FBB-4801-81FB-732B92A76666}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{28B59B64-55B7-4A16-B337-FA3B9F8DADAB}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{28B59B64-55B7-4A16-B337-FA3B9F8DADAB}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{28B59B64-55B7-4A16-B337-FA3B9F8DADAB}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{28B59B64-55B7-4A16-B337-FA3B9F8DADAB}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{44E3CEDB-2480-4887-87FA-85AC568D8482}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{44E3CEDB-2480-4887-87FA-85AC568D8482}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{44E3CEDB-2480-4887-87FA-85AC568D8482}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{44E3CEDB-2480-4887-87FA-85AC568D8482}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{02FABF0B-B8A8-485C-909A-603DC2579085}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{02FABF0B-B8A8-485C-909A-603DC2579085}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{02FABF0B-B8A8-485C-909A-603DC2579085}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{02FABF0B-B8A8-485C-909A-603DC2579085}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{D505619C-933A-4DBA-B27B-204F634282D1}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{D505619C-933A-4DBA-B27B-204F634282D1}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{D505619C-933A-4DBA-B27B-204F634282D1}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{D505619C-933A-4DBA-B27B-204F634282D1}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{5D7C1D49-DF9F-48E2-91FF-944C6C09923B}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{5D7C1D49-DF9F-48E2-91FF-944C6C09923B}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{5D7C1D49-DF9F-48E2-91FF-944C6C09923B}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{5D7C1D49-DF9F-48E2-91FF-944C6C09923B}.Release|VisualGDB.Build.0 = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

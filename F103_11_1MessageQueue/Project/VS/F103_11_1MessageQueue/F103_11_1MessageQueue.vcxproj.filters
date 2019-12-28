@@ -279,6 +279,9 @@
     <ClCompile Include="..\..\..\UCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu_a.s">
       <Filter>Source files\UCOSIII_CPU</Filter>
     </ClCompile>
+    <ClInclude Include="RTE/RTE_Components.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\readme.txt">

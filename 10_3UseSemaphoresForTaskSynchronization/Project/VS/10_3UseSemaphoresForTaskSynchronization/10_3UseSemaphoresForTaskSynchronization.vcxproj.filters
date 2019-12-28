@@ -276,6 +276,9 @@
     <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu_a.s">
       <Filter>Source files\UCOSIII_PORT</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\HARDWARE\StandbyGPIO\StandbyGPIO.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\readme.txt">
@@ -295,5 +298,6 @@
     <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第15讲 UCOSIII信号量和互斥信号量(上)\第15讲 UCOSIII信号量和互斥信号量(上).rmvb">
       <Filter>Resource files</Filter>
     </None>
+    <None Include="..\..\uC_Probe\10_3UseSemaphoresForTaskSynchronization.wspx" />
   </ItemGroup>
 </Project>

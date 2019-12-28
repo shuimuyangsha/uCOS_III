@@ -139,5 +139,6 @@
     <None Include="F103_11_1MessageQueue-Debug.vgdbsettings" />
     <None Include="F103_11_1MessageQueue-Release.vgdbsettings" />
     <None Include="MCU.xml" />
+    <ClInclude Include="RTE/RTE_Components.h" />
   </ItemGroup>
 </Project>

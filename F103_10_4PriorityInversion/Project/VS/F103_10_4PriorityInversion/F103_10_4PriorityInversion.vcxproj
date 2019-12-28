@@ -133,5 +133,6 @@
     <None Include="F103_10_4PriorityInversion-Debug.vgdbsettings" />
     <None Include="F103_10_4PriorityInversion-Release.vgdbsettings" />
     <None Include="MCU.xml" />
+    <ClInclude Include="RTE/RTE_Components.h" />
   </ItemGroup>
 </Project>

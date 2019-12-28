@@ -137,5 +137,6 @@
     <None Include="F103_10_2UseSemaphoresToAccessTheShared-Debug.vgdbsettings" />
     <None Include="F103_10_2UseSemaphoresToAccessTheShared-Release.vgdbsettings" />
     <None Include="MCU.xml" />
+    <ClInclude Include="RTE/RTE_Components.h" />
   </ItemGroup>
 </Project>

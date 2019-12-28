@@ -12,6 +12,8 @@
 //All rights reserved									  
 ////////////////////////////////////////////////////////////////////////////////// 	
 
+struct DebugLEDType DebugLED0, DebugLED1;
+
 //初始化PF9和PF10为输出口.并使能这两个口的时钟		    
 //LED IO初始化
 void LED_Init(void)

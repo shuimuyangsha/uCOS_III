@@ -264,6 +264,9 @@
     <ClCompile Include="..\..\..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M3\RealView\lib_mem_a.s">
       <Filter>Source files\UCOSIII_LIB</Filter>
     </ClCompile>
+    <ClInclude Include="RTE/RTE_Components.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\正点原子战舰STM32F103ZET6\ALIENTEK UCOS学习视频\第15讲 UCOSIII信号量和互斥信号量(上)\第15讲 UCOSIII信号量和互斥信号量(上).ppt">

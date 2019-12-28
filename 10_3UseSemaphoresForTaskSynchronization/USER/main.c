@@ -72,6 +72,7 @@ int main(void)
 	LED_Init();         //LED初始化	
 	LCD_Init();			//LCD初始化	
 	KEY_Init();			//按键初始化
+	StandbyIO_Init();
 	
 	POINT_COLOR = RED;
 	LCD_ShowString(30,10,200,16,16,"Explorer STM32F4");	
@@ -168,6 +169,11 @@ void start_task(void *p_arg)
 }
 
 
+u8 Debug_task1_num;
+CPU_TS Debug_task1_CyclesStart, Debug_task1_CyclesDelta;
+CPU_TS Debug_task1_ts;
+
+OS_SEM_CTR Debug_SemaphoreCount = 0;
 //任务1的任务函数
 void task1_task(void *p_arg)
 {
@@ -175,6 +181,9 @@ void task1_task(void *p_arg)
 	OS_ERR err;
 	while(1)
 	{
+		StandbyIO1(1);
+		Debug_task1_CyclesStart = OS_TS_GET();
+
 		key = KEY_Scan(0);  //扫描按键
 		if(key==WKUP_PRES)	
 		{
@@ -182,15 +191,33 @@ void task1_task(void *p_arg)
 			LCD_ShowxNum(150,111,SYNC_SEM.Ctr,3,16,0);	//显示信号量值
 		}
 
+		if (key == KEY0_PRES)
+		{			
+			OSSemPendAbort(&SYNC_SEM, OS_OPT_PEND_ABORT_1, &err);
+			OSSemSet(&SYNC_SEM, Debug_SemaphoreCount, &err);
+			LCD_ShowxNum(150, 111, SYNC_SEM.Ctr, 3, 16, 0);	//显示信号量值
+		}
+
 		if (key == KEY1_PRES)
 		{
 			OSSemDel(&SYNC_SEM, OS_OPT_DEL_ALWAYS, &err);
 			
 		}
+
+
+		StandbyIO1(0);
+		Debug_task1_ts = OS_TS_GET() - Debug_task1_CyclesStart;
+
 		OSTimeDlyHMSM(0,0,0,10,OS_OPT_TIME_PERIODIC,&err);   //延时10ms
+
+		Debug_task1_CyclesDelta = OS_TS_GET() - Debug_task1_CyclesStart;
 	}
 }
 
+
+u8 Debug_task2_num;
+CPU_TS Debug_task2_CyclesStart, Debug_task2_CyclesDelta;
+CPU_TS Debug_task2_ts;
 //任务2的任务函数
 void task2_task(void *p_arg)
 {	
@@ -198,12 +225,22 @@ void task2_task(void *p_arg)
 	OS_ERR err;
 	while(1)
 	{
+		Debug_task2_CyclesStart = OS_TS_GET();
 		OSSemPend(&SYNC_SEM,0,OS_OPT_PEND_BLOCKING,0,&err); //请求信号量
+
+		StandbyIO2(1);
+		Debug_task2_ts = OS_TS_GET() - Debug_task2_CyclesStart;
 		num++;
 		LCD_ShowxNum(150,111,SYNC_SEM.Ctr,3,16,0);			//显示信号量值
 		LCD_Fill(6,131,233,313,lcd_discolor[num%14]);		//刷屏
 		LED1 = ~LED1;
+		DebugLED1.DebugGetLED = GPIO_ReadOutputDataBit(GPIOF, GPIO_Pin_10);
+
+		StandbyIO2(0);
 		OSTimeDlyHMSM(0,0,1,0,OS_OPT_TIME_PERIODIC,&err);   //延时1s
+
+		
+		Debug_task2_CyclesDelta = OS_TS_GET() - Debug_task2_CyclesStart;
 	}
 }
 

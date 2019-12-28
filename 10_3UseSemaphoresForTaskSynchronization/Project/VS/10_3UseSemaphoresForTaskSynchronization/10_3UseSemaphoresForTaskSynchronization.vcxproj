@@ -34,6 +34,7 @@
     <GNUConfigurationType>Debug</GNUConfigurationType>
     <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
     <ToolchainVersion>5.x//r1</ToolchainVersion>
+    <TargetExt>.elf</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
     <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
@@ -41,15 +42,16 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\..\CORE;..\..\..\SYSTEM\delay;..\..\..\SYSTEM\sys;..\..\..\SYSTEM\usart;..\..\..\FWLIB\STM32F4xx_StdPeriph_Driver\inc;..\..\..\USER;..\..\..\HARDWARE\LED;..\..\..\HARDWARE\LCD;..\..\..\HARDWARE\KEY;..\..\..\UCOSIII\uC-CPU;..\..\..\UCOSIII\uC-LIB;..\..\..\UCOSIII\uCOS-III;..\..\..\UCOSIII\UCOS_BSP;..\..\..\UCOSIII\uCOS_CONFIG;..\..\..\UCOSIII\uCOS-III\Source;..\..\..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView;..\..\..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView;..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\CORE;..\..\..\SYSTEM\delay;..\..\..\SYSTEM\sys;..\..\..\SYSTEM\usart;..\..\..\FWLIB\STM32F4xx_StdPeriph_Driver\inc;..\..\..\USER;..\..\..\HARDWARE\LED;..\..\..\HARDWARE\LCD;..\..\..\HARDWARE\KEY;..\..\..\UCOSIII\uC-CPU;..\..\..\UCOSIII\uC-LIB;..\..\..\UCOSIII\uCOS-III;..\..\..\UCOSIII\UCOS_BSP;..\..\..\UCOSIII\uCOS_CONFIG;..\..\..\UCOSIII\uCOS-III\Source;..\..\..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView;..\..\..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView;..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView;../../../HARDWARE/StandbyGPIO;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>STM32F40_41xxx;USE_STDPERIPH_DRIVER;__FPU_USED=1;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions />
       <CLanguageStandard />
       <CPPLanguageStandard />
     </ClCompile>
     <Link>
-      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalLinkerInputs>;%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
       <AdditionalOptions />
+      <LinkerScript />
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
@@ -72,6 +74,7 @@
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\HARDWARE\StandbyGPIO\StandbyGPIO.c" />
     <ClCompile Include="..\..\..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu_a.s" />
     <ClCompile Include="..\..\..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView\lib_mem_a.s" />
     <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu_a.s" />
@@ -123,6 +126,7 @@
     <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第15讲 UCOSIII信号量和互斥信号量(上)\第15讲 UCOSIII信号量和互斥信号量(上).rmvb" />
     <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第16讲 UCOSIII信号量和互斥信号量(下)\第16讲 UCOSIII信号量和互斥信号量(下).ppt" />
     <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第16讲 UCOSIII信号量和互斥信号量(下)\第16讲 UCOSIII信号量和互斥信号量(下).rmvb" />
+    <None Include="..\..\uC_Probe\10_3UseSemaphoresForTaskSynchronization.wspx" />
     <None Include="mcu.props" />
     <ClInclude Include="..\..\..\CORE\core_cm4.h" />
     <ClInclude Include="..\..\..\CORE\core_cm4_simd.h" />

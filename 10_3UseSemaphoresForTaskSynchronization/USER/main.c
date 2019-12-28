@@ -32,7 +32,7 @@ CPU_STK START_TASK_STK[START_STK_SIZE];
 void start_task(void *p_arg);
 
 //任务优先级
-#define TASK1_TASK_PRIO		4
+#define TASK1_TASK_PRIO		5
 //任务堆栈大小	
 #define TASK1_STK_SIZE 		128
 //任务控制块
@@ -43,7 +43,7 @@ void task1_task(void *p_arg);
 
 
 //任务优先级
-#define TASK2_TASK_PRIO		5
+#define TASK2_TASK_PRIO		4
 //任务堆栈大小	
 #define TASK2_STK_SIZE 		128
 //任务控制块
@@ -218,6 +218,9 @@ void task1_task(void *p_arg)
 u8 Debug_task2_num;
 CPU_TS Debug_task2_CyclesStart, Debug_task2_CyclesDelta;
 CPU_TS Debug_task2_ts;
+CPU_TS Debug_Sem_ts;
+CPU_INT16U Debug_DelayTimeSet[4] = {0,0,1,0};//时、分、秒、毫秒
+
 //任务2的任务函数
 void task2_task(void *p_arg)
 {	
@@ -226,18 +229,20 @@ void task2_task(void *p_arg)
 	while(1)
 	{
 		Debug_task2_CyclesStart = OS_TS_GET();
-		OSSemPend(&SYNC_SEM,0,OS_OPT_PEND_BLOCKING,0,&err); //请求信号量
+		OSSemPend(&SYNC_SEM,0,OS_OPT_PEND_BLOCKING, &Debug_Sem_ts,&err); //请求信号量
 
 		StandbyIO2(1);
-		Debug_task2_ts = OS_TS_GET() - Debug_task2_CyclesStart;
+		
 		num++;
 		LCD_ShowxNum(150,111,SYNC_SEM.Ctr,3,16,0);			//显示信号量值
 		LCD_Fill(6,131,233,313,lcd_discolor[num%14]);		//刷屏
 		LED1 = ~LED1;
 		DebugLED1.DebugGetLED = GPIO_ReadOutputDataBit(GPIOF, GPIO_Pin_10);
 
+		Debug_task2_ts = OS_TS_GET() - Debug_task2_CyclesStart;
+
 		StandbyIO2(0);
-		OSTimeDlyHMSM(0,0,1,0,OS_OPT_TIME_PERIODIC,&err);   //延时1s
+		OSTimeDlyHMSM(0,0, Debug_DelayTimeSet[2], Debug_DelayTimeSet[3],OS_OPT_TIME_PERIODIC,&err);   //延时1s
 
 		
 		Debug_task2_CyclesDelta = OS_TS_GET() - Debug_task2_CyclesStart;

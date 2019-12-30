@@ -291,6 +291,7 @@ void main_task(void *p_arg)
 	while(1)
 	{
 		key = KEY_Scan(0);  //扫描按键
+		printf("%d\r\n", DebugSetWKUP);
 		if(key)
 		{
 			//发送消息
@@ -331,6 +332,8 @@ void Keyprocess_task(void *p_arg)
 		{
 			case WKUP_PRES:		//KEY_UP控制LED1
 				LED1 = ~LED1;
+				sprintf((char*)DebugKeyBuf, "DebugSetWKUP = %d", DebugSetWKUP);
+				LCD_ShowString(0, 340, 200, 16, 16, DebugKeyBuf);
 				break;
 			case KEY2_PRES:		//KEY2控制蜂鸣器
 				BEEP = ~BEEP;

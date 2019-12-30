@@ -1,18 +1,167 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <workspace>
   <symbolbrowser>
-    <symbolfiles />
+    <symbolfiles>
+      <symbolfile Filepath="..\..\..\..\VisualGDB\Debug\11_1MessageQueue.elf" ExternallyAdded="false" Core_Identifier="Core0" Device_Identifier="Device0" FileType="ELF_File" />
+    </symbolfiles>
   </symbolbrowser>
-  <screens SelectedScreenId="DataScreen1">
-    <screen RegisteredName="DataScreen1" ScreenHeader="DataScreen1" ScreenType="DataScreen" />
+  <screens SelectedScreenId="DataScreen2">
+    <screen RegisteredName="DataScreen2" ScreenHeader="DataScreen1" ScreenType="DataScreen" />
+    <screen RegisteredName="KernelAwarenessScreen1" ScreenHeader="µC/OS-III Awareness" ScreenType="KernelAwarenssScreen">
+      <configuration>
+        <properties deviceId="Device0" coreID="Core0" />
+      </configuration>
+    </screen>
   </screens>
-  <nodes />
+  <nodes>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode1" OffsetX="730" OffsetY="265" AllowMove="true" AllowResize="true" AllowRotate="true" AllowSelect="true" IsInRuntimeMode="false" Width="115" Height="45" ZIndex="0" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="PushButton" Type="PushButton">
+          <definitions Width="115" Height="45" ButtonValue="1" ValueToWrite="1" ButtonLabel="" ToggleOnValue="1" ToggleOffValue="0" LabelOffValue="" LabelOnValue="" FontColor="#FF000000" FontFamily="Segoe UI" FontSize="12" ShowButtonTypeLabel="true" OnColor="#FF90EE90" OffColor="#FFF08080" />
+        </content>
+      </innercontent>
+      <symbols />
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode4" OffsetX="730" OffsetY="155" AllowMove="true" AllowResize="true" AllowRotate="true" AllowSelect="true" IsInRuntimeMode="false" Width="115" Height="45" ZIndex="3" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="PushButton" Type="PushButton">
+          <definitions Width="115" Height="45" ButtonValue="1" ValueToWrite="1" ButtonLabel="" ToggleOnValue="1" ToggleOffValue="0" LabelOffValue="" LabelOnValue="" FontColor="#FF000000" FontFamily="Segoe UI" FontSize="12" ShowButtonTypeLabel="true" OnColor="#FF90EE90" OffColor="#FFF08080" />
+        </content>
+      </innercontent>
+      <symbols />
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode5" OffsetX="563" OffsetY="273" AllowMove="true" AllowResize="true" AllowRotate="true" AllowSelect="true" IsInRuntimeMode="false" Width="115" Height="45" ZIndex="4" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="PushButton" Type="PushButton">
+          <definitions Width="115" Height="45" ButtonValue="1" ValueToWrite="1" ButtonLabel="" ToggleOnValue="1" ToggleOffValue="0" LabelOffValue="" LabelOnValue="" FontColor="#FF000000" FontFamily="Segoe UI" FontSize="12" ShowButtonTypeLabel="true" OnColor="#FF90EE90" OffColor="#FFF08080" />
+        </content>
+      </innercontent>
+      <symbols />
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode6" OffsetX="1000" OffsetY="287" AllowMove="true" AllowResize="true" AllowRotate="true" AllowSelect="true" IsInRuntimeMode="false" Width="115" Height="45" ZIndex="5" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="PushButton" Type="PushButton">
+          <definitions Width="115" Height="45" ButtonValue="1" ValueToWrite="1" ButtonLabel="" ToggleOnValue="1" ToggleOffValue="0" LabelOffValue="" LabelOnValue="" FontColor="#FF000000" FontFamily="Segoe UI" FontSize="12" ShowButtonTypeLabel="true" OnColor="#FF90EE90" OffColor="#FFF08080" />
+        </content>
+      </innercontent>
+      <symbols />
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode7" OffsetX="3195" OffsetY="3200" AllowMove="true" AllowResize="true" AllowRotate="true" AllowSelect="true" IsInRuntimeMode="false" Width="115" Height="45" ZIndex="6" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="PushButton" Type="PushButton">
+          <definitions Width="115" Height="45" ButtonValue="1" ValueToWrite="1" ButtonLabel="" ToggleOnValue="0" ToggleOffValue="1" LabelOffValue="" LabelOnValue="" FontColor="#FF000000" FontFamily="Segoe UI" FontSize="12" ShowButtonTypeLabel="true" OnColor="#FF90EE90" OffColor="#FFF08080" />
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="DebugSetKEY1" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode8" OffsetX="3195" OffsetY="3075" AllowMove="true" AllowResize="true" AllowRotate="true" AllowSelect="true" IsInRuntimeMode="false" Width="115" Height="45" ZIndex="0" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="PushButton" Type="PushButton">
+          <definitions Width="115" Height="45" ButtonValue="0" ValueToWrite="0" ButtonLabel="" ToggleOnValue="1" ToggleOffValue="0" LabelOffValue="" LabelOnValue="" FontColor="#FF000000" FontFamily="Segoe UI" FontSize="12" ShowButtonTypeLabel="true" OnColor="#FF90EE90" OffColor="#FFF08080" />
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="DebugSetWKUP" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode13" OffsetX="3400" OffsetY="3200" AllowMove="true" AllowResize="true" AllowRotate="true" AllowSelect="true" IsInRuntimeMode="false" Width="115" Height="45" ZIndex="9" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="PushButton" Type="PushButton">
+          <definitions Width="115" Height="45" ButtonValue="1" ValueToWrite="1" ButtonLabel="" ToggleOnValue="0" ToggleOffValue="1" LabelOffValue="" LabelOnValue="" FontColor="#FF000000" FontFamily="Segoe UI" FontSize="12" ShowButtonTypeLabel="true" OnColor="#FF90EE90" OffColor="#FFF08080" />
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="DebugSetKEY0" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode15" OffsetX="2980" OffsetY="3200.0000000000005" AllowMove="true" AllowResize="true" AllowRotate="true" AllowSelect="true" IsInRuntimeMode="false" Width="115" Height="45" ZIndex="11" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="PushButton" Type="PushButton">
+          <definitions Width="115" Height="45" ButtonValue="1" ValueToWrite="1" ButtonLabel="" ToggleOnValue="0" ToggleOffValue="1" LabelOffValue="" LabelOnValue="" FontColor="#FF000000" FontFamily="Segoe UI" FontSize="12" ShowButtonTypeLabel="true" OnColor="#FF90EE90" OffColor="#FFF08080" />
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="DebugSetKEY2" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode16" OffsetX="0" OffsetY="0" AllowMove="true" AllowResize="true" AllowRotate="true" AllowSelect="true" IsInRuntimeMode="false" Width="0" Height="0" ZIndex="0" IsLocked="false" RotateAngle="0" Pivot="0,0" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="TLEDsControl" Type="TLEDsControl">
+          <definitions Width="100" Height="100" DefaultColor="#FFD3D3D3" BorderThickness="2" BoarderColor="#FF808080" IsWidthAndHeightSame="false" UseRGBFormatInsteadOfMappings="false" ShapeType="Circle" RotationAngle="0">
+            <colors>
+              <color ComparisonValue="0" Color="#FFD3D3D3" Comparison="IsEqualTo" />
+            </colors>
+          </definitions>
+        </content>
+      </innercontent>
+      <symbols />
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode17" OffsetX="3202.5" OffsetY="2909.9999999999995" AllowMove="true" AllowResize="true" AllowRotate="true" AllowSelect="true" IsInRuntimeMode="false" Width="100" Height="100" ZIndex="13" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="TLEDsControl" Type="TLEDsControl">
+          <definitions Width="100" Height="100" DefaultColor="#FFD3D3D3" BorderThickness="2" BoarderColor="#FF808080" IsWidthAndHeightSame="false" UseRGBFormatInsteadOfMappings="false" ShapeType="Circle" RotationAngle="0">
+            <colors>
+              <color ComparisonValue="0" Color="#FFFFA500" Comparison="IsNotEqualTo" />
+            </colors>
+          </definitions>
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="DebugGetKeyState" IsAnArrayElement="true" ElementIndex="3" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode18" OffsetX="3407.5" OffsetY="3290.0000000000005" AllowMove="true" AllowResize="true" AllowRotate="true" AllowSelect="true" IsInRuntimeMode="false" Width="100" Height="100" ZIndex="14" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="TLEDsControl" Type="TLEDsControl">
+          <definitions Width="100" Height="100" DefaultColor="#FFD3D3D3" BorderThickness="2" BoarderColor="#FF808080" IsWidthAndHeightSame="false" UseRGBFormatInsteadOfMappings="false" ShapeType="Circle" RotationAngle="0">
+            <colors>
+              <color ComparisonValue="0" Color="#FFFF4500" Comparison="IsEqualTo" />
+            </colors>
+          </definitions>
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="DebugGetKeyState" IsAnArrayElement="true" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode19" OffsetX="3202.5" OffsetY="3290" AllowMove="true" AllowResize="true" AllowRotate="true" AllowSelect="true" IsInRuntimeMode="false" Width="100" Height="100" ZIndex="15" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="TLEDsControl" Type="TLEDsControl">
+          <definitions Width="100" Height="100" DefaultColor="#FFD3D3D3" BorderThickness="2" BoarderColor="#FF808080" IsWidthAndHeightSame="false" UseRGBFormatInsteadOfMappings="false" ShapeType="Circle" RotationAngle="0">
+            <colors>
+              <color ComparisonValue="0" Color="#FF00FF00" Comparison="IsEqualTo" />
+            </colors>
+          </definitions>
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="DebugGetKeyState" IsAnArrayElement="true" ElementIndex="1" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode20" OffsetX="2987.5" OffsetY="3290" AllowMove="true" AllowResize="true" AllowRotate="true" AllowSelect="true" IsInRuntimeMode="false" Width="100" Height="100" ZIndex="16" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="TLEDsControl" Type="TLEDsControl">
+          <definitions Width="100" Height="100" DefaultColor="#FFD3D3D3" BorderThickness="2" BoarderColor="#FF808080" IsWidthAndHeightSame="false" UseRGBFormatInsteadOfMappings="false" ShapeType="Circle" RotationAngle="0">
+            <colors>
+              <color ComparisonValue="0" Color="#FF0000CD" Comparison="IsEqualTo" />
+            </colors>
+          </definitions>
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="DebugGetKeyState" IsAnArrayElement="true" ElementIndex="2" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+  </nodes>
   <screens_objects />
   <explorer>
     <content>
       <nodes>
-        <node IsEnable="true" Name="Project1" NodeType="Project" ScreenType="None" UniqueID="Project1">
-          <node IsEnable="true" Name="DataScreen1" NodeType="Screen" ScreenType="DataScreen" UniqueID="DataScreen1" />
+        <node IsEnable="true" Name="Project1" NodeType="Project" ScreenType="None" UniqueID="Project2">
+          <node IsEnable="true" Name="DataScreen1" NodeType="Screen" ScreenType="DataScreen" UniqueID="DataScreen2" />
+          <node IsEnable="true" Name="µC/OS-III Awareness" NodeType="Screen" ScreenType="KernelAwarenssScreen" UniqueID="KernelAwarenessScreen1" />
         </node>
       </nodes>
     </content>
@@ -26,10 +175,10 @@
           <ZorderInFloatMode>0</ZorderInFloatMode>
           <TabOrderIndex>-1</TabOrderIndex>
           <PreviousContainerDesiredSize>
-            <Width>0</Width>
+            <Width>1642</Width>
             <Height>0</Height>
           </PreviousContainerDesiredSize>
-          <PreviousDesiredWidthInDockedMode>90</PreviousDesiredWidthInDockedMode>
+          <PreviousDesiredWidthInDockedMode>1642</PreviousDesiredWidthInDockedMode>
           <PreviousDesiredHeightInDockedMode>360</PreviousDesiredHeightInDockedMode>
           <Name>usrSymbolBrowser</Name>
           <State>Dock</State>
@@ -48,14 +197,14 @@
           <IsSelectedTab>false</IsSelectedTab>
           <IsActiveWindow>false</IsActiveWindow>
           <WindowRect />
-          <TabGroupName />
+          <TabGroupName>46455584</TabGroupName>
           <IsTabGroupOwner>false</IsTabGroupOwner>
           <SideTabOrder>0</SideTabOrder>
-          <IndexInDockMode>3</IndexInDockMode>
-          <IndexInFloatMode>3</IndexInFloatMode>
+          <IndexInDockMode>4</IndexInDockMode>
+          <IndexInFloatMode>4</IndexInFloatMode>
           <TabOrderInDockMode>0</TabOrderInDockMode>
           <TabOrderInFloatMode>0</TabOrderInFloatMode>
-          <MDIBounds>0,0,100,50</MDIBounds>
+          <MDIBounds>0,0,124,50</MDIBounds>
           <TDIIndex>-1</TDIIndex>
           <IsSelected>false</IsSelected>
           <MDIMinimizedBounds>0,0,124,24</MDIMinimizedBounds>
@@ -63,7 +212,7 @@
           <AllowMDIResize>true</AllowMDIResize>
           <TDIGroupOrientation>Horizontal</TDIGroupOrientation>
           <WayOfTDIGroup />
-          <DockForSide>Left</DockForSide>
+          <DockForSide>Bottom</DockForSide>
           <PreviousIndexInDockMode>0</PreviousIndexInDockMode>
           <PreviousSideInDockMode>Left</PreviousSideInDockMode>
           <DoShift>false</DoShift>
@@ -103,10 +252,10 @@
           <TabOrderIndex>-1</TabOrderIndex>
           <PreviousContainerDesiredSize>
             <Width>270</Width>
-            <Height>124</Height>
+            <Height>869</Height>
           </PreviousContainerDesiredSize>
           <PreviousDesiredWidthInDockedMode>270</PreviousDesiredWidthInDockedMode>
-          <PreviousDesiredHeightInDockedMode>30</PreviousDesiredHeightInDockedMode>
+          <PreviousDesiredHeightInDockedMode>216</PreviousDesiredHeightInDockedMode>
           <Name>workspaceExplorerMainView</Name>
           <State>Dock</State>
           <NoHeader>false</NoHeader>
@@ -124,14 +273,90 @@
           <IsSelectedTab>false</IsSelectedTab>
           <IsActiveWindow>false</IsActiveWindow>
           <WindowRect />
-          <TabGroupName />
+          <TabGroupName>21222025</TabGroupName>
+          <IsTabGroupOwner>false</IsTabGroupOwner>
+          <SideTabOrder>0</SideTabOrder>
+          <IndexInDockMode>3</IndexInDockMode>
+          <IndexInFloatMode>3</IndexInFloatMode>
+          <TabOrderInDockMode>0</TabOrderInDockMode>
+          <TabOrderInFloatMode>0</TabOrderInFloatMode>
+          <MDIBounds>0,0,124,50</MDIBounds>
+          <TDIIndex>-1</TDIIndex>
+          <IsSelected>false</IsSelected>
+          <MDIMinimizedBounds>0,0,124,24</MDIMinimizedBounds>
+          <MDIWindowState>Normal</MDIWindowState>
+          <AllowMDIResize>true</AllowMDIResize>
+          <TDIGroupOrientation>Horizontal</TDIGroupOrientation>
+          <WayOfTDIGroup />
+          <DockForSide>Left</DockForSide>
+          <PreviousIndexInDockMode>0</PreviousIndexInDockMode>
+          <PreviousSideInDockMode>Top</PreviousSideInDockMode>
+          <DoShift>false</DoShift>
+          <SideRelativetoContainer>Left</SideRelativetoContainer>
+          <TabParent />
+          <DockWindowState>Normal</DockWindowState>
+          <CanMaximize>true</CanMaximize>
+          <CanMinimize>true</CanMinimize>
+          <CanResizeInDockedState>true</CanResizeInDockedState>
+          <CanResizeHeightInDockedState>true</CanResizeHeightInDockedState>
+          <CanResizeWidthInDockedState>true</CanResizeWidthInDockedState>
+          <CanResizeInFloatState>true</CanResizeInFloatState>
+          <CanResizeHeightInFloatState>true</CanResizeHeightInFloatState>
+          <CanResizeWidthInFloatState>true</CanResizeWidthInFloatState>
+          <CanFloatMaximize>false</CanFloatMaximize>
+          <IsFixedSize>false</IsFixedSize>
+          <IsFixedHeight>false</IsFixedHeight>
+          <IsFixedWidth>false</IsFixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <FixedWidth>0</FixedWidth>
+          <ContainerSize>
+            <Width>270</Width>
+            <Height>869</Height>
+          </ContainerSize>
+          <PreviousHostWidth>90</PreviousHostWidth>
+          <PreviousHostHeight>90</PreviousHostHeight>
+          <PreviousContainerHeight>90</PreviousContainerHeight>
+          <PreviousContainerWidth>90</PreviousContainerWidth>
+          <TargetAutoHide />
+          <SplitPanelOffset>0</SplitPanelOffset>
+          <IsSwapped>true</IsSwapped>
+        </DockingParams>
+        <DockingParams>
+          <PreviousFloatingWindowRect />
+          <FloatWindowState>Normal</FloatWindowState>
+          <ZorderInFloatMode>0</ZorderInFloatMode>
+          <TabOrderIndex>-1</TabOrderIndex>
+          <PreviousContainerDesiredSize>
+            <Width>270</Width>
+            <Height>869</Height>
+          </PreviousContainerDesiredSize>
+          <PreviousDesiredWidthInDockedMode>270</PreviousDesiredWidthInDockedMode>
+          <PreviousDesiredHeightInDockedMode>649</PreviousDesiredHeightInDockedMode>
+          <Name>toolboxMainView</Name>
+          <State>Dock</State>
+          <NoHeader>false</NoHeader>
+          <SideDocked>Bottom</SideDocked>
+          <SideFloating>Left</SideFloating>
+          <TargetDocked>workspaceExplorerMainView</TargetDocked>
+          <TargetFloating />
+          <DesiredWidthInDockedMode>270</DesiredWidthInDockedMode>
+          <DesiredHeightInDockedMode>649</DesiredHeightInDockedMode>
+          <DesiredWidthInFloatingMode>90</DesiredWidthInFloatingMode>
+          <DesiredHeightInFloatingMode>90</DesiredHeightInFloatingMode>
+          <NoDock>false</NoDock>
+          <CanDock>true</CanDock>
+          <CanClose>false</CanClose>
+          <IsSelectedTab>false</IsSelectedTab>
+          <IsActiveWindow>false</IsActiveWindow>
+          <WindowRect />
+          <TabGroupName>18958665</TabGroupName>
           <IsTabGroupOwner>false</IsTabGroupOwner>
           <SideTabOrder>0</SideTabOrder>
           <IndexInDockMode>2</IndexInDockMode>
           <IndexInFloatMode>2</IndexInFloatMode>
           <TabOrderInDockMode>0</TabOrderInDockMode>
           <TabOrderInFloatMode>0</TabOrderInFloatMode>
-          <MDIBounds>0,0,100,50</MDIBounds>
+          <MDIBounds>0,0,124,50</MDIBounds>
           <TDIIndex>-1</TDIIndex>
           <IsSelected>false</IsSelected>
           <MDIMinimizedBounds>0,0,124,24</MDIMinimizedBounds>
@@ -170,35 +395,35 @@
           <PreviousContainerWidth>90</PreviousContainerWidth>
           <TargetAutoHide />
           <SplitPanelOffset>0</SplitPanelOffset>
-          <IsSwapped>false</IsSwapped>
+          <IsSwapped>true</IsSwapped>
         </DockingParams>
         <DockingParams>
           <PreviousFloatingWindowRect />
           <FloatWindowState>Normal</FloatWindowState>
           <ZorderInFloatMode>0</ZorderInFloatMode>
-          <TabOrderIndex>-1</TabOrderIndex>
+          <TabOrderIndex>1</TabOrderIndex>
           <PreviousContainerDesiredSize>
-            <Width>270</Width>
-            <Height>124</Height>
+            <Width>0</Width>
+            <Height>0</Height>
           </PreviousContainerDesiredSize>
-          <PreviousDesiredWidthInDockedMode>90</PreviousDesiredWidthInDockedMode>
-          <PreviousDesiredHeightInDockedMode>90</PreviousDesiredHeightInDockedMode>
-          <Name>toolboxMainView</Name>
-          <State>Dock</State>
+          <PreviousDesiredWidthInDockedMode>0</PreviousDesiredWidthInDockedMode>
+          <PreviousDesiredHeightInDockedMode>0</PreviousDesiredHeightInDockedMode>
+          <Name>DataScreen2</Name>
+          <State>Document</State>
           <NoHeader>false</NoHeader>
-          <SideDocked>Bottom</SideDocked>
+          <SideDocked>Left</SideDocked>
           <SideFloating>Left</SideFloating>
-          <TargetDocked>workspaceExplorerMainView</TargetDocked>
+          <TargetDocked />
           <TargetFloating />
-          <DesiredWidthInDockedMode>270</DesiredWidthInDockedMode>
-          <DesiredHeightInDockedMode>649</DesiredHeightInDockedMode>
+          <DesiredWidthInDockedMode>90</DesiredWidthInDockedMode>
+          <DesiredHeightInDockedMode>90</DesiredHeightInDockedMode>
           <DesiredWidthInFloatingMode>90</DesiredWidthInFloatingMode>
           <DesiredHeightInFloatingMode>90</DesiredHeightInFloatingMode>
           <NoDock>false</NoDock>
-          <CanDock>true</CanDock>
+          <CanDock>false</CanDock>
           <CanClose>false</CanClose>
           <IsSelectedTab>false</IsSelectedTab>
-          <IsActiveWindow>false</IsActiveWindow>
+          <IsActiveWindow>true</IsActiveWindow>
           <WindowRect />
           <TabGroupName />
           <IsTabGroupOwner>false</IsTabGroupOwner>
@@ -207,9 +432,9 @@
           <IndexInFloatMode>1</IndexInFloatMode>
           <TabOrderInDockMode>0</TabOrderInDockMode>
           <TabOrderInFloatMode>0</TabOrderInFloatMode>
-          <MDIBounds>0,0,100,50</MDIBounds>
-          <TDIIndex>-1</TDIIndex>
-          <IsSelected>false</IsSelected>
+          <MDIBounds>0,0,124,50</MDIBounds>
+          <TDIIndex>1</TDIIndex>
+          <IsSelected>true</IsSelected>
           <MDIMinimizedBounds>0,0,124,24</MDIMinimizedBounds>
           <MDIWindowState>Normal</MDIWindowState>
           <AllowMDIResize>true</AllowMDIResize>
@@ -230,15 +455,15 @@
           <CanResizeInFloatState>true</CanResizeInFloatState>
           <CanResizeHeightInFloatState>true</CanResizeHeightInFloatState>
           <CanResizeWidthInFloatState>true</CanResizeWidthInFloatState>
-          <CanFloatMaximize>false</CanFloatMaximize>
+          <CanFloatMaximize>true</CanFloatMaximize>
           <IsFixedSize>false</IsFixedSize>
           <IsFixedHeight>false</IsFixedHeight>
           <IsFixedWidth>false</IsFixedWidth>
           <FixedHeight>0</FixedHeight>
           <FixedWidth>0</FixedWidth>
           <ContainerSize>
-            <Width>270</Width>
-            <Height>869</Height>
+            <Width>0</Width>
+            <Height>0</Height>
           </ContainerSize>
           <PreviousHostWidth>90</PreviousHostWidth>
           <PreviousHostHeight>90</PreviousHostHeight>
@@ -259,7 +484,7 @@
           </PreviousContainerDesiredSize>
           <PreviousDesiredWidthInDockedMode>0</PreviousDesiredWidthInDockedMode>
           <PreviousDesiredHeightInDockedMode>0</PreviousDesiredHeightInDockedMode>
-          <Name>DataScreen1</Name>
+          <Name>KernelAwarenessScreen1</Name>
           <State>Document</State>
           <NoHeader>false</NoHeader>
           <SideDocked>Left</SideDocked>
@@ -274,7 +499,7 @@
           <CanDock>false</CanDock>
           <CanClose>false</CanClose>
           <IsSelectedTab>false</IsSelectedTab>
-          <IsActiveWindow>true</IsActiveWindow>
+          <IsActiveWindow>false</IsActiveWindow>
           <WindowRect />
           <TabGroupName />
           <IsTabGroupOwner>false</IsTabGroupOwner>
@@ -285,7 +510,7 @@
           <TabOrderInFloatMode>0</TabOrderInFloatMode>
           <MDIBounds>0,0,100,50</MDIBounds>
           <TDIIndex>0</TDIIndex>
-          <IsSelected>true</IsSelected>
+          <IsSelected>false</IsSelected>
           <MDIMinimizedBounds>0,0,124,24</MDIMinimizedBounds>
           <MDIWindowState>Normal</MDIWindowState>
           <AllowMDIResize>true</AllowMDIResize>

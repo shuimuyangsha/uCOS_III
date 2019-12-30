@@ -27,7 +27,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>..\..\..\USER\Template.uvprojx</RelativePath>
-        <Timestamp>130755323303515986</Timestamp>
+        <Timestamp>132219700369355816</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -80,9 +80,6 @@
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\CORE\core_cm3.c</RelativePath>
             </VirtualFileSnapshot>
-            <VirtualFileSnapshot>
-              <RelativePath>..\..\..\CORE\startup_stm32f10x_hd.s</RelativePath>
-            </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
         <VirtualDirectorySnapshot>
@@ -119,9 +116,6 @@
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\UCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu_c.c</RelativePath>
             </VirtualFileSnapshot>
-            <VirtualFileSnapshot>
-              <RelativePath>..\..\..\UCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu_a.asm</RelativePath>
-            </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
         <VirtualDirectorySnapshot>
@@ -138,9 +132,6 @@
             </VirtualFileSnapshot>
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\UCOSIII\uC-LIB\lib_str.c</RelativePath>
-            </VirtualFileSnapshot>
-            <VirtualFileSnapshot>
-              <RelativePath>..\..\..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M3\RealView\lib_mem_a.asm</RelativePath>
             </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
@@ -210,9 +201,6 @@
               <RelativePath>..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h</RelativePath>
             </VirtualFileSnapshot>
             <VirtualFileSnapshot>
-              <RelativePath>..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu_a.s</RelativePath>
-            </VirtualFileSnapshot>
-            <VirtualFileSnapshot>
               <RelativePath>..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu_c.c</RelativePath>
             </VirtualFileSnapshot>
           </Files>
@@ -274,6 +262,7 @@
             <string>E:\VS_GDB\LearningC\uCOS_III\F103_10_2UseSemaphoresToAccessTheSharedResource\UCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView</string>
           </IncludeDirectories>
           <PreprocessorMacros>
+            <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>
             <string>STM32F10X_HD</string>
             <string>USE_STDPERIPH_DRIVER</string>
           </PreprocessorMacros>

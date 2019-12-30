@@ -49,8 +49,9 @@
       <CPPLanguageStandard />
     </ClCompile>
     <Link>
-      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalLinkerInputs>;%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
       <AdditionalOptions />
+      <LinkerScript />
     </Link>
     <KeilSettingsContainer>
       <KeilCPUType>Cortex-M3</KeilCPUType>
@@ -59,7 +60,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
     <ClCompile>
       <AdditionalIncludeDirectories>..\..\..\USER;..\..\..\CORE;..\..\..\SYSTEM\delay;..\..\..\SYSTEM\sys;..\..\..\SYSTEM\usart;..\..\..\STM32F10x_FWLib\inc;..\..\..\MALLOC;..\..\..\FWLIB\STM32F10x_FWLib\inc;..\..\..\HARDWARE\LED;..\..\..\HARDWARE\LCD;..\..\..\HARDWARE\BEEP;..\..\..\HARDWARE\SRAM;..\..\..\UCOSIII\uC-CPU;..\..\..\UCOSIII\uC-LIB;..\..\..\HARDWARE\KEY;..\..\..\UCOSIII\uCOS-III;..\..\..\UCOSIII\UCOS_BSP;..\..\..\UCOSIII\uCOS_CONFIG;..\..\..\UCOSIII\uCOS-III\Source;..\..\..\UCOSIII\uC-CPU\ARM-Cortex-M3\RealView;..\..\..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M3\RealView;..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>STM32F10X_HD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG=1;RELEASE=1;$$com.sysprogs.bspoptions.primary_memory$$_layout;STM32F10X_HD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions />
       <CLanguageStandard />
       <CPPLanguageStandard />
@@ -90,7 +91,6 @@
     <ClCompile Include="..\..\..\SYSTEM\sys\sys.c" />
     <ClCompile Include="..\..\..\SYSTEM\usart\usart.c" />
     <ClCompile Include="..\..\..\CORE\core_cm3.c" />
-    <ClCompile Include="..\..\..\CORE\startup_stm32f10x_hd.s" />
     <ClCompile Include="..\..\..\FWLIB\STM32F10x_FWLib\src\misc.c" />
     <ClCompile Include="..\..\..\FWLIB\STM32F10x_FWLib\src\stm32f10x_gpio.c" />
     <ClCompile Include="..\..\..\FWLIB\STM32F10x_FWLib\src\stm32f10x_usart.c" />
@@ -121,7 +121,6 @@
     <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_time.c" />
     <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_tmr.c" />
     <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_var.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu_a.s" />
     <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu_c.c" />
     <ClCompile Include="..\..\..\UCOSIII\uCOS_CONFIG\os_app_hooks.c" />
     <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\正点原子战舰STM32F103ZET6\ALIENTEK UCOS学习视频\第17讲 UCOSIII消息传递\第17讲 UCOSIII消息传递.ppt" />

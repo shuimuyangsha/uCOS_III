@@ -19,6 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\嵌入式学习\资料\探索者F4\探索者F4 资料盘(A盘)\3，ALIENTEK探索者STM32F4开发板原理图\Explorer STM32F4_V2.2_SCH.pdf = ..\..\..\嵌入式学习\资料\探索者F4\探索者F4 资料盘(A盘)\3，ALIENTEK探索者STM32F4开发板原理图\Explorer STM32F4_V2.2_SCH.pdf
 		..\..\..\嵌入式学习\资料\探索者F4\探索者F4 资料盘(A盘)\8，STM32参考资料\STM32F4xx中文参考手册.pdf = ..\..\..\嵌入式学习\资料\探索者F4\探索者F4 资料盘(A盘)\8，STM32参考资料\STM32F4xx中文参考手册.pdf
+		..\..\..\嵌入式学习\资料\野火STM32\1-F429至尊版\A盘（资料盘）\4-开发软件\uC_Probe\第三步 帮助文件\uC-Probe-UsersManual.pdf = ..\..\..\嵌入式学习\资料\野火STM32\1-F429至尊版\A盘（资料盘）\4-开发软件\uC_Probe\第三步 帮助文件\uC-Probe-UsersManual.pdf
 		..\..\..\嵌入式学习\资料\野火STM32\1-F429至尊版\A盘（资料盘）\8-C语言学习资料\嵌入式实时操作系统μC／OS-III-原版书籍.pdf = ..\..\..\嵌入式学习\资料\野火STM32\1-F429至尊版\A盘（资料盘）\8-C语言学习资料\嵌入式实时操作系统μC／OS-III-原版书籍.pdf
 	EndProjectSection
 EndProject

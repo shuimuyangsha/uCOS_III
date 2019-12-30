@@ -136,12 +136,17 @@ int main(void)
 	LCD_Init();			//LCD初始化	
 	KEY_Init();			//按键初始化
 	BEEP_Init();		//初始化蜂鸣器
+
+	StandbyIO_Init();//初始化
+
 	FSMC_SRAM_Init();	//初始化SRAM
 	my_mem_init(SRAMIN);//初始化内部RAM
 	ucos_load_main_ui();//加载主UI
+
+
 	
 	OSInit(&err);		    //初始化UCOSIII
-	OS_CRITICAL_ENTER();	//进入临界区			 
+	OS_CRITICAL_ENTER();	//进入临界区
 	//创建开始任务
 	OSTaskCreate((OS_TCB 	* )&StartTaskTCB,		//任务控制块
 				 (CPU_CHAR	* )"start task", 		//任务名字
@@ -254,6 +259,7 @@ void tmr1_callback(void *p_tmr,void *p_arg)
 	u8 *pbuf;
 	static u8 msg_num;
 	OS_ERR err;
+	StandbyIO1(1);
 	pbuf = mymalloc(SRAMIN,10);	//申请10个字节
 	if(pbuf)	//申请内存成功
 	{
@@ -273,6 +279,7 @@ void tmr1_callback(void *p_tmr,void *p_arg)
 			LCD_ShowString(10,150,100,16,16,"TMR1 STOP! ");
 		}
 	}	
+	StandbyIO1(0);
 }
 
 //主任务的任务函数

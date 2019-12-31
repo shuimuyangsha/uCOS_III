@@ -14,6 +14,7 @@
 
 //初始化PF8为输出口		    
 //BEEP IO初始化
+u8 DebugGetBeepState = 0;
 void BEEP_Init(void)
 {   
   GPIO_InitTypeDef  GPIO_InitStructure;

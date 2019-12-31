@@ -20,8 +20,8 @@
 //优先级OS_CFG_PRIO_MAX-2：统计任务 OS_StatTask()
 //优先级OS_CFG_PRIO_MAX-1：空闲任务 OS_IdleTask()
 //技术支持：www.openedv.com
-//淘宝店铺：http://eboard.taobao.com  
-//广州市星翼电子科技有限公司  
+//淘宝店铺：http://eboard.taobao.com
+//广州市星翼电子科技有限公司
 //作者：正点原子 @ALIENTEK
 
 //任务优先级
@@ -107,6 +107,7 @@ void ucos_load_main_ui(void)
 	LCD_ShowString(10,150,100,16,16,"TMR1 STOP! ");
 }
 
+u8 Debug_msgq_remain_size;	//调试消息队列剩余大小
 //查询DATA_Msg消息队列中的总队列数量和剩余队列数量
 void check_msg_queue(u8 *p)
 {
@@ -114,6 +115,7 @@ void check_msg_queue(u8 *p)
 	u8 msgq_remain_size;	//消息队列剩余大小
 	OS_CRITICAL_ENTER();	//进入临界段
 	msgq_remain_size = DATA_Msg.MsgQ.NbrEntriesSize-DATA_Msg.MsgQ.NbrEntries;
+	Debug_msgq_remain_size = msgq_remain_size;
 	p = mymalloc(SRAMIN,20);	//申请内存
 	sprintf((char*)p,"Total Size:%d",DATA_Msg.MsgQ.NbrEntriesSize);	//显示DATA_Msg消息队列总的大小
 	LCD_ShowString(10,190,100,16,16,p);
@@ -282,10 +284,11 @@ void tmr1_callback(void *p_tmr,void *p_arg)
 	StandbyIO1(0);
 }
 
+u8 key, num;
 //主任务的任务函数
 void main_task(void *p_arg)
 {
-	u8 key,num;
+	
 	OS_ERR err;
 	u8 *p;
 	while(1)
@@ -307,11 +310,17 @@ void main_task(void *p_arg)
 		{
 			num=0;
 			LED0 = ~LED0;
+			DebugLED0.DebugGetLED = GPIO_ReadOutputDataBit(GPIOF, GPIO_Pin_9);
 		}
 		OSTimeDlyHMSM(0,0,0,10,OS_OPT_TIME_PERIODIC,&err);   //延时10ms
 	}
 }
 
+
+u8 DebugStringShow[10] = {"A"};
+//u8 DebugStringShow2[10] = {"B"};
+//u8 DebugStringShow3[10] = {"C"};
+//u8 DebugStringShow4[10] = {"D"};
 //按键处理任务的任务函数
 void Keyprocess_task(void *p_arg)
 {	
@@ -332,17 +341,23 @@ void Keyprocess_task(void *p_arg)
 		{
 			case WKUP_PRES:		//KEY_UP控制LED1
 				LED1 = ~LED1;
+				DebugLED1.DebugGetLED = GPIO_ReadOutputDataBit(GPIOF, GPIO_Pin_10);
+				strcpy(&DebugStringShow, "WKUP_PRES");
 				sprintf((char*)DebugKeyBuf, "DebugSetWKUP = %d", DebugSetWKUP);
 				LCD_ShowString(0, 340, 200, 16, 16, DebugKeyBuf);
 				break;
 			case KEY2_PRES:		//KEY2控制蜂鸣器
+				strcpy(&DebugStringShow, "KEY2_PRES");
 				BEEP = ~BEEP;
+				DebugGetBeepState = GPIO_ReadOutputDataBit(GPIOF, GPIO_Pin_8);
 				break;
 			case KEY0_PRES:		//KEY0刷新LCD背景
+				strcpy(&DebugStringShow, "KEY0_PRES");
 				num++;
 				LCD_Fill(126,111,233,313,lcd_discolor[num%14]);
 				break;
 			case KEY1_PRES:		//KEY1控制定时器1
+				strcpy(&DebugStringShow, "KEY1_PRES");
 				tmr1sta = !tmr1sta;
 				if(tmr1sta) 
 				{

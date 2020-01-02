@@ -74,10 +74,14 @@ int lcd_discolor[14]={	WHITE, BLACK, BLUE,  BRED,
 						GREEN, CYAN,  YELLOW,BROWN, 			
 						BRRED, GRAY };
 ////////////////////////消息队列//////////////////////////////
-#define KEYMSG_Q_NUM	1	//按键消息队列的数量
-#define DATAMSG_Q_NUM	4	//发送数据的消息队列的数量
+#define KEYMSG_Q_NUM		1	//按键消息队列的数量
+#define DATAMSG_Q_NUM		4	//发送数据的消息队列的数量
+#define USART1RMSG_Q_NUM	20	//串口1的消息队列的数量
+
 OS_Q KEY_Msg;				//定义一个消息队列，用于按键消息传递，模拟消息邮箱
 OS_Q DATA_Msg;				//定义一个消息队列，用于发送数据
+OS_Q USART1R_Msg;			//定义一个消息队列，用于串口1接收数据的传送
+
 						
 ////////////////////////定时器////////////////////////////////
 u8 tmr1sta=0; 	//标记定时器的工作状态
@@ -122,6 +126,24 @@ void check_msg_queue(u8 *p)
 	sprintf((char*)p,"Remain Size:%d",msgq_remain_size);	//显示DATA_Msg剩余大小
 	LCD_ShowString(10,230,100,16,16,p);
 	myfree(SRAMIN,p);		//释放内存
+	OS_CRITICAL_EXIT();		//退出临界段
+}
+
+u8 Debug_usart1rq_remain_size;	//调试消息队列剩余大小
+//查询USART1R_Msg消息队列中的总队列数量和剩余队列数量
+void check_usart1r_queue(u8 *p)
+{
+	CPU_SR_ALLOC();
+	u8 usart1rq_remain_size;	//消息队列剩余大小
+	OS_CRITICAL_ENTER();	//进入临界段
+	usart1rq_remain_size = USART1R_Msg.MsgQ.NbrEntriesSize - USART1R_Msg.MsgQ.NbrEntries;
+	Debug_usart1rq_remain_size = usart1rq_remain_size;
+	p = mymalloc(SRAMIN, 20);	//申请内存
+	sprintf((char*)p, "Total Size:%d", USART1R_Msg.MsgQ.NbrEntriesSize);	//显示DATA_Msg消息队列总的大小
+	//LCD_ShowString(10, 190, 100, 16, 16, p);
+	sprintf((char*)p, "Remain Size:%d", usart1rq_remain_size);	//显示DATA_Msg剩余大小
+	//LCD_ShowString(10, 230, 100, 16, 16, p);
+	myfree(SRAMIN, p);		//释放内存
 	OS_CRITICAL_EXIT();		//退出临界段
 }
 
@@ -200,6 +222,11 @@ void start_task(void *p_arg)
                 (CPU_CHAR*	)"DATA Msg",	
                 (OS_MSG_QTY	)DATAMSG_Q_NUM,	
                 (OS_ERR*	)&err);	
+	//创建消息队列USART1R_Msg
+	OSQCreate((OS_Q*)&USART1R_Msg,
+				(CPU_CHAR*)"UASRT1R Msg",
+				(OS_MSG_QTY)USART1RMSG_Q_NUM,
+				(OS_ERR*)&err);
 	//创建定时器1
 	OSTmrCreate((OS_TMR		*)&tmr1,		//定时器1
                 (CPU_CHAR	*)"tmr1",		//定时器名字
@@ -290,11 +317,13 @@ void main_task(void *p_arg)
 {
 	
 	OS_ERR err;
+	OS_MSG_SIZE usart1r_msg_size;
 	u8 *p;
+	u8 *p2;
 	while(1)
 	{
 		key = KEY_Scan(0);  //扫描按键
-		printf("%d\r\n", DebugSetWKUP);
+		//printf("%d\r\n", DebugSetWKUP);
 		if(key)
 		{
 			//发送消息
@@ -305,13 +334,46 @@ void main_task(void *p_arg)
 					(OS_ERR*	)&err);
 		}
 		num++;
-		if(num%10==0) check_msg_queue(p);//检查DATA_Msg消息队列的容量
+		if (num % 10 == 0) {
+			check_msg_queue(p);//检查DATA_Msg消息队列的容量
+			check_usart1r_queue(p);//检查USART1R_Msg消息队列的容量
+		}
 		if(num==50)
 		{
 			num=0;
+			//p2 = mymalloc(SRAMIN, 20);	//申请内存
+			//p2 = OSQPend((OS_Q*)&USART1R_Msg,
+			//	(OS_TICK)0,
+			//	(OS_OPT)OS_OPT_PEND_BLOCKING,
+			//	(OS_MSG_SIZE*)&usart1r_msg_size,
+			//	(CPU_TS*)0,
+			//	(OS_ERR*)&err);
+			//USART_RX_STA = 0;
+
+			//
+			//printf((char*)p2);	//
+			//printf("\r\n");	//
+			//myfree(SRAMIN, p2);		//释放内存
+
+			LED1 = ~LED1;
 			LED0 = ~LED0;
 			DebugLED0.DebugGetLED = GPIO_ReadOutputDataBit(GPIOF, GPIO_Pin_9);
 		}
+
+		p2 = mymalloc(SRAMIN, 20);	//申请内存
+		p2 = OSQPend((OS_Q*)&USART1R_Msg,
+			(OS_TICK)0,
+			(OS_OPT)OS_OPT_PEND_BLOCKING,
+			(OS_MSG_SIZE*)&usart1r_msg_size,
+			(CPU_TS*)0,
+			(OS_ERR*)&err);
+		USART_RX_STA = 0;
+
+
+		printf((char*)p2);	//
+		printf("\r\n");	//
+		myfree(SRAMIN, p2);		//释放内存
+
 		OSTimeDlyHMSM(0,0,0,10,OS_OPT_TIME_PERIODIC,&err);   //延时10ms
 	}
 }

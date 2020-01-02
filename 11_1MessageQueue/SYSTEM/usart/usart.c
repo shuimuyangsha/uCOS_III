@@ -118,9 +118,12 @@ void uart_init(u32 bound){
 }
 
 
+
+
 void USART1_IRQHandler(void)                	//串口1中断服务程序
 {
 	u8 Res;
+	OS_ERR err;
 #if SYSTEM_SUPPORT_OS  //使用UCOS操作系统
 	OSIntEnter();    
 #endif
@@ -134,6 +137,15 @@ void USART1_IRQHandler(void)                	//串口1中断服务程序
 			{
 				if(Res!=0x0a)USART_RX_STA=0;//接收错误,重新开始
 				else USART_RX_STA|=0x8000;	//接收完成了 
+
+
+				OSQPost((OS_Q*)&USART1R_Msg, //发送消息
+					(void*)&USART_RX_BUF,
+					(OS_MSG_SIZE)10,
+					(OS_OPT)OS_OPT_POST_FIFO,
+					(OS_ERR*)&err);
+				printf("err = %d\r\n",err);
+
 			}
 			else //还没收到0X0D
 			{	

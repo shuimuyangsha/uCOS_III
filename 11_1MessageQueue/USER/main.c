@@ -58,7 +58,18 @@ CPU_STK KEYPROCESS_TASK_STK[KEYPROCESS_STK_SIZE];
 void Keyprocess_task(void *p_arg);
 
 //任务优先级
-#define MSGDIS_TASK_PRIO	6
+#define USART1R_PROCESS_TASK_PRIO 	6
+//任务堆栈大小	
+#define USART1R_PROCESS_STK_SIZE 	128
+//任务控制块
+OS_TCB USART1R_process_TaskTCB;
+//任务堆栈	
+CPU_STK USART1R_PROCESS_TASK_STK[USART1R_PROCESS_STK_SIZE];
+//任务函数
+void USART1R_process_task(void *p_arg);
+
+//任务优先级
+#define MSGDIS_TASK_PRIO	7
 //任务堆栈
 #define MSGDIS_STK_SIZE		128
 //任务控制块
@@ -264,6 +275,21 @@ void start_task(void *p_arg)
                  (void   	* )0,					
                  (OS_OPT      )OS_OPT_TASK_STK_CHK|OS_OPT_TASK_STK_CLR,
                  (OS_ERR 	* )&err);			
+	//创建串口1接收数据处理任务
+	OSTaskCreate((OS_TCB 	*)&USART1R_process_TaskTCB,
+		(CPU_CHAR	*)"USART1R_process task",
+		(OS_TASK_PTR)USART1R_process_task,
+		(void		*)0,
+		(OS_PRIO)USART1R_PROCESS_TASK_PRIO,
+		(CPU_STK   *)&USART1R_PROCESS_TASK_STK[0],
+		(CPU_STK_SIZE)USART1R_PROCESS_STK_SIZE / 10,
+		(CPU_STK_SIZE)USART1R_PROCESS_STK_SIZE,
+		(OS_MSG_QTY)0,
+		(OS_TICK)0,
+		(void	*)0,
+		(OS_OPT)OS_OPT_TASK_STK_CHK | OS_OPT_TASK_STK_CLR,
+		(OS_ERR 	*)&err);
+
 	//创建MSGDIS任务
 	OSTaskCreate((OS_TCB 	* )&Msgdis_TaskTCB,		
 				 (CPU_CHAR	* )"Msgdis task", 		
@@ -312,12 +338,13 @@ void tmr1_callback(void *p_tmr,void *p_arg)
 }
 
 u8 key, num;
+OS_MSG_SIZE usart1r_msg_size;
 //主任务的任务函数
 void main_task(void *p_arg)
 {
 	
 	OS_ERR err;
-	OS_MSG_SIZE usart1r_msg_size;
+	//OS_MSG_SIZE usart1r_msg_size;
 	u8 *p;
 	u8 *p2;
 	while(1)
@@ -341,38 +368,26 @@ void main_task(void *p_arg)
 		if(num==50)
 		{
 			num=0;
-			//p2 = mymalloc(SRAMIN, 20);	//申请内存
-			//p2 = OSQPend((OS_Q*)&USART1R_Msg,
-			//	(OS_TICK)0,
-			//	(OS_OPT)OS_OPT_PEND_BLOCKING,
-			//	(OS_MSG_SIZE*)&usart1r_msg_size,
-			//	(CPU_TS*)0,
-			//	(OS_ERR*)&err);
-			//USART_RX_STA = 0;
-
-			//
-			//printf((char*)p2);	//
-			//printf("\r\n");	//
-			//myfree(SRAMIN, p2);		//释放内存
-
-			LED1 = ~LED1;
 			LED0 = ~LED0;
 			DebugLED0.DebugGetLED = GPIO_ReadOutputDataBit(GPIOF, GPIO_Pin_9);
+			//printf("USART1R_Msg.MsgQ.NbrEntries = %d\r\n", USART1R_Msg.MsgQ.NbrEntries);
 		}
 
-		p2 = mymalloc(SRAMIN, 20);	//申请内存
-		p2 = OSQPend((OS_Q*)&USART1R_Msg,
-			(OS_TICK)0,
-			(OS_OPT)OS_OPT_PEND_BLOCKING,
-			(OS_MSG_SIZE*)&usart1r_msg_size,
-			(CPU_TS*)0,
-			(OS_ERR*)&err);
-		USART_RX_STA = 0;
+		
+
+		//p2 = mymalloc(SRAMIN, 20);	//申请内存
+		//p2 = OSQPend((OS_Q*)&USART1R_Msg,
+		//	(OS_TICK)0,
+		//	(OS_OPT)OS_OPT_PEND_BLOCKING,
+		//	(OS_MSG_SIZE*)&usart1r_msg_size,
+		//	(CPU_TS*)0,
+		//	(OS_ERR*)&err);
+		//USART_RX_STA = 0;
 
 
-		printf((char*)p2);	//
-		printf("\r\n");	//
-		myfree(SRAMIN, p2);		//释放内存
+		//printf((char*)p2);	//
+		//printf("\r\n");	//
+		//myfree(SRAMIN, p2);		//释放内存
 
 		OSTimeDlyHMSM(0,0,0,10,OS_OPT_TIME_PERIODIC,&err);   //延时10ms
 	}
@@ -388,6 +403,7 @@ void Keyprocess_task(void *p_arg)
 {	
 	u8 num;
 	u8 *key;
+	u8 *p3;
 	OS_MSG_SIZE size;
 	OS_ERR err;
 	while(1)
@@ -402,6 +418,20 @@ void Keyprocess_task(void *p_arg)
 		switch(*key)
 		{
 			case WKUP_PRES:		//KEY_UP控制LED1
+				p3 = mymalloc(SRAMIN, 20);	//申请内存
+				p3 = OSQPend((OS_Q*)&USART1R_Msg,
+					(OS_TICK)0,
+					(OS_OPT)OS_OPT_PEND_BLOCKING,
+					(OS_MSG_SIZE*)&usart1r_msg_size,
+					(CPU_TS*)0,
+					(OS_ERR*)&err);
+				//USART_RX_STA = 0;
+
+
+				printf((char*)p3);	//
+				printf("\r\n");	//
+				myfree(SRAMIN, p3);		//释放内存
+
 				LED1 = ~LED1;
 				DebugLED1.DebugGetLED = GPIO_ReadOutputDataBit(GPIOF, GPIO_Pin_10);
 				strcpy(&DebugStringShow, "WKUP_PRES");
@@ -436,6 +466,35 @@ void Keyprocess_task(void *p_arg)
 	}
 }
 
+void USART1R_process_task(void *p_arg)
+{
+	u8 num;
+	
+	u8 *p4;
+	OS_MSG_SIZE size;
+	OS_ERR err;
+	while (1)
+	{
+	
+			p4 = mymalloc(SRAMIN, 20);	//申请内存
+			p4 = OSQPend((OS_Q*)&USART1R_Msg,
+				(OS_TICK)0,
+				(OS_OPT)OS_OPT_PEND_BLOCKING,
+				(OS_MSG_SIZE*)&usart1r_msg_size,
+				(CPU_TS*)0,
+				(OS_ERR*)&err);
+			//USART_RX_STA = 0;
+
+
+			printf((char*)p4);	//
+			printf("\r\n");	//
+			myfree(SRAMIN, p4);		//释放内存
+
+
+		
+	}
+}
+
 //显示消息队列中的消息
 void msgdis_task(void *p_arg)
 {
@@ -456,6 +515,8 @@ void msgdis_task(void *p_arg)
 		OSTimeDlyHMSM(0,0,1,0,OS_OPT_TIME_PERIODIC,&err); //延时1s
 	}
 }
+
+
 
 
 

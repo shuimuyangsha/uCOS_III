@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "F103_10_6TaskSem", "F103_10
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "F103_11_1MessageQueue", "F103_11_1MessageQueue\Project\VS\F103_11_1MessageQueue\F103_11_1MessageQueue.vcxproj", "{40E3E8BF-F897-45A3-8751-D01400656D1A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_1WaitForMultipleKernelObjects", "13_1WaitForMultipleKernelObjectsSimultaneously\Project\VS\13_1WaitForMultipleKernelObjects\13_1WaitForMultipleKernelObjects.vcxproj", "{2BB173A9-1404-4123-B8B2-3DED930314E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|VisualGDB = Debug|VisualGDB
@@ -101,6 +103,10 @@ Global
 		{40E3E8BF-F897-45A3-8751-D01400656D1A}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
 		{40E3E8BF-F897-45A3-8751-D01400656D1A}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
 		{40E3E8BF-F897-45A3-8751-D01400656D1A}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{2BB173A9-1404-4123-B8B2-3DED930314E4}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{2BB173A9-1404-4123-B8B2-3DED930314E4}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{2BB173A9-1404-4123-B8B2-3DED930314E4}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{2BB173A9-1404-4123-B8B2-3DED930314E4}.Release|VisualGDB.Build.0 = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

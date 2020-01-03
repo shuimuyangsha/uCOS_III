@@ -6,12 +6,12 @@
     </symbolfiles>
   </symbolbrowser>
   <screens SelectedScreenId="DataScreen2">
-    <screen RegisteredName="DataScreen2" ScreenHeader="DataScreen1" ScreenType="DataScreen" />
     <screen RegisteredName="KernelAwarenessScreen1" ScreenHeader="µC/OS-III Awareness" ScreenType="KernelAwarenssScreen">
       <configuration>
         <properties deviceId="Device0" coreID="Core0" />
       </configuration>
     </screen>
+    <screen RegisteredName="DataScreen2" ScreenHeader="DataScreen1" ScreenType="DataScreen" />
   </screens>
   <nodes>
     <node ScreenId="DataScreen2" NodeId="CustomDiagramNode1" OffsetX="3195" OffsetY="3200" AllowMove="true" AllowResize="true" AllowRotate="true" AllowSelect="true" IsInRuntimeMode="false" Width="115" Height="45" ZIndex="6" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
@@ -220,6 +220,16 @@
         </symbol>
       </symbols>
     </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode18" OffsetX="2739.490012461803" OffsetY="3567.8748847298948" AllowMove="true" AllowResize="true" AllowRotate="true" AllowSelect="true" IsInRuntimeMode="false" Width="570.94291525423728" Height="291.41838367346935" ZIndex="1" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="TextTool" Type="TextTool">
+          <definitions BackgroundValue="#FF2F4F4F" FontFamilyValue="Arial Black" FontSizeValue="25" FontStyleValue="Normal" FontWeightValue="Normal" ForegroundValue="#FF0000FF" TextAlignmentValue="Left" IsThousandSeparatorEnabled="false" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" LeadingZeroes="0" DecimalPlaces="0" Width="570.94291525423728" Height="291.41838367346935" IsVerticalText="false" ContainsAssignedSymbols="true" Text="" />
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="USART_RX_BUF" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
   </nodes>
   <screens_objects />
   <explorer>
@@ -245,7 +255,7 @@
             <Height>0</Height>
           </PreviousContainerDesiredSize>
           <PreviousDesiredWidthInDockedMode>1642</PreviousDesiredWidthInDockedMode>
-          <PreviousDesiredHeightInDockedMode>308</PreviousDesiredHeightInDockedMode>
+          <PreviousDesiredHeightInDockedMode>345</PreviousDesiredHeightInDockedMode>
           <Name>usrSymbolBrowser</Name>
           <State>Dock</State>
           <NoHeader>false</NoHeader>
@@ -254,7 +264,7 @@
           <TargetDocked />
           <TargetFloating />
           <DesiredWidthInDockedMode>1642</DesiredWidthInDockedMode>
-          <DesiredHeightInDockedMode>308</DesiredHeightInDockedMode>
+          <DesiredHeightInDockedMode>345</DesiredHeightInDockedMode>
           <DesiredWidthInFloatingMode>90</DesiredWidthInFloatingMode>
           <DesiredHeightInFloatingMode>360</DesiredHeightInFloatingMode>
           <NoDock>false</NoDock>
@@ -263,7 +273,7 @@
           <IsSelectedTab>false</IsSelectedTab>
           <IsActiveWindow>false</IsActiveWindow>
           <WindowRect />
-          <TabGroupName>49525553</TabGroupName>
+          <TabGroupName>5609031</TabGroupName>
           <IsTabGroupOwner>false</IsTabGroupOwner>
           <SideTabOrder>0</SideTabOrder>
           <IndexInDockMode>4</IndexInDockMode>
@@ -339,7 +349,7 @@
           <IsSelectedTab>false</IsSelectedTab>
           <IsActiveWindow>false</IsActiveWindow>
           <WindowRect />
-          <TabGroupName>63146927</TabGroupName>
+          <TabGroupName>25200672</TabGroupName>
           <IsTabGroupOwner>false</IsTabGroupOwner>
           <SideTabOrder>0</SideTabOrder>
           <IndexInDockMode>2</IndexInDockMode>
@@ -415,7 +425,7 @@
           <IsSelectedTab>false</IsSelectedTab>
           <IsActiveWindow>false</IsActiveWindow>
           <WindowRect />
-          <TabGroupName>14627461</TabGroupName>
+          <TabGroupName>27988567</TabGroupName>
           <IsTabGroupOwner>false</IsTabGroupOwner>
           <SideTabOrder>0</SideTabOrder>
           <IndexInDockMode>3</IndexInDockMode>
@@ -467,14 +477,14 @@
           <PreviousFloatingWindowRect />
           <FloatWindowState>Normal</FloatWindowState>
           <ZorderInFloatMode>0</ZorderInFloatMode>
-          <TabOrderIndex>1</TabOrderIndex>
+          <TabOrderIndex>0</TabOrderIndex>
           <PreviousContainerDesiredSize>
             <Width>0</Width>
             <Height>0</Height>
           </PreviousContainerDesiredSize>
           <PreviousDesiredWidthInDockedMode>0</PreviousDesiredWidthInDockedMode>
           <PreviousDesiredHeightInDockedMode>0</PreviousDesiredHeightInDockedMode>
-          <Name>DataScreen2</Name>
+          <Name>KernelAwarenessScreen1</Name>
           <State>Document</State>
           <NoHeader>false</NoHeader>
           <SideDocked>Left</SideDocked>
@@ -489,18 +499,18 @@
           <CanDock>false</CanDock>
           <CanClose>false</CanClose>
           <IsSelectedTab>false</IsSelectedTab>
-          <IsActiveWindow>true</IsActiveWindow>
+          <IsActiveWindow>false</IsActiveWindow>
           <WindowRect />
           <TabGroupName />
           <IsTabGroupOwner>false</IsTabGroupOwner>
           <SideTabOrder>0</SideTabOrder>
-          <IndexInDockMode>1</IndexInDockMode>
-          <IndexInFloatMode>1</IndexInFloatMode>
+          <IndexInDockMode>0</IndexInDockMode>
+          <IndexInFloatMode>0</IndexInFloatMode>
           <TabOrderInDockMode>0</TabOrderInDockMode>
           <TabOrderInFloatMode>0</TabOrderInFloatMode>
           <MDIBounds>0,0,124,50</MDIBounds>
-          <TDIIndex>1</TDIIndex>
-          <IsSelected>true</IsSelected>
+          <TDIIndex>0</TDIIndex>
+          <IsSelected>false</IsSelected>
           <MDIMinimizedBounds>0,0,124,24</MDIMinimizedBounds>
           <MDIWindowState>Normal</MDIWindowState>
           <AllowMDIResize>true</AllowMDIResize>
@@ -543,14 +553,14 @@
           <PreviousFloatingWindowRect />
           <FloatWindowState>Normal</FloatWindowState>
           <ZorderInFloatMode>0</ZorderInFloatMode>
-          <TabOrderIndex>0</TabOrderIndex>
+          <TabOrderIndex>1</TabOrderIndex>
           <PreviousContainerDesiredSize>
             <Width>0</Width>
             <Height>0</Height>
           </PreviousContainerDesiredSize>
           <PreviousDesiredWidthInDockedMode>0</PreviousDesiredWidthInDockedMode>
           <PreviousDesiredHeightInDockedMode>0</PreviousDesiredHeightInDockedMode>
-          <Name>KernelAwarenessScreen1</Name>
+          <Name>DataScreen2</Name>
           <State>Document</State>
           <NoHeader>false</NoHeader>
           <SideDocked>Left</SideDocked>
@@ -565,18 +575,18 @@
           <CanDock>false</CanDock>
           <CanClose>false</CanClose>
           <IsSelectedTab>false</IsSelectedTab>
-          <IsActiveWindow>false</IsActiveWindow>
+          <IsActiveWindow>true</IsActiveWindow>
           <WindowRect />
           <TabGroupName />
           <IsTabGroupOwner>false</IsTabGroupOwner>
           <SideTabOrder>0</SideTabOrder>
-          <IndexInDockMode>0</IndexInDockMode>
-          <IndexInFloatMode>0</IndexInFloatMode>
+          <IndexInDockMode>1</IndexInDockMode>
+          <IndexInFloatMode>1</IndexInFloatMode>
           <TabOrderInDockMode>0</TabOrderInDockMode>
           <TabOrderInFloatMode>0</TabOrderInFloatMode>
           <MDIBounds>0,0,124,50</MDIBounds>
-          <TDIIndex>0</TDIIndex>
-          <IsSelected>false</IsSelected>
+          <TDIIndex>1</TDIIndex>
+          <IsSelected>true</IsSelected>
           <MDIMinimizedBounds>0,0,124,24</MDIMinimizedBounds>
           <MDIWindowState>Normal</MDIWindowState>
           <AllowMDIResize>true</AllowMDIResize>

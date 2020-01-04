@@ -476,4 +476,7 @@
       <Filter>Header files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\uC_Probe\13_1WaitForMultipleKernelObjectsSimultaneously.wspx" />
+  </ItemGroup>
 </Project>

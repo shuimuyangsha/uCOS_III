@@ -35,6 +35,11 @@
 #define KEY2_PRES	3
 #define WKUP_PRES   4
 
+extern u8 DebugSetKEY0, DebugSetKEY1, DebugSetKEY2, DebugSetWKUP;
+extern u8 *DebugKeyBuf;
+extern u8 DebugGetKeyState[4];
+extern u8 DebugKeyStringShow[10];
+
 void KEY_Init(void);	//IO初始化
 u8 KEY_Scan(u8);  		//按键扫描函数	
 

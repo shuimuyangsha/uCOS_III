@@ -1,5 +1,6 @@
 #include "key.h"
 #include "delay.h" 
+#include "malloc.h"
 //////////////////////////////////////////////////////////////////////////////////	 
 //本程序只供学习使用，未经作者许可，不得用于其它任何用途
 //ALIENTEK STM32F407开发板
@@ -13,6 +14,8 @@
 //All rights reserved									  
 ////////////////////////////////////////////////////////////////////////////////// 	 
 
+u8 *DebugKeyBuf;
+u8 DebugKeyStringShow[10] = { "Key" };
 //按键初始化函数
 void KEY_Init(void)
 {
@@ -31,6 +34,8 @@ GPIO_InitTypeDef  GPIO_InitStructure;
   GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;//WK_UP对应引脚PA0
   GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_DOWN ;//下拉
   GPIO_Init(GPIOA, &GPIO_InitStructure);//初始化GPIOA0
+
+  DebugKeyBuf= mymalloc(SRAMIN, 20);	//申请10个字节
  
 } 
 //按键处理函数
@@ -42,19 +47,79 @@ GPIO_InitTypeDef  GPIO_InitStructure;
 //3，KEY2按下 
 //4，WKUP按下 WK_UP
 //注意此函数有响应优先级,KEY0>KEY1>KEY2>WK_UP!!
+u8 DebugSetKEY0=1, DebugSetKEY1=1, DebugSetKEY2=1, DebugSetWKUP=0;
+u8 DebugGetKeyState[4] = {0};
+
 u8 KEY_Scan(u8 mode)
 {	 
 	static u8 key_up=1;//按键按松开标志
 	if(mode)key_up=1;  //支持连按		  
-	if(key_up&&(KEY0==0||KEY1==0||KEY2==0||WK_UP==1))
+	//if(key_up&&(KEY0==0||KEY1==0||KEY2==0||WK_UP==1))
+	//{
+	//	delay_ms(10);//去抖动 
+	//	key_up=0;
+	//	if(KEY0==0)return 1;
+	//	else if(KEY1==0)return 2;
+	//	else if(KEY2==0)return 3;
+	//	else if(WK_UP==1)return 4;
+	//}
+	//else if(KEY0==1&&KEY1==1&&KEY2==1&&WK_UP==0)key_up=1; 	    
+
+	if (key_up && (KEY0 == 0 || KEY1 == 0 || KEY2 == 0 || WK_UP == 1))
 	{
 		delay_ms(10);//去抖动 
-		key_up=0;
-		if(KEY0==0)return 1;
-		else if(KEY1==0)return 2;
-		else if(KEY2==0)return 3;
-		else if(WK_UP==1)return 4;
-	}else if(KEY0==1&&KEY1==1&&KEY2==1&&WK_UP==0)key_up=1; 	    
+		key_up = 0;
+		if (KEY0 == 0) {
+			DebugGetKeyState[0] = 0;
+			return 1;
+		}
+		else if (KEY1 == 0) {
+			DebugGetKeyState[1] = 0;
+			return 2;
+		}
+		else if (KEY2 == 0) {
+			DebugGetKeyState[2] = 0;
+			return 3;
+		}
+		else if (WK_UP == 1) {
+			DebugGetKeyState[3] = 1;
+			return 4;
+		}
+
+	}
+	else if (key_up && (DebugSetKEY0 == 0 || DebugSetKEY1 == 0 || DebugSetKEY2 == 0 || DebugSetWKUP == 1)) {
+		delay_ms(10);//去抖动 
+		key_up = 0;
+		if (DebugSetKEY0 == 0) {
+			DebugGetKeyState[0] = 0;
+			return 1;
+		}
+		else if (DebugSetKEY1 == 0) {
+			DebugGetKeyState[1] = 0;
+			return 2;
+		}
+		else if (DebugSetKEY2 == 0) {
+			DebugGetKeyState[2] = 0;
+			return 3;
+		}
+		else if (DebugSetWKUP == 1) {
+			DebugGetKeyState[3] = 1;
+			return 4;
+		}
+	}
+	else if (KEY0 == 1 && KEY1 == 1 && KEY2 == 1 && WK_UP == 0 \
+		&& DebugSetKEY0 == 1 && DebugSetKEY1 == 1 && DebugSetKEY2 == 1 && DebugSetWKUP == 0) {
+		key_up = 1;
+		DebugGetKeyState[0] = 1;
+		DebugGetKeyState[1] = 1;
+		DebugGetKeyState[2] = 1;
+		DebugGetKeyState[3] = 0;
+
+	}
+
+
+		
+
  	return 0;// 无按键按下
 }
 

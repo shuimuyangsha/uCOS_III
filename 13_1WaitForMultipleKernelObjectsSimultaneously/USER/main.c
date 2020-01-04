@@ -160,7 +160,7 @@ void start_task(void *p_arg)
                  (OS_ERR*	)&err);
 	//创建消息队列
 	OSQCreate ((OS_Q*		)&Test_Q,	//消息队列
-                (CPU_CHAR*	)"KEY Msg",	//消息队列名称
+                (CPU_CHAR*	)"Test_Q",	//消息队列名称
                 (OS_MSG_QTY	)QUEUE_NUM,	//消息队列长度
                 (OS_ERR*	)&err);		//错误码
 	//创建TASK1任务
@@ -211,11 +211,14 @@ void task1_task(void *p_arg)
 		switch(key)
 		{
 			case KEY1_PRES:
+				strcpy(&DebugKeyStringShow, "KEY1_PRES");
 				OSSemPost(&Test_Sem1,OS_OPT_POST_1,&err);//发送信号量1
 				break;
 			case KEY0_PRES:
+				strcpy(&DebugKeyStringShow, "KEY0_PRES");
 				OSSemPost(&Test_Sem2,OS_OPT_POST_1,&err);//发送信号量2
 			case WKUP_PRES:
+				strcpy(&DebugKeyStringShow, "WKUP_PRES");
 				msg_num++;
 				sprintf((char*)pbuf,"ALIENTEK %d",msg_num);
 		
@@ -232,6 +235,7 @@ void task1_task(void *p_arg)
 		{
 			num=0;
 			LED0=~LED0;
+			DebugLED0.DebugGetLED = GPIO_ReadOutputDataBit(GPIOF, GPIO_Pin_9);
 		}
 		OSTimeDlyHMSM(0,0,0,10,OS_OPT_TIME_PERIODIC,&err);   //延时10ms
 	}
@@ -260,6 +264,7 @@ void multi_task(void *p_arg)
 		num++;
 		LCD_Fill(6,131,233,313,lcd_discolor[num%14]);		//刷屏
 		LED1 = ~LED1;
+		DebugLED1.DebugGetLED = GPIO_ReadOutputDataBit(GPIOF, GPIO_Pin_10);
 		OSTimeDlyHMSM(0,0,1,0,OS_OPT_TIME_PERIODIC,&err);   //延时1s
 	}
 }

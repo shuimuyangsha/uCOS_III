@@ -478,5 +478,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\uC_Probe\13_1WaitForMultipleKernelObjectsSimultaneously.wspx" />
+    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第18讲 UCOSIII事件标志组和同时等待多个内核对象\第18讲 UCOSIII事件标志组和同时等待多个内核对象.ppt">
+      <Filter>Resource files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第18讲 UCOSIII事件标志组和同时等待多个内核对象\第18讲 UCOSIII事件标志组和同时等待多个内核对象.rmvb">
+      <Filter>Resource files</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -207,6 +207,7 @@ void high_task(void *p_arg)
 		printf("high task Running!\r\n");
 		LCD_Fill(6,131,114,313,lcd_discolor[num%14]); //填充区域
 		LED1 = ~LED1;
+		DebugLED1.DebugGetLED = GPIO_ReadOutputDataBit(GPIOF, GPIO_Pin_10);
 		OSSemPost(&TEST_SEM,OS_OPT_POST_1,&err);				//释放信号量
 		OSTimeDlyHMSM(0,0,0,500,OS_OPT_TIME_PERIODIC,&err);   	//延时500ms
 	}
@@ -232,6 +233,7 @@ void middle_task(void *p_arg)
 		printf("middle task Running!\r\n");
 		LCD_Fill(126,131,233,313,lcd_discolor[13-num%14]); //填充区域
 		LED0 = ~LED0;
+		DebugLED0.DebugGetLED = GPIO_ReadOutputDataBit(GPIOF, GPIO_Pin_9);
 		OSTimeDlyHMSM(0,0,1,0,OS_OPT_TIME_PERIODIC,&err);   //延时1s
 	}
 }

@@ -1,7 +1,8 @@
 例10-5 UCOSIII互斥信号量
 
 实验内容：
-   创建4个任务，任务start_task用于创建另外三个任务和一个互斥信号量TEST_MUTEX。high_task和low_task都会请求互斥信号量TEST_MUTEX，
+   创建4个任务，任务start_task用于创建另外三个任务和一个互斥信号量TEST_MUTEX。
+   high_task和low_task都会请求互斥信号量TEST_MUTEX，
 由于采用了互斥信号量所以不会出现优先级反转这个问题。
 
 注意：

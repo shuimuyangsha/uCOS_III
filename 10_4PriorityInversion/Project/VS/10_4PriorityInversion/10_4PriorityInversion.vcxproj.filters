@@ -2,97 +2,94 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source files">
-      <UniqueIdentifier>{866ad420-6b03-4074-a2d0-e272bb9f0da9}</UniqueIdentifier>
+      <UniqueIdentifier>{f8fc5912-0f64-4633-9f76-0310b0f685bb}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="Header files">
-      <UniqueIdentifier>{8b01dbb9-d3fb-4536-b63a-de14b2e5b9fb}</UniqueIdentifier>
+      <UniqueIdentifier>{ea6d7b32-aeba-4baa-86da-f6ea78761578}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="Resource files">
-      <UniqueIdentifier>{8851412b-62a2-4b39-9e21-3d9a27677990}</UniqueIdentifier>
+      <UniqueIdentifier>{0c21c028-9a58-4308-a5ee-0682faecb78f}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
     <Filter Include="Source files\USER">
-      <UniqueIdentifier>{56055291-f594-4bcc-bc84-090d2d559512}</UniqueIdentifier>
+      <UniqueIdentifier>{49cadbf6-45e9-4fd8-9e01-cdea058f1fbc}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\HARDWARE">
-      <UniqueIdentifier>{4231f34d-a584-418e-a04f-d8f4630e8bd2}</UniqueIdentifier>
+      <UniqueIdentifier>{26eb980f-b08b-4663-a602-6c5b03ba9d6e}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\CORE">
-      <UniqueIdentifier>{773c7220-828c-4c50-9618-07f17e962e15}</UniqueIdentifier>
+      <UniqueIdentifier>{9ba1096d-465d-43ff-95bd-f0e35170a3ec}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\FWLIB">
-      <UniqueIdentifier>{bf5107d1-316a-4db3-965d-a8a08d707ed1}</UniqueIdentifier>
+      <UniqueIdentifier>{8347454f-f3b4-4b89-bd69-64c6ec634897}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\SYSTEM">
-      <UniqueIdentifier>{6039fd85-6a4b-4704-9f0d-6d20ad28c607}</UniqueIdentifier>
+      <UniqueIdentifier>{6c313a11-24b8-4f64-9a95-87ed3b8c3e52}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\UCOSIII_BSP">
-      <UniqueIdentifier>{7c16f6ac-c4ce-44ab-9c3f-b460fcb71475}</UniqueIdentifier>
+      <UniqueIdentifier>{51689750-776b-4577-8cdf-17df5d172382}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\UCOSIII_CPU">
-      <UniqueIdentifier>{002db205-db16-40be-93b2-46dc249b7c8e}</UniqueIdentifier>
+      <UniqueIdentifier>{b337afa6-8433-4f73-84dc-d085dff9a209}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\UCOSIII_LIB">
-      <UniqueIdentifier>{99705e78-1f39-49ae-9deb-bd6ce4ad6969}</UniqueIdentifier>
+      <UniqueIdentifier>{1646e2f4-5904-4c19-9bf4-658d10e85dc1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\UCOSIII_CORE">
-      <UniqueIdentifier>{314c8c9e-f42d-4758-af42-e9768cf833b2}</UniqueIdentifier>
+      <UniqueIdentifier>{78c3154f-4b98-481d-833a-b5ae5603ef5d}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\UCOSIII_PORT">
-      <UniqueIdentifier>{2b9f4ad8-aa70-44eb-933a-75c06e707799}</UniqueIdentifier>
+      <UniqueIdentifier>{e09d5983-4485-4142-8af5-3e8c8a2e4a04}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\UCOSIII_CONFIG">
-      <UniqueIdentifier>{cb3044a9-c337-47ca-b588-394d377b8d31}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source files\MALLOC">
-      <UniqueIdentifier>{36e77ddd-b69b-4a8f-9368-a27840f263f7}</UniqueIdentifier>
+      <UniqueIdentifier>{6fe6e002-fde8-4719-87ac-757930f58c7f}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\Device-specific files">
-      <UniqueIdentifier>{d0ee4f87-9a2d-44fa-a97a-833d912ba364}</UniqueIdentifier>
+      <UniqueIdentifier>{cb4c3923-d2f7-4f8c-8c18-a989adc5b7dc}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\USER">
-      <UniqueIdentifier>{54b4c7ed-6b24-4a29-9a99-287a89eae714}</UniqueIdentifier>
+      <UniqueIdentifier>{65fd80a5-6c8a-4526-96c4-6f06a8bf1ef7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\HARDWARE">
-      <UniqueIdentifier>{a9c9bd47-2794-4318-8774-d1903140e793}</UniqueIdentifier>
+      <UniqueIdentifier>{dc776e77-c662-4208-90af-9b0ef6a63598}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\CORE">
-      <UniqueIdentifier>{d2c75341-005c-45fb-9f1f-083c7bd1b70d}</UniqueIdentifier>
+      <UniqueIdentifier>{29bb8be4-9439-48a3-afc1-ae6df001c511}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\FWLIB">
-      <UniqueIdentifier>{41bbc851-a51b-4759-8208-9fd1ef1c3254}</UniqueIdentifier>
+      <UniqueIdentifier>{a1514b1a-c93c-4b8d-9771-a187bb72d387}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\SYSTEM">
-      <UniqueIdentifier>{5ef539d9-8a14-4c23-9417-7603ef72a2cd}</UniqueIdentifier>
+      <UniqueIdentifier>{b4c292e9-fbfe-4044-aa44-1b4e342ad0ad}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\UCOSIII_BSP">
-      <UniqueIdentifier>{b397c596-06e9-40a4-ab1a-e941e83a7e01}</UniqueIdentifier>
+      <UniqueIdentifier>{4703fe3d-62cf-44d1-842a-7b95151c56aa}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\UCOSIII_CPU">
-      <UniqueIdentifier>{93d1bcf1-61ad-4ecf-9f1a-57a1b3d04cba}</UniqueIdentifier>
+      <UniqueIdentifier>{0563b082-7131-4966-89e5-acdcbfe49302}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\UCOSIII_LIB">
-      <UniqueIdentifier>{de100724-4bac-4e57-8174-839c140b4545}</UniqueIdentifier>
+      <UniqueIdentifier>{4796ad6c-3f4c-4710-9411-c28dda62eaf8}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\UCOSIII_CORE">
-      <UniqueIdentifier>{5d4cabac-63e0-4831-9b27-c971a6ea4fd2}</UniqueIdentifier>
+      <UniqueIdentifier>{3eb43936-f9ca-46ee-b03a-48de6e1719c3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\UCOSIII_PORT">
-      <UniqueIdentifier>{300b1540-9743-4793-bc46-3d5b4beeea08}</UniqueIdentifier>
+      <UniqueIdentifier>{cd6a4562-9d39-4cb7-b1c5-ae8d39ef8230}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\UCOSIII_CONFIG">
-      <UniqueIdentifier>{b5f945b5-7c04-4af6-8850-1881f234c92c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header files\MALLOC">
-      <UniqueIdentifier>{2ccfef80-a6aa-404b-bc99-fa670e141ab5}</UniqueIdentifier>
+      <UniqueIdentifier>{b552ab99-8e17-40dd-bc83-ab57e37d918a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\Device-specific files">
-      <UniqueIdentifier>{fdc572b9-09f4-4616-a5be-0b470cac7a02}</UniqueIdentifier>
+      <UniqueIdentifier>{aacebc54-9d2d-4c0f-aefe-331c56095236}</UniqueIdentifier>
     </Filter>
     <Filter Include="VisualGDB settings">
-      <UniqueIdentifier>{5db30e6e-69f0-43fa-b09a-47ff2ed524af}</UniqueIdentifier>
+      <UniqueIdentifier>{6483592e-3d20-4b49-8a67-14ace106d8fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\MALLOC">
+      <UniqueIdentifier>{bc46ae32-17d5-44e7-a16c-3fd5473cea08}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -114,11 +111,8 @@
     <ClCompile Include="..\..\..\HARDWARE\KEY\key.c">
       <Filter>Source files\HARDWARE</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\HARDWARE\BEEP\beep.c">
-      <Filter>Source files\HARDWARE</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\HARDWARE\SRAM\sram.c">
-      <Filter>Source files\HARDWARE</Filter>
+    <ClCompile Include="..\..\..\CORE\startup_stm32f40_41xxx.s">
+      <Filter>Source files\CORE</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\FWLIB\STM32F4xx_StdPeriph_Driver\src\misc.c">
       <Filter>Source files\FWLIB</Filter>
@@ -231,9 +225,6 @@
     <ClCompile Include="..\..\..\UCOSIII\uCOS_CONFIG\os_app_hooks.c">
       <Filter>Source files\UCOSIII_CONFIG</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\MALLOC\malloc.c">
-      <Filter>Source files\MALLOC</Filter>
-    </ClCompile>
     <None Include="mcu.props">
       <Filter>Source files\Device-specific files</Filter>
     </None>
@@ -270,10 +261,10 @@
     <ClInclude Include="$(BSP_ROOT)\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h">
       <Filter>Header files\Device-specific files</Filter>
     </ClInclude>
-    <None Include="12_1EventFlagGroup-Debug.vgdbsettings">
+    <None Include="10_4PriorityInversion-Debug.vgdbsettings">
       <Filter>VisualGDB settings</Filter>
     </None>
-    <None Include="12_1EventFlagGroup-Release.vgdbsettings">
+    <None Include="10_4PriorityInversion-Release.vgdbsettings">
       <Filter>VisualGDB settings</Filter>
     </None>
     <None Include="MCU.xml">
@@ -288,14 +279,16 @@
     <ClCompile Include="..\..\..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView\lib_mem_a.s">
       <Filter>Source files\UCOSIII_LIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\CORE\startup_stm32f40_41xxx.s">
-      <Filter>Source files\CORE</Filter>
+    <ClCompile Include="..\..\..\MALLOC\malloc.c">
+      <Filter>Source files\MALLOC</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\HARDWARE\BEEP\beep.h">
-      <Filter>Header files</Filter>
-    </ClInclude>
+    <Text Include="..\..\..\readme.txt">
+      <Filter>Resource files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="..\..\..\UCOSIII\UCOS_BSP\bsp.h">
       <Filter>Header files</Filter>
     </ClInclude>
@@ -350,9 +343,6 @@
     <ClInclude Include="..\..\..\UCOSIII\uC-LIB\lib_str.h">
       <Filter>Header files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\MALLOC\malloc.h">
-      <Filter>Header files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\misc.h">
       <Filter>Header files</Filter>
     </ClInclude>
@@ -360,9 +350,6 @@
       <Filter>Header files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\UCOSIII\uCOS-III\Source\os_type.h">
-      <Filter>Header files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\HARDWARE\SRAM\sram.h">
       <Filter>Header files</Filter>
     </ClInclude>
     <ClInclude Include="G:\MDK\ARM\ARMCC\include\stdlib.h">
@@ -478,15 +465,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\readme.txt">
-      <Filter>Resource files</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第18讲 UCOSIII事件标志组和同时等待多个内核对象\第18讲 UCOSIII事件标志组和同时等待多个内核对象.rmvb">
+    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第16讲 UCOSIII信号量和互斥信号量(下)\第16讲 UCOSIII信号量和互斥信号量(下).ppt">
       <Filter>Resource files</Filter>
     </None>
-    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第18讲 UCOSIII事件标志组和同时等待多个内核对象\第18讲 UCOSIII事件标志组和同时等待多个内核对象.ppt">
+    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第16讲 UCOSIII信号量和互斥信号量(下)\第16讲 UCOSIII信号量和互斥信号量(下).rmvb">
       <Filter>Resource files</Filter>
     </None>
   </ItemGroup>

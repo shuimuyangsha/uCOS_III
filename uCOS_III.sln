@@ -43,6 +43,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_1WaitForMultipleKernelOb
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12_1EventFlagGroup", "12_1EventFlagGroup\Project\VS\12_1EventFlagGroup\12_1EventFlagGroup.vcxproj", "{DA87D4B3-4DEE-4154-BB8E-DCA6BB72C398}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_5MutexSemaphore", "10_5MutexSemaphore\Project\VS\10_5MutexSemaphore\10_5MutexSemaphore.vcxproj", "{C188AB4E-03E5-47A9-8F31-8461AD473714}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_4PriorityInversion", "10_4PriorityInversion\Project\VS\10_4PriorityInversion\10_4PriorityInversion.vcxproj", "{9726FDE0-EEBB-4063-AB63-533D12214081}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|VisualGDB = Debug|VisualGDB
@@ -113,6 +117,14 @@ Global
 		{DA87D4B3-4DEE-4154-BB8E-DCA6BB72C398}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
 		{DA87D4B3-4DEE-4154-BB8E-DCA6BB72C398}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
 		{DA87D4B3-4DEE-4154-BB8E-DCA6BB72C398}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{C188AB4E-03E5-47A9-8F31-8461AD473714}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{C188AB4E-03E5-47A9-8F31-8461AD473714}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{C188AB4E-03E5-47A9-8F31-8461AD473714}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{C188AB4E-03E5-47A9-8F31-8461AD473714}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{9726FDE0-EEBB-4063-AB63-533D12214081}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{9726FDE0-EEBB-4063-AB63-533D12214081}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{9726FDE0-EEBB-4063-AB63-533D12214081}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{9726FDE0-EEBB-4063-AB63-533D12214081}.Release|VisualGDB.Build.0 = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

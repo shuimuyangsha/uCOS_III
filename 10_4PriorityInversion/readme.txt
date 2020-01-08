@@ -1,8 +1,10 @@
 例10-4 UCOSIII优先级反转
 
 实验内容：
-   创建4个任务，任务start_task用于创建另外三个任务和一个初始值为1的信号量TEST_SEM。high_task和low_task都会请求信号量TEST_SEM，但是low_task任务需要很久才会释放信号量TEST_SEM，
-这样high_task任务就需要等很久，直到low_task释放掉信号量TEST_SEM才能再次请求到信号量TEST_SEM。在high_task等待TEST_SEM的这段时间里，任务middle_task会一直运行，给人的感觉就是
+   创建4个任务，任务start_task用于创建另外三个任务和一个初始值为1的信号量TEST_SEM。
+   high_task和low_task都会请求信号量TEST_SEM，但是low_task任务需要很久才会释放信号量TEST_SEM，
+这样high_task任务就需要等很久，直到low_task释放掉信号量TEST_SEM才能再次请求到信号量TEST_SEM。
+在high_task等待TEST_SEM的这段时间里，任务middle_task会一直运行，给人的感觉就是
 middle_task的优先级高于high_task任务了，但是事实上high_task任务的优先级是高于middle_task的，这个就是优先级反转。
 
 注意：

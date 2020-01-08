@@ -27,7 +27,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>..\..\..\USER\Template.uvprojx</RelativePath>
-        <Timestamp>132229378043092203</Timestamp>
+        <Timestamp>130767772283522335</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -58,12 +58,6 @@
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\HARDWARE\KEY\key.c</RelativePath>
             </VirtualFileSnapshot>
-            <VirtualFileSnapshot>
-              <RelativePath>..\..\..\HARDWARE\BEEP\beep.c</RelativePath>
-            </VirtualFileSnapshot>
-            <VirtualFileSnapshot>
-              <RelativePath>..\..\..\HARDWARE\SRAM\sram.c</RelativePath>
-            </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
         <VirtualDirectorySnapshot>
@@ -74,6 +68,9 @@
             </VirtualFileSnapshot>
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\CORE\core_cm4_simd.h</RelativePath>
+            </VirtualFileSnapshot>
+            <VirtualFileSnapshot>
+              <RelativePath>..\..\..\CORE\startup_stm32f40_41xxx.s</RelativePath>
             </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
@@ -134,6 +131,9 @@
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\UCOSIII\uC-CPU\cpu_core.c</RelativePath>
             </VirtualFileSnapshot>
+            <VirtualFileSnapshot>
+              <RelativePath>..\..\..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu_a.asm</RelativePath>
+            </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
         <VirtualDirectorySnapshot>
@@ -150,6 +150,9 @@
             </VirtualFileSnapshot>
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\UCOSIII\uC-LIB\lib_str.c</RelativePath>
+            </VirtualFileSnapshot>
+            <VirtualFileSnapshot>
+              <RelativePath>..\..\..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView\lib_mem_a.asm</RelativePath>
             </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
@@ -221,6 +224,9 @@
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu_c.c</RelativePath>
             </VirtualFileSnapshot>
+            <VirtualFileSnapshot>
+              <RelativePath>..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu_a.asm</RelativePath>
+            </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
         <VirtualDirectorySnapshot>
@@ -252,14 +258,6 @@
             </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
-        <VirtualDirectorySnapshot>
-          <Name>MALLOC</Name>
-          <Files>
-            <VirtualFileSnapshot>
-              <RelativePath>..\..\..\MALLOC\malloc.c</RelativePath>
-            </VirtualFileSnapshot>
-          </Files>
-        </VirtualDirectorySnapshot>
       </Subdirectories>
       <Files />
     </RootDirectory>
@@ -267,30 +265,26 @@
       <ImportedConfiguration>
         <Settings>
           <IncludeDirectories>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\CORE</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\SYSTEM\delay</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\SYSTEM\sys</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\SYSTEM\usart</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\FWLIB\STM32F4xx_StdPeriph_Driver\inc</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\USER</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\HARDWARE\LED</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\HARDWARE\LCD</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\HARDWARE\KEY</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\HARDWARE\BEEP</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\HARDWARE\SRAM</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\MALLOC</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\UCOSIII\uC-CPU</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\UCOSIII\uC-LIB</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\UCOSIII\uCOS-III</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\UCOSIII\UCOS_BSP</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\UCOSIII\uCOS_CONFIG</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\UCOSIII\uCOS-III\Source</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView</string>
-            <string>E:\VS_GDB\LearningC\uCOS_III\12_1EventFlagGroup\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\10_4PriorityInversion\CORE</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\10_4PriorityInversion\SYSTEM\delay</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\10_4PriorityInversion\SYSTEM\sys</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\10_4PriorityInversion\SYSTEM\usart</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\10_4PriorityInversion\FWLIB\STM32F4xx_StdPeriph_Driver\inc</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\10_4PriorityInversion\USER</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\10_4PriorityInversion\HARDWARE\LED</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\10_4PriorityInversion\HARDWARE\LCD</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\10_4PriorityInversion\HARDWARE\KEY</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\10_4PriorityInversion\UCOSIII\uC-CPU</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\10_4PriorityInversion\UCOSIII\uC-LIB</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\10_4PriorityInversion\UCOSIII\uCOS-III</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\10_4PriorityInversion\UCOSIII\UCOS_BSP</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\10_4PriorityInversion\UCOSIII\uCOS_CONFIG</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\10_4PriorityInversion\UCOSIII\uCOS-III\Source</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\10_4PriorityInversion\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\10_4PriorityInversion\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView</string>
+            <string>E:\VS_GDB\LearningC\uCOS_III\10_4PriorityInversion\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView</string>
           </IncludeDirectories>
           <PreprocessorMacros>
-            <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>
             <string>STM32F40_41xxx</string>
             <string>USE_STDPERIPH_DRIVER</string>
             <string>__FPU_USED=1</string>

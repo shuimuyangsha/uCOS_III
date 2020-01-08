@@ -12,7 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{DA87D4B3-4DEE-4154-BB8E-DCA6BB72C398}</ProjectGuid>
+    <ProjectGuid>{C188AB4E-03E5-47A9-8F31-8461AD473714}</ProjectGuid>
     <BSP_ID>KEIL:Keil/STM32F4xx_DFP</BSP_ID>
     <BSP_VERSION>2.6.0</BSP_VERSION>
     <InPlaceBSPSubdir />
@@ -34,8 +34,6 @@
     <GNUConfigurationType>Debug</GNUConfigurationType>
     <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
     <ToolchainVersion>5.x//r1</ToolchainVersion>
-    <TargetExt>.elf</TargetExt>
-    <AutoIncludePaths>false</AutoIncludePaths>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
     <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
@@ -43,22 +41,21 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\..\CORE;..\..\..\SYSTEM\delay;..\..\..\SYSTEM\sys;..\..\..\SYSTEM\usart;..\..\..\FWLIB\STM32F4xx_StdPeriph_Driver\inc;..\..\..\USER;..\..\..\HARDWARE\LED;..\..\..\HARDWARE\LCD;..\..\..\HARDWARE\KEY;..\..\..\HARDWARE\BEEP;..\..\..\HARDWARE\SRAM;..\..\..\MALLOC;..\..\..\UCOSIII\uC-CPU;..\..\..\UCOSIII\uC-LIB;..\..\..\UCOSIII\uCOS-III;..\..\..\UCOSIII\UCOS_BSP;..\..\..\UCOSIII\uCOS_CONFIG;..\..\..\UCOSIII\uCOS-III\Source;..\..\..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView;..\..\..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView;..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\CORE;..\..\..\SYSTEM\delay;..\..\..\SYSTEM\sys;..\..\..\SYSTEM\usart;..\..\..\FWLIB\STM32F4xx_StdPeriph_Driver\inc;..\..\..\USER;..\..\..\HARDWARE\LED;..\..\..\HARDWARE\LCD;..\..\..\HARDWARE\KEY;..\..\..\UCOSIII\uC-CPU;..\..\..\UCOSIII\uC-LIB;..\..\..\UCOSIII\uCOS-III;..\..\..\UCOSIII\UCOS_BSP;..\..\..\UCOSIII\uCOS_CONFIG;..\..\..\UCOSIII\uCOS-III\Source;..\..\..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView;..\..\..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView;..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>STM32F40_41xxx;USE_STDPERIPH_DRIVER;__FPU_USED=1;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions />
       <CLanguageStandard />
       <CPPLanguageStandard />
     </ClCompile>
     <Link>
-      <AdditionalLinkerInputs>;%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
       <AdditionalOptions />
-      <LinkerScript />
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\..\CORE;..\..\..\SYSTEM\delay;..\..\..\SYSTEM\sys;..\..\..\SYSTEM\usart;..\..\..\FWLIB\STM32F4xx_StdPeriph_Driver\inc;..\..\..\USER;..\..\..\HARDWARE\LED;..\..\..\HARDWARE\LCD;..\..\..\HARDWARE\KEY;..\..\..\HARDWARE\BEEP;..\..\..\HARDWARE\SRAM;..\..\..\MALLOC;..\..\..\UCOSIII\uC-CPU;..\..\..\UCOSIII\uC-LIB;..\..\..\UCOSIII\uCOS-III;..\..\..\UCOSIII\UCOS_BSP;..\..\..\UCOSIII\uCOS_CONFIG;..\..\..\UCOSIII\uCOS-III\Source;..\..\..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView;..\..\..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView;..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>NDEBUG=1;RELEASE=1;$$com.sysprogs.bspoptions.primary_memory$$_layout;STM32F40_41xxx;USE_STDPERIPH_DRIVER;__FPU_USED=1;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\CORE;..\..\..\SYSTEM\delay;..\..\..\SYSTEM\sys;..\..\..\SYSTEM\usart;..\..\..\FWLIB\STM32F4xx_StdPeriph_Driver\inc;..\..\..\USER;..\..\..\HARDWARE\LED;..\..\..\HARDWARE\LCD;..\..\..\HARDWARE\KEY;..\..\..\UCOSIII\uC-CPU;..\..\..\UCOSIII\uC-LIB;..\..\..\UCOSIII\uCOS-III;..\..\..\UCOSIII\UCOS_BSP;..\..\..\UCOSIII\uCOS_CONFIG;..\..\..\UCOSIII\uCOS-III\Source;..\..\..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView;..\..\..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView;..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>STM32F40_41xxx;USE_STDPERIPH_DRIVER;__FPU_USED=1;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions />
       <CLanguageStandard />
       <CPPLanguageStandard />
@@ -75,7 +72,6 @@
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\CORE\startup_stm32f40_41xxx.s" />
     <ClCompile Include="..\..\..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu_a.s" />
     <ClCompile Include="..\..\..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView\lib_mem_a.s" />
     <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu_a.s" />
@@ -85,8 +81,7 @@
     <ClCompile Include="..\..\..\HARDWARE\LED\led.c" />
     <ClCompile Include="..\..\..\HARDWARE\LCD\lcd.c" />
     <ClCompile Include="..\..\..\HARDWARE\KEY\key.c" />
-    <ClCompile Include="..\..\..\HARDWARE\BEEP\beep.c" />
-    <ClCompile Include="..\..\..\HARDWARE\SRAM\sram.c" />
+    <ClCompile Include="..\..\..\CORE\startup_stm32f40_41xxx.s" />
     <ClCompile Include="..\..\..\FWLIB\STM32F4xx_StdPeriph_Driver\src\misc.c" />
     <ClCompile Include="..\..\..\FWLIB\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c" />
     <ClCompile Include="..\..\..\FWLIB\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c" />
@@ -100,6 +95,30 @@
     <ClCompile Include="..\..\..\UCOSIII\UCOS_BSP\bsp.c" />
     <ClCompile Include="..\..\..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu_c.c" />
     <ClCompile Include="..\..\..\UCOSIII\uC-CPU\cpu_core.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uC-LIB\lib_ascii.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uC-LIB\lib_math.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uC-LIB\lib_mem.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uC-LIB\lib_str.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_cfg_app.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_core.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_dbg.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_flag.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_int.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_mem.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_msg.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_mutex.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_pend_multi.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_prio.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_q.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_sem.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_stat.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_task.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_tick.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_time.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_tmr.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_var.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu_c.c" />
+    <ClCompile Include="..\..\..\UCOSIII\uCOS_CONFIG\os_app_hooks.c" />
     <ClInclude Include="..\..\..\CORE\core_cmFunc.h" />
     <ClInclude Include="..\..\..\CORE\core_cmInstr.h" />
     <ClInclude Include="..\..\..\FWLIB\STM32F4xx_StdPeriph_Driver\inc\misc.h" />
@@ -137,8 +156,6 @@
     <ClInclude Include="..\..\..\HARDWARE\LCD\FONT.H" />
     <ClInclude Include="..\..\..\HARDWARE\LCD\lcd.h" />
     <ClInclude Include="..\..\..\HARDWARE\LED\led.h" />
-    <ClInclude Include="..\..\..\HARDWARE\SRAM\sram.h" />
-    <ClInclude Include="..\..\..\MALLOC\malloc.h" />
     <ClInclude Include="..\..\..\SYSTEM\delay\delay.h" />
     <ClInclude Include="..\..\..\SYSTEM\sys\sys.h" />
     <ClInclude Include="..\..\..\SYSTEM\usart\usart.h" />
@@ -159,37 +176,11 @@
     <ClInclude Include="C:\Program Files (x86)\Sysprogs\VisualGDB\builtins_ia32.h" />
     <ClInclude Include="C:\Program Files (x86)\Sysprogs\VisualGDB\gcc_compat.h" />
     <ClInclude Include="G:\MDK\ARM\ARMCC\include\stdlib.h" />
-    <ClCompile Include="..\..\..\UCOSIII\uC-LIB\lib_ascii.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uC-LIB\lib_math.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uC-LIB\lib_mem.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uC-LIB\lib_str.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_cfg_app.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_core.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_dbg.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_flag.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_int.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_mem.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_msg.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_mutex.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_pend_multi.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_prio.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_q.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_sem.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_stat.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_task.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_tick.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_time.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_tmr.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Source\os_var.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu_c.c" />
-    <ClCompile Include="..\..\..\UCOSIII\uCOS_CONFIG\os_app_hooks.c" />
-    <ClCompile Include="..\..\..\MALLOC\malloc.c" />
-    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第18讲 UCOSIII事件标志组和同时等待多个内核对象\第18讲 UCOSIII事件标志组和同时等待多个内核对象.ppt" />
-    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第18讲 UCOSIII事件标志组和同时等待多个内核对象\第18讲 UCOSIII事件标志组和同时等待多个内核对象.rmvb" />
+    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第16讲 UCOSIII信号量和互斥信号量(下)\第16讲 UCOSIII信号量和互斥信号量(下).ppt" />
+    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\ALIENTEK UCOS学习视频\第16讲 UCOSIII信号量和互斥信号量(下)\第16讲 UCOSIII信号量和互斥信号量(下).rmvb" />
     <None Include="mcu.props" />
     <ClInclude Include="..\..\..\CORE\core_cm4.h" />
     <ClInclude Include="..\..\..\CORE\core_cm4_simd.h" />
-    <ClInclude Include="..\..\..\HARDWARE\BEEP\beep.h" />
     <ClInclude Include="..\..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h" />
     <ClInclude Include="..\..\..\UCOSIII\UCOS_BSP\bsp.h" />
     <ClInclude Include="..\..\..\UCOSIII\uCOS_CONFIG\app_cfg.h" />
@@ -200,8 +191,8 @@
     <ClInclude Include="..\..\..\UCOSIII\uCOS_CONFIG\os_cfg.h" />
     <ClInclude Include="..\..\..\UCOSIII\uCOS_CONFIG\os_cfg_app.h" />
     <ClInclude Include="$(BSP_ROOT)\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h" />
-    <None Include="12_1EventFlagGroup-Debug.vgdbsettings" />
-    <None Include="12_1EventFlagGroup-Release.vgdbsettings" />
+    <None Include="10_5MutexSemaphore-Debug.vgdbsettings" />
+    <None Include="10_5MutexSemaphore-Release.vgdbsettings" />
     <None Include="MCU.xml" />
   </ItemGroup>
 </Project>

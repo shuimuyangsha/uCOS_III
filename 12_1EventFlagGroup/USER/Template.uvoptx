@@ -81,48 +81,38 @@
       <Books>
         <Book>
           <Number>0</Number>
-          <Title>User Manual (MCBSTM32F400)</Title>
-          <Path>D:\KEIL MDKV5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\MDK\Boards\Keil\MCBSTM32F400\Documentation\mcbstm32f200.chm</Path>
+          <Title>探索者F4 视频盘(B盘) (STM32F407)</Title>
+          <Path>E:/嵌入式学习/资料/探索者F4/探索者F4 视频盘(B盘)</Path>
         </Book>
         <Book>
           <Number>1</Number>
-          <Title>Schematics (MCBSTM32F400)</Title>
-          <Path>D:\KEIL MDKV5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\MDK\Boards\Keil\MCBSTM32F400\Documentation\mcbstm32f400-schematics.pdf</Path>
+          <Title>探索者F4 资料盘(A盘) (STM32F407)</Title>
+          <Path>E:/嵌入式学习/资料/探索者F4/探索者F4 资料盘(A盘)</Path>
         </Book>
         <Book>
           <Number>2</Number>
-          <Title>Getting Started (STM32F4-Discovery)</Title>
-          <Path>D:\KEIL MDKV5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\MDK\Boards\ST\STM32F4-Discovery\Documentation\DM00037368.pdf</Path>
+          <Title>Explorer STM32F4_V2.2_SCH(原理图) (STM32F407)</Title>
+          <Path>E:/嵌入式学习/资料/探索者F4/探索者F4 资料盘(A盘)/3，ALIENTEK探索者STM32F4开发板原理图/Explorer STM32F4_V2.2_SCH.pdf</Path>
         </Book>
         <Book>
           <Number>3</Number>
-          <Title>User Manual (STM32F4-Discovery)</Title>
-          <Path>D:\KEIL MDKV5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\MDK\Boards\ST\STM32F4-Discovery\Documentation\DM00039084.pdf</Path>
+          <Title>STM32F4开发指南-库函数版本_V1.1 (STM32F407)</Title>
+          <Path>E:/嵌入式学习/资料/探索者F4/探索者F4 资料盘(A盘)/STM32F4开发指南-库函数版本_V1.1.pdf</Path>
         </Book>
         <Book>
           <Number>4</Number>
-          <Title>Bill of Materials (STM32F4-Discovery)</Title>
-          <Path>D:\KEIL MDKV5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\MDK\Boards\ST\STM32F4-Discovery\Documentation\stm32f4discovery_bom.zip</Path>
+          <Title>代码分析 (STM32F407)</Title>
+          <Path>E:/嵌入式学习/资料/野火STM32/1-F429至尊版/A盘（资料盘）/3-程序源码/代码分析</Path>
         </Book>
         <Book>
           <Number>5</Number>
-          <Title>Gerber Files (STM32F4-Discovery)</Title>
-          <Path>D:\KEIL MDKV5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\MDK\Boards\ST\STM32F4-Discovery\Documentation\stm32f4discovery_gerber.zip</Path>
+          <Title>1-STM32F4xx中文参考手册1 (STM32F407)</Title>
+          <Path>E:/嵌入式学习/资料/野火STM32/1-F429至尊版/A盘（资料盘）/6-STM32官方手册/1-STM32F4xx中文参考手册1.pdf</Path>
         </Book>
         <Book>
           <Number>6</Number>
-          <Title>Schematics (STM32F4-Discovery)</Title>
-          <Path>D:\KEIL MDKV5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\MDK\Boards\ST\STM32F4-Discovery\Documentation\stm32f4discovery_sch.zip</Path>
-        </Book>
-        <Book>
-          <Number>7</Number>
-          <Title>MCBSTM32F400 Evaluation Board Web Page (MCBSTM32F400)</Title>
-          <Path>http://www.keil.com/mcbstm32f400/</Path>
-        </Book>
-        <Book>
-          <Number>8</Number>
-          <Title>STM32F4-Discovery Web Page (STM32F4-Discovery)</Title>
-          <Path>http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1199/PF252419</Path>
+          <Title>2-STM32F4xx中文数据手册 (STM32F407)</Title>
+          <Path>E:/嵌入式学习/资料/野火STM32/1-F429至尊版/A盘（资料盘）/6-STM32官方手册/2-STM32F4xx中文数据手册.PDF</Path>
         </Book>
       </Books>
       <DebugOpt>
@@ -147,7 +137,7 @@
         <tRSysVw>1</tRSysVw>
         <sRunDeb>0</sRunDeb>
         <sLrtime>0</sLrtime>
-        <nTsel>6</nTsel>
+        <nTsel>3</nTsel>
         <sDll></sDll>
         <sDllPa></sDllPa>
         <sDlgDll></sDlgDll>
@@ -163,6 +153,11 @@
       <TargetDriverDllRegistry>
         <SetRegEntry>
           <Number>0</Number>
+          <Key>ARMRTXEVENTFLAGS</Key>
+          <Name>-L70 -Z18 -C0 -M0 -T1</Name>
+        </SetRegEntry>
+        <SetRegEntry>
+          <Number>0</Number>
           <Key>DLGTARM</Key>
           <Name>(1010=-1,-1,-1,-1,0)(1007=-1,-1,-1,-1,0)(1008=-1,-1,-1,-1,0)(1009=120,152,354,689,0)(1012=-1,-1,-1,-1,0)</Name>
         </SetRegEntry>
@@ -174,12 +169,12 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>DLGUARM</Key>
-          <Name></Name>
+          <Name>(106=-1,-1,-1,-1,0)(107=-1,-1,-1,-1,0)</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
           <Key>JL2CM3</Key>
-          <Name>-U17935099 -O78 -S9 -A0 -C0 -JU1 -JI127.0.0.1 -JP0 -RST0 -N00("ARM CoreSight SW-DP") -D00(2BA01477) -L00(0) -TO18 -TC10000000 -TP21 -TDS8004 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -TB1 -TFE0 -FO15 -FD20000000 -FC1000 -FN1 -FF0STM32F4xx_1024.FLM -FS08000000 -FL0100000 -FP0($$Device:STM32F407ZE$Flash\STM32F4xx_1024.FLM)</Name>
+          <Name>-U59425868 -O78 -S2 -ZTIFSpeedSel5000 -A0 -C0 -JU1 -JI127.0.0.1 -JP0 -RST0 -N00("ARM CoreSight SW-DP") -D00(2BA01477) -L00(0) -TO18 -TC10000000 -TP21 -TDS8004 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -TB1 -TFE0 -FO15 -FD20000000 -FC1000 -FN1 -FF0STM32F4xx_1024.FLM -FS08000000 -FL0100000 -FP0($$Device:STM32F407ZG$CMSIS\Flash\STM32F4xx_1024.FLM)</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -193,14 +188,14 @@
           <Type>0</Type>
           <LineNumber>1780</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134277316</Address>
+          <Address>134279452</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\STM32F4xx脳脢脕脧\STM32F4脤陆脣梅掳忙\驴芒潞炉脢媒脌媒鲁脤(脤陆脣梅掳忙)\脢碌脩茅56 UCOS III脢碌脩茅\脌媒8-1 UCOSIII脠铆录镁露篓脢卤脝梅\UCOSIII\uCOS-III\Source\os_task.c</Filename>
+          <Filename>..\UCOSIII\uCOS-III\Source\os_task.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression>\\Template\../UCOSIII/uCOS-III/Source/os_task.c\1780</Expression>
         </Bp>
@@ -209,14 +204,14 @@
           <Type>0</Type>
           <LineNumber>1757</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134277262</Address>
+          <Address>134279398</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\STM32F4xx脳脢脕脧\STM32F4脤陆脣梅掳忙\驴芒潞炉脢媒脌媒鲁脤(脤陆脣梅掳忙)\脢碌脩茅56 UCOS III脢碌脩茅\脌媒8-1 UCOSIII脠铆录镁露篓脢卤脝梅\UCOSIII\uCOS-III\Source\os_task.c</Filename>
+          <Filename>..\UCOSIII\uCOS-III\Source\os_task.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression>\\Template\../UCOSIII/uCOS-III/Source/os_task.c\1757</Expression>
         </Bp>
@@ -225,14 +220,14 @@
           <Type>0</Type>
           <LineNumber>1756</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134277256</Address>
+          <Address>134279392</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\STM32F4xx脳脢脕脧\STM32F4脤陆脣梅掳忙\驴芒潞炉脢媒脌媒鲁脤(脤陆脣梅掳忙)\脢碌脩茅56 UCOS III脢碌脩茅\脌媒8-1 UCOSIII脠铆录镁露篓脢卤脝梅\UCOSIII\uCOS-III\Source\os_task.c</Filename>
+          <Filename>..\UCOSIII\uCOS-III\Source\os_task.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression>\\Template\../UCOSIII/uCOS-III/Source/os_task.c\1756</Expression>
         </Bp>
@@ -241,32 +236,16 @@
           <Type>0</Type>
           <LineNumber>2548</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134277242</Address>
+          <Address>134279378</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\STM32F4xx脳脢脕脧\STM32F4脤陆脣梅掳忙\驴芒潞炉脢媒脌媒鲁脤(脤陆脣梅掳忙)\脢碌脩茅56 UCOS III脢碌脩茅\脌媒8-1 UCOSIII脠铆录镁露篓脢卤脝梅\UCOSIII\uCOS-III\Source\os_task.c</Filename>
+          <Filename>..\UCOSIII\uCOS-III\Source\os_task.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression>\\Template\../UCOSIII/uCOS-III/Source/os_task.c\2548</Expression>
-        </Bp>
-        <Bp>
-          <Number>4</Number>
-          <Type>0</Type>
-          <LineNumber>179</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134218506</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\STM32F4xx脳脢脕脧\STM32F4脤陆脣梅掳忙\驴芒潞炉脢媒脌媒鲁脤(脤陆脣梅掳忙)\脢碌脩茅56 UCOS III脢碌脩茅\脌媒9-3 UCOSIII脢鹿脫脙脨脜潞脜脕驴陆酶脨脨脠脦脦帽脥卢虏陆\USER\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Template\main.c\179</Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>
@@ -313,6 +292,9 @@
       <LintExecutable></LintExecutable>
       <LintConfigFile></LintConfigFile>
       <bLintAuto>0</bLintAuto>
+      <Lin2Executable></Lin2Executable>
+      <Lin2ConfigFile></Lin2ConfigFile>
+      <bLin2Auto>0</bLin2Auto>
     </TargetOption>
   </Target>
 
@@ -327,7 +309,6 @@
       <FileNumber>1</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>.\main.c</PathWithFileName>
@@ -340,7 +321,6 @@
       <FileNumber>2</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>.\stm32f4xx_it.c</PathWithFileName>
@@ -353,7 +333,6 @@
       <FileNumber>3</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>.\system_stm32f4xx.c</PathWithFileName>
@@ -374,7 +353,6 @@
       <FileNumber>4</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\HARDWARE\LED\led.c</PathWithFileName>
@@ -387,7 +365,6 @@
       <FileNumber>5</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\HARDWARE\LCD\lcd.c</PathWithFileName>
@@ -400,7 +377,6 @@
       <FileNumber>6</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\HARDWARE\KEY\key.c</PathWithFileName>
@@ -413,7 +389,6 @@
       <FileNumber>7</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\HARDWARE\BEEP\beep.c</PathWithFileName>
@@ -426,7 +401,6 @@
       <FileNumber>8</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\HARDWARE\SRAM\sram.c</PathWithFileName>
@@ -447,7 +421,6 @@
       <FileNumber>9</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\CORE\core_cm4.h</PathWithFileName>
@@ -460,7 +433,6 @@
       <FileNumber>10</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\CORE\core_cm4_simd.h</PathWithFileName>
@@ -473,7 +445,6 @@
       <FileNumber>11</FileNumber>
       <FileType>2</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\CORE\startup_stm32f40_41xxx.s</PathWithFileName>
@@ -494,7 +465,6 @@
       <FileNumber>12</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\FWLIB\STM32F4xx_StdPeriph_Driver\src\misc.c</PathWithFileName>
@@ -507,7 +477,6 @@
       <FileNumber>13</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\FWLIB\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c</PathWithFileName>
@@ -520,7 +489,6 @@
       <FileNumber>14</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\FWLIB\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</PathWithFileName>
@@ -533,7 +501,6 @@
       <FileNumber>15</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\FWLIB\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c</PathWithFileName>
@@ -546,7 +513,6 @@
       <FileNumber>16</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\FWLIB\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c</PathWithFileName>
@@ -559,7 +525,6 @@
       <FileNumber>17</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\FWLIB\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c</PathWithFileName>
@@ -572,7 +537,6 @@
       <FileNumber>18</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\FWLIB\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</PathWithFileName>
@@ -593,7 +557,6 @@
       <FileNumber>19</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\SYSTEM\delay\delay.c</PathWithFileName>
@@ -606,7 +569,6 @@
       <FileNumber>20</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\SYSTEM\sys\sys.c</PathWithFileName>
@@ -619,7 +581,6 @@
       <FileNumber>21</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\SYSTEM\usart\usart.c</PathWithFileName>
@@ -640,7 +601,6 @@
       <FileNumber>22</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\UCOS_BSP\bsp.c</PathWithFileName>
@@ -661,7 +621,6 @@
       <FileNumber>23</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu_c.c</PathWithFileName>
@@ -674,7 +633,6 @@
       <FileNumber>24</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uC-CPU\cpu_core.c</PathWithFileName>
@@ -687,11 +645,10 @@
       <FileNumber>25</FileNumber>
       <FileType>2</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu_a.asm</PathWithFileName>
-      <FilenameWithoutPath>cpu_a.asm</FilenameWithoutPath>
+      <PathWithFileName>..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu_a.s</PathWithFileName>
+      <FilenameWithoutPath>cpu_a.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -699,7 +656,7 @@
 
   <Group>
     <GroupName>UCOSIII_LIB</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -708,7 +665,6 @@
       <FileNumber>26</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uC-LIB\lib_ascii.c</PathWithFileName>
@@ -721,7 +677,6 @@
       <FileNumber>27</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uC-LIB\lib_math.c</PathWithFileName>
@@ -734,7 +689,6 @@
       <FileNumber>28</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uC-LIB\lib_mem.c</PathWithFileName>
@@ -747,7 +701,6 @@
       <FileNumber>29</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uC-LIB\lib_str.c</PathWithFileName>
@@ -760,11 +713,10 @@
       <FileNumber>30</FileNumber>
       <FileType>2</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView\lib_mem_a.asm</PathWithFileName>
-      <FilenameWithoutPath>lib_mem_a.asm</FilenameWithoutPath>
+      <PathWithFileName>..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView\lib_mem_a.s</PathWithFileName>
+      <FilenameWithoutPath>lib_mem_a.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -772,7 +724,7 @@
 
   <Group>
     <GroupName>UCOSIII_CORE</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -781,7 +733,6 @@
       <FileNumber>31</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS-III\Source\os_cfg_app.c</PathWithFileName>
@@ -794,7 +745,6 @@
       <FileNumber>32</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS-III\Source\os_core.c</PathWithFileName>
@@ -807,7 +757,6 @@
       <FileNumber>33</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS-III\Source\os_dbg.c</PathWithFileName>
@@ -820,7 +769,6 @@
       <FileNumber>34</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS-III\Source\os_flag.c</PathWithFileName>
@@ -833,7 +781,6 @@
       <FileNumber>35</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS-III\Source\os_int.c</PathWithFileName>
@@ -846,7 +793,6 @@
       <FileNumber>36</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS-III\Source\os_mem.c</PathWithFileName>
@@ -859,7 +805,6 @@
       <FileNumber>37</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS-III\Source\os_msg.c</PathWithFileName>
@@ -872,7 +817,6 @@
       <FileNumber>38</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS-III\Source\os_mutex.c</PathWithFileName>
@@ -885,7 +829,6 @@
       <FileNumber>39</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS-III\Source\os_pend_multi.c</PathWithFileName>
@@ -898,7 +841,6 @@
       <FileNumber>40</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS-III\Source\os_prio.c</PathWithFileName>
@@ -911,7 +853,6 @@
       <FileNumber>41</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS-III\Source\os_q.c</PathWithFileName>
@@ -924,7 +865,6 @@
       <FileNumber>42</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS-III\Source\os_sem.c</PathWithFileName>
@@ -937,7 +877,6 @@
       <FileNumber>43</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS-III\Source\os_stat.c</PathWithFileName>
@@ -950,7 +889,6 @@
       <FileNumber>44</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS-III\Source\os_task.c</PathWithFileName>
@@ -963,7 +901,6 @@
       <FileNumber>45</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS-III\Source\os_tick.c</PathWithFileName>
@@ -976,7 +913,6 @@
       <FileNumber>46</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS-III\Source\os_time.c</PathWithFileName>
@@ -989,7 +925,6 @@
       <FileNumber>47</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS-III\Source\os_tmr.c</PathWithFileName>
@@ -1002,7 +937,6 @@
       <FileNumber>48</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS-III\Source\os_var.c</PathWithFileName>
@@ -1014,7 +948,7 @@
 
   <Group>
     <GroupName>UCOSIII_PORT</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -1023,7 +957,6 @@
       <FileNumber>49</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h</PathWithFileName>
@@ -1036,7 +969,6 @@
       <FileNumber>50</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu_c.c</PathWithFileName>
@@ -1049,11 +981,10 @@
       <FileNumber>51</FileNumber>
       <FileType>2</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu_a.asm</PathWithFileName>
-      <FilenameWithoutPath>os_cpu_a.asm</FilenameWithoutPath>
+      <PathWithFileName>..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu_a.s</PathWithFileName>
+      <FilenameWithoutPath>os_cpu_a.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1070,7 +1001,6 @@
       <FileNumber>52</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS_CONFIG\app_cfg.h</PathWithFileName>
@@ -1083,7 +1013,6 @@
       <FileNumber>53</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS_CONFIG\cpu_cfg.h</PathWithFileName>
@@ -1096,7 +1025,6 @@
       <FileNumber>54</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS_CONFIG\includes.h</PathWithFileName>
@@ -1109,7 +1037,6 @@
       <FileNumber>55</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS_CONFIG\lib_cfg.h</PathWithFileName>
@@ -1122,7 +1049,6 @@
       <FileNumber>56</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS_CONFIG\os_app_hooks.c</PathWithFileName>
@@ -1135,7 +1061,6 @@
       <FileNumber>57</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS_CONFIG\os_app_hooks.h</PathWithFileName>
@@ -1148,7 +1073,6 @@
       <FileNumber>58</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS_CONFIG\os_cfg.h</PathWithFileName>
@@ -1161,7 +1085,6 @@
       <FileNumber>59</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\UCOSIII\uCOS_CONFIG\os_cfg_app.h</PathWithFileName>
@@ -1182,7 +1105,6 @@
       <FileNumber>60</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\MALLOC\malloc.c</PathWithFileName>

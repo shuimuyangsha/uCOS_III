@@ -303,6 +303,9 @@
       <Filter>Resource files</Filter>
     </None>
     <None Include="..\..\uC_Probe\11_1MessageQueue.wspx" />
+    <None Include="..\..\..\11_1MessageQueue 数据库.vsdx">
+      <Filter>Resource files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\readme.txt">

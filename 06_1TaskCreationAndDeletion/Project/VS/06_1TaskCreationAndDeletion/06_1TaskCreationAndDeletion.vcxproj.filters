@@ -91,6 +91,873 @@
     <Filter Include="Source files\UC_PROBE">
       <UniqueIdentifier>{2bb8ae16-af91-4e81-b110-67f134b30c9d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source files\UC_PROBE\Target">
+      <UniqueIdentifier>{268836fa-07eb-4727-861c-026409d702c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication">
+      <UniqueIdentifier>{e5d2e4bd-e61e-4e40-b87b-632517009859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\DCC">
+      <UniqueIdentifier>{3be27d79-064a-4ce8-911f-fabc600b265d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic">
+      <UniqueIdentifier>{cf11b0fe-a48e-4199-82bd-cead1614d386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\Cfg">
+      <UniqueIdentifier>{74da9577-d737-40da-8249-3e68a697587a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\Cfg\Template">
+      <UniqueIdentifier>{eebc2152-69e4-4b93-b25b-a57c619b6c65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\OS">
+      <UniqueIdentifier>{f8e88e08-0e55-4822-ab0d-562180ce0e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\OS\None">
+      <UniqueIdentifier>{84e32679-7fde-4628-a089-fcecc817a184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\OS\uCOS-II">
+      <UniqueIdentifier>{3794b4e9-ae93-4cc1-8f99-78f0d6665f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\OS\uCOS-III">
+      <UniqueIdentifier>{61ef5ea0-6c65-4bc4-8a9c-ee7ee7f36a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232">
+      <UniqueIdentifier>{ba0f81fd-1920-45af-b09d-d5518d97f69f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\OS">
+      <UniqueIdentifier>{613aabe0-1e6e-4945-955a-242d2b1f0e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\OS\None">
+      <UniqueIdentifier>{985d41de-2c06-4f8a-90d1-338cde4aec80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\OS\uCOS-II">
+      <UniqueIdentifier>{7ab34998-efe8-4e5c-8cb2-3f43a343cf2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\OS\uCOS-III">
+      <UniqueIdentifier>{666034b6-8d06-4b40-a805-4e9e5c40c44e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports">
+      <UniqueIdentifier>{a3d143ea-c12e-4c6c-b7b7-d729b4bb4bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Actel">
+      <UniqueIdentifier>{f1f17bd1-d5f6-4168-be2e-5cb639506945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Actel\M1A3P_16550">
+      <UniqueIdentifier>{c6b46fdf-7570-4252-9813-2207c2599555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Actel\M1A3P_CoreUART">
+      <UniqueIdentifier>{472aebf5-c1fd-4ba8-ae5c-9b22a9b60cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\AnalogDevices">
+      <UniqueIdentifier>{662cb1ce-a73d-4e0a-82d4-4588533e2ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\AnalogDevices\ADuC7026">
+      <UniqueIdentifier>{a1da43fe-b8ab-4980-bff4-f207d008f511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel">
+      <UniqueIdentifier>{e125c251-9146-4211-b456-5921ad8fe6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM3U">
+      <UniqueIdentifier>{32ddbac6-ae18-4592-9c95-9c7bdc5d10e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7L">
+      <UniqueIdentifier>{80a35cd1-cc17-4f4b-ac37-48f2f8e75197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7S">
+      <UniqueIdentifier>{f4c54d95-dee2-4237-b5f6-e16ff4ecb92f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7SE">
+      <UniqueIdentifier>{81512508-8cad-4e54-a964-6e6377fb47b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7X">
+      <UniqueIdentifier>{6793d625-e1e5-4821-80a6-47a6c3c4fb1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9260">
+      <UniqueIdentifier>{e24acf21-a96a-4d0b-b2e2-7d57cd14a942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9261">
+      <UniqueIdentifier>{f30310ad-c6f2-4875-8283-bf84947dcadc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9263">
+      <UniqueIdentifier>{65298056-e548-4dfe-ba91-081a1d296aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9RL">
+      <UniqueIdentifier>{3cbf0845-06f1-41a7-b159-b72707b2d526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9XE">
+      <UniqueIdentifier>{3fa67283-1d1c-4a70-9a58-955cd6ac7d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\ATmega128">
+      <UniqueIdentifier>{3bf0bec7-f43b-4c80-99dc-7e6caee7460e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\ATmega128\IAR">
+      <UniqueIdentifier>{b90afa7d-edfa-44b9-9dc2-537f305575c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\ATXmega128">
+      <UniqueIdentifier>{59956522-9ad5-436e-98db-d0d1f675282b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AVR32AP7000">
+      <UniqueIdentifier>{e98cc389-e9fe-4c13-b934-890b6909b404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AVR32UC3">
+      <UniqueIdentifier>{e21bc21b-e8ef-4425-b492-7c5c6340a9e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Cypress">
+      <UniqueIdentifier>{d08daf0b-2b52-40fc-b2a4-2fe6d14136b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Cypress\PSoC5">
+      <UniqueIdentifier>{c362368d-be71-429d-a6a7-303e3149df8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale">
+      <UniqueIdentifier>{8ab75286-0bc2-4501-b538-e102ca696a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire">
+      <UniqueIdentifier>{30bdd1b4-9200-4847-a472-d960637b2ddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52223">
+      <UniqueIdentifier>{b5a165b9-fadd-4e54-a151-7f6ae4adaeee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52223\CodeWarrior">
+      <UniqueIdentifier>{e0c5cc1e-7d60-4d68-bb5b-805a8e2cbc7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52223\IAR">
+      <UniqueIdentifier>{a13ecdd1-9199-472a-8a99-9e7d3d1bfcbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52229">
+      <UniqueIdentifier>{d431acba-1ac3-494d-913a-8f31580695ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52229\CodeWarrior">
+      <UniqueIdentifier>{37289620-7e4b-4e02-be18-5be1f05057be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5235">
+      <UniqueIdentifier>{49a9a0fe-fed6-471c-83ca-c38a6bb69db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5235\CodeWarrior">
+      <UniqueIdentifier>{e98680e1-dba0-4dc5-a59d-6fb6fad54911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5253">
+      <UniqueIdentifier>{660bc4b1-de53-4daa-8755-bbece2c26df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5253\CodeWarrior">
+      <UniqueIdentifier>{df22200c-d238-423f-9771-c19888342d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5275">
+      <UniqueIdentifier>{e790de78-d605-4434-959e-bea8489c8d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5275\CodeWarrior">
+      <UniqueIdentifier>{3ea687d4-fcb7-4e2a-9c2f-63a10cc2673d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5275\IAR">
+      <UniqueIdentifier>{4c819b6d-64fb-4caa-9c62-5f46fef0210f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\54451">
+      <UniqueIdentifier>{c40a42fc-020b-42d3-bfdf-9569d3f7c288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\54451\CodeWarrior">
+      <UniqueIdentifier>{39b5ff0c-6637-4d81-a710-af259d351c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\M52233">
+      <UniqueIdentifier>{9291502b-2ae0-4613-bb52-8767324787dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\M52233\CodeWarrior">
+      <UniqueIdentifier>{dd901ebd-2ad8-44fb-a730-26db58715347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\M52233\IAR">
+      <UniqueIdentifier>{676dc591-c569-442e-8185-b2cc6a9236ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\MCF51CN">
+      <UniqueIdentifier>{9ef2da23-d880-47cf-8465-4c8a08b235c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\MCF51QE">
+      <UniqueIdentifier>{c8c593fe-d612-4feb-8114-28243cb923bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\iMX21">
+      <UniqueIdentifier>{7ea7472d-7638-4384-9e2a-0ff1312234ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\iMX27">
+      <UniqueIdentifier>{52fcdd37-5c16-4f4f-9c88-658601ad2c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MAC71xx">
+      <UniqueIdentifier>{9c8711c9-1af8-4f44-8e88-7a7ccfa2f3d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MC9S08">
+      <UniqueIdentifier>{9567de76-00e2-4c26-ab07-b8f7afe17b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MC9S12">
+      <UniqueIdentifier>{b92e071d-c591-46c8-923d-4548f142971d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MC9S12X">
+      <UniqueIdentifier>{58d3abd3-80ff-4182-a718-25a1e705df8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MPC55xx">
+      <UniqueIdentifier>{26dbb057-9df3-42d0-95df-cac911f05127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MPC8349E">
+      <UniqueIdentifier>{7c3a5390-04f6-4969-adf6-29fdbb806f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Infineon">
+      <UniqueIdentifier>{fba6e815-8aa2-46cb-aff9-7c7b7ab799b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Infineon\XMC">
+      <UniqueIdentifier>{19a9340c-32bc-49eb-9458-3a01ceee2e3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Lattice">
+      <UniqueIdentifier>{9e118407-6518-4185-9157-7a3fc7f0990c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Lattice\LatticeMico32">
+      <UniqueIdentifier>{15eda021-2534-4b79-9211-c96e0395cf1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\LuminaryMicro">
+      <UniqueIdentifier>{2ef935fd-1258-46e3-90b7-d251d9b17f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\LuminaryMicro\LM3Sxxxx">
+      <UniqueIdentifier>{7705419a-eb65-4a76-a5e4-c68144ca6195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip">
+      <UniqueIdentifier>{85c0beee-2a95-453a-91a5-de31da750a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\dsPIC33">
+      <UniqueIdentifier>{56731112-140b-4da2-b0e0-8246d613d376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\dsPIC33\C30">
+      <UniqueIdentifier>{4f9f694d-695e-4091-bf84-6ac08ab3109c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\dsPIC33\DSPICC">
+      <UniqueIdentifier>{ebde7b2b-dfe0-4834-b7eb-ee2fdfff3361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\dsPIC33\ICCDSPIC">
+      <UniqueIdentifier>{e949dcb1-07bd-4f3b-8184-00799b6829b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\PIC24">
+      <UniqueIdentifier>{a2759e73-792a-454b-b958-16e8f9e9bda2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\PIC24\C30">
+      <UniqueIdentifier>{91cece04-e6e2-4fe0-83ed-34b533f9e1a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\PIC24\DSPICC">
+      <UniqueIdentifier>{a4b787ac-89d8-40d4-b366-a2c453412710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\PIC24\ICCDSPIC">
+      <UniqueIdentifier>{96f01d44-2fdc-4ae1-9509-1b8a321ae358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\PIC32">
+      <UniqueIdentifier>{3b0aa1fd-c2f0-4eb6-bc8e-70abf54d60e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\PIC32\Microchip_C32">
+      <UniqueIdentifier>{26175434-41c7-4676-a41d-856147015063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP">
+      <UniqueIdentifier>{cba0ab75-fd97-4ac5-b363-f3ef62076597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LH79520">
+      <UniqueIdentifier>{1c526c56-63b9-42a0-94d3-6c21947d6d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LH7952x">
+      <UniqueIdentifier>{b2450c14-da1b-45ad-9b9c-f7d4142d7750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LH7A404">
+      <UniqueIdentifier>{8d160be5-7b2a-45f2-b285-f0094527b739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC17xx">
+      <UniqueIdentifier>{e964a11f-8262-4dd3-be74-201c1da10b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC21xx">
+      <UniqueIdentifier>{1b55103a-8753-47e1-a3ab-0f7cd6fc0e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC2378">
+      <UniqueIdentifier>{9d5abc28-3c04-4184-a519-6d2e84afa5a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC24xx">
+      <UniqueIdentifier>{aadbcb98-49d0-41f7-990d-001d795d88d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC2888">
+      <UniqueIdentifier>{3d49b6f8-7635-47b2-ab13-a7b73888c6ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC313x">
+      <UniqueIdentifier>{c82171ba-a99b-4493-81c3-c891ed10d4e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC3xxx">
+      <UniqueIdentifier>{5eca179c-f1f8-47cd-a6cf-e266df2654b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\OKI">
+      <UniqueIdentifier>{7eca8fb2-4e76-45eb-b8ac-479ca90c7986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\OKI\ML67Q4051">
+      <UniqueIdentifier>{041d2d41-c953-47d0-88b8-650f1779917b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas">
+      <UniqueIdentifier>{f7f19298-4046-4097-8161-bae150b3e397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H836077">
+      <UniqueIdentifier>{00acdb56-8158-4ccd-bb51-2a37ce94a05f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2215R">
+      <UniqueIdentifier>{6dc16e23-578d-44ea-81b2-6a3ec748cc46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2218">
+      <UniqueIdentifier>{25926d4d-80fd-4bf7-858d-f8ace7313655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2472">
+      <UniqueIdentifier>{925818b7-d912-44cd-ba00-b943805dd07c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H8SX1664">
+      <UniqueIdentifier>{840ccd95-69d9-4c86-bf8a-7e42f1257ba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\RX62N">
+      <UniqueIdentifier>{81762a85-a1f4-4e62-b0b5-b60003537b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7086">
+      <UniqueIdentifier>{ef5c7023-1b6d-4b8f-ac08-dda2d7e0363a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7201">
+      <UniqueIdentifier>{f8b5dbe3-b274-48a8-a2e4-20218f17221f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7203">
+      <UniqueIdentifier>{6480ba70-aacb-4b51-b2b4-f5ce36c5ee54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7211">
+      <UniqueIdentifier>{b5fdbd5d-cab5-45ae-aaaf-a8d370bc3d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7216">
+      <UniqueIdentifier>{7c2356f8-e7d9-4cf9-9b1a-e05b83b678d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7264">
+      <UniqueIdentifier>{51b74884-75cc-4932-8d2b-5317eaa4eb75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST">
+      <UniqueIdentifier>{495a9bcd-5fcc-42a8-9e9a-49538b10a503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STM32">
+      <UniqueIdentifier>{d594aaf2-6c2b-4689-9026-c2bf4d53b001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STR71x">
+      <UniqueIdentifier>{e4be999b-ceb1-4f59-9e0f-90cafa36ba1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STR73x">
+      <UniqueIdentifier>{6b92580a-eaff-4a4c-bbcc-c51011c54948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STR75x">
+      <UniqueIdentifier>{9690d4fb-8a11-43f5-87a2-a67209d2fa6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STR91x">
+      <UniqueIdentifier>{acbfa861-7f7f-4aa8-82c1-ae41b59b199f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Template">
+      <UniqueIdentifier>{5f24ab8b-2dd9-48bb-bfd5-246414a47eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\TI">
+      <UniqueIdentifier>{e028a97f-5b42-4644-acf8-7defa1ffe336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\TI\TMS470">
+      <UniqueIdentifier>{e79a6cd9-4661-4e15-b6a5-1d94442a3e93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Toshiba">
+      <UniqueIdentifier>{9a77280b-11c8-4cd2-a2ef-30ba13219c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Toshiba\TMPM330">
+      <UniqueIdentifier>{339a00c7-1901-4d5d-b017-3702808b0b2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Toshiba\TMPM369">
+      <UniqueIdentifier>{a275d7a4-dfad-4ee1-a2e3-46638edec206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\RS-232\Source">
+      <UniqueIdentifier>{a399be3d-dd60-4f69-a99c-ef3cba721fba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\Source">
+      <UniqueIdentifier>{0accc236-e07e-43b8-a0fa-868b5e0168c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\TCPIP">
+      <UniqueIdentifier>{f8340baf-e977-4542-83bb-84cd4e4d69d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\TCPIP\OS">
+      <UniqueIdentifier>{27a4bead-1d2b-472f-9c95-da9eebf7feb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\TCPIP\OS\uCOS-II">
+      <UniqueIdentifier>{dd152623-3b59-4f10-85c4-f068bcd7692f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\TCPIP\OS\uCOS-III">
+      <UniqueIdentifier>{69f20d89-f8be-44a2-9f90-38f48ee22a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\TCPIP\Source">
+      <UniqueIdentifier>{7ab1e82b-2a57-43be-afc3-df3d56944fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\USB">
+      <UniqueIdentifier>{ae8cb9a7-190b-4226-b66d-f9fe30026682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\USB\App">
+      <UniqueIdentifier>{7cf60cbe-52d9-40e4-9c74-011a159b351c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\USB\OS">
+      <UniqueIdentifier>{a1bb5eda-b0f2-4bbf-9a2e-519bc6f5b5f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\USB\OS\uCOS-III">
+      <UniqueIdentifier>{ab9246c3-24be-40a3-a65e-e8067872bf6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Communication\Generic\USB\Source">
+      <UniqueIdentifier>{5143b80d-b7a6-4e38-87e9-817381c6f39e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Scope">
+      <UniqueIdentifier>{bd9fe380-5aa2-44a6-a3d9-15b95cae8e10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Scope\cfg">
+      <UniqueIdentifier>{a155941c-97f0-4004-b223-49711f1f9be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Terminal">
+      <UniqueIdentifier>{f30cba31-9149-4250-a57c-92a4ca196d1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Terminal\App">
+      <UniqueIdentifier>{3d46c9ea-5d82-440c-8b9a-ea9b6e7926ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Terminal\Cfg">
+      <UniqueIdentifier>{a6a1abc5-0342-4f1b-8ef7-a7666f74bd0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Terminal\OS">
+      <UniqueIdentifier>{1b4e53fd-86d2-4c24-aeb3-3e1f3b48420e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Terminal\OS\None">
+      <UniqueIdentifier>{4d102d6a-136e-48c5-b3fe-a0b7a4657558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Terminal\OS\uCOS-II">
+      <UniqueIdentifier>{396f6096-8dce-4fc6-be22-019fb92d32c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UC_PROBE\Target\Terminal\OS\uCOS-III">
+      <UniqueIdentifier>{ea15c308-d0de-4828-9f6a-eb33de0db773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE">
+      <UniqueIdentifier>{48d788cb-8a73-4e7a-a487-1a4909f147d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target">
+      <UniqueIdentifier>{80598589-97fa-473c-86f3-ce5ee72ffb45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication">
+      <UniqueIdentifier>{d002e1ce-9276-4b23-9b1b-f1428754e603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\DCC">
+      <UniqueIdentifier>{515f289b-3a06-43ce-8a31-338dd3fe2842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic">
+      <UniqueIdentifier>{8314bfb7-73c8-447c-984e-49c12dd123ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\Cfg">
+      <UniqueIdentifier>{b8e72561-7eec-4bd9-b635-9b1fb6fc01da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\Cfg\Template">
+      <UniqueIdentifier>{2b2207c2-df2e-40c0-a4b5-85500e262d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\OS">
+      <UniqueIdentifier>{17a6fd80-4287-4eb4-8cfe-8d2b00986a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\OS\None">
+      <UniqueIdentifier>{02fb47d5-ccaf-4bf8-9a95-86474f4d03ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\OS\uCOS-II">
+      <UniqueIdentifier>{d59ab455-ec3f-4fdb-ba3c-9fdcca624fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\OS\uCOS-III">
+      <UniqueIdentifier>{af508a86-24cb-4c7a-88d9-8329caa5b4ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232">
+      <UniqueIdentifier>{ef1cb71b-b5d1-42f5-b49b-6653a6cc3773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\OS">
+      <UniqueIdentifier>{94c6f1b9-6185-42a6-a24f-3d1543c0bc61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\OS\None">
+      <UniqueIdentifier>{e66dd715-115c-49be-b4fc-f420e702caab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\OS\uCOS-II">
+      <UniqueIdentifier>{ef9cdc43-2c1b-4b8f-a201-1ee23a22d7b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\OS\uCOS-III">
+      <UniqueIdentifier>{78a3cab9-2bb3-40d2-838b-326d8fd656c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports">
+      <UniqueIdentifier>{bbea81d1-8201-4487-9bbb-9fe79b7e739f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Actel">
+      <UniqueIdentifier>{a6fef12c-64d4-4843-9148-bc83e0c3bc86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Actel\M1A3P_16550">
+      <UniqueIdentifier>{bcd8bb4e-e930-4f9f-82b2-136bb55e001e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Actel\M1A3P_CoreUART">
+      <UniqueIdentifier>{096618cd-ecf5-43c4-94af-03f9cffd4b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\AnalogDevices">
+      <UniqueIdentifier>{8dc23181-7443-4ac9-8bb8-12b1ca299892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\AnalogDevices\ADuC7026">
+      <UniqueIdentifier>{bb75b2c3-1cb6-433e-8a1b-a0399fb5cd64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel">
+      <UniqueIdentifier>{ceb22da3-a869-427a-9974-fb5c0e35fdca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM3U">
+      <UniqueIdentifier>{190c9358-4749-43c6-905f-9b0364d1799d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7L">
+      <UniqueIdentifier>{4e0c61e7-1ec8-4278-9201-879702e48e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7S">
+      <UniqueIdentifier>{86475ee3-c33d-450d-9081-30579234eed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7SE">
+      <UniqueIdentifier>{7651baba-389a-4ef5-b43d-80e9fc94991c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7X">
+      <UniqueIdentifier>{80c7ed40-56e5-4c1c-8495-e623e4daa07d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9260">
+      <UniqueIdentifier>{6073c390-582b-4120-8479-bd2973f7a7aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9261">
+      <UniqueIdentifier>{6c0ad1b8-f9e4-48e3-b7e5-b93daeb5aa7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9263">
+      <UniqueIdentifier>{40f10386-9258-4d38-ba50-92f109753c10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9RL">
+      <UniqueIdentifier>{745a735c-b548-477a-8772-f5fa80c76f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9XE">
+      <UniqueIdentifier>{2a5dd793-7538-4958-9eda-8c3ca33b1e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\ATmega128">
+      <UniqueIdentifier>{ade4c6c6-f295-4fe9-88cc-14557ef6a194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\ATmega128\IAR">
+      <UniqueIdentifier>{55d3cf20-ace3-4abf-aecc-597570761312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\ATXmega128">
+      <UniqueIdentifier>{3b22cfb8-4692-44bc-a777-8078ca66a37f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AVR32AP7000">
+      <UniqueIdentifier>{2b1e7964-d347-48ab-b0cf-142e6e1a7f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AVR32UC3">
+      <UniqueIdentifier>{dbe93ee9-74b4-4f0d-b38e-4c21a61c1be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Cypress">
+      <UniqueIdentifier>{177600c9-f41f-4f1f-bbdf-2a7b4bdf42f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Cypress\PSoC5">
+      <UniqueIdentifier>{99f0fbaa-14a0-4bed-8f04-ffaeec38f6fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale">
+      <UniqueIdentifier>{48725f28-b1f1-4c3d-971d-082dbcfa7134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire">
+      <UniqueIdentifier>{1217c399-2fb8-44ff-b75f-2d3616937477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52223">
+      <UniqueIdentifier>{2b270577-323b-4d81-ad5f-d08412a84d8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52223\CodeWarrior">
+      <UniqueIdentifier>{d9b8bae0-ec8f-4619-8e03-5425ca84f0d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52223\IAR">
+      <UniqueIdentifier>{2f44a55d-ba7d-46d7-b1ca-60b5c3c1800c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52229">
+      <UniqueIdentifier>{bb6bcf6f-a12f-47c4-b710-d783c192956d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52229\CodeWarrior">
+      <UniqueIdentifier>{526cb646-ff2f-43a6-8554-e48fc8001ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5235">
+      <UniqueIdentifier>{f5c8e8fd-f87b-48b4-aca6-e8ce5a634368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5235\CodeWarrior">
+      <UniqueIdentifier>{0717ea78-af7c-460f-b4a1-1a4881f8ef8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5253">
+      <UniqueIdentifier>{64c1d80f-6178-402d-8af0-63fd015d0dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5253\CodeWarrior">
+      <UniqueIdentifier>{7ed9739d-a722-4e5f-bc75-ce780b39eae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5275">
+      <UniqueIdentifier>{c2eafdfb-58f4-4319-a973-a47df86a152b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5275\CodeWarrior">
+      <UniqueIdentifier>{95980b85-48eb-4519-809e-413af827d078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5275\IAR">
+      <UniqueIdentifier>{537a0958-1dea-480d-860c-07595e1d4b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\54451">
+      <UniqueIdentifier>{d4e571a6-160f-4e02-9396-5c3d87076794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\54451\CodeWarrior">
+      <UniqueIdentifier>{c94c7b30-9b82-46d4-b245-0ec7c92070e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\M52233">
+      <UniqueIdentifier>{20acdb38-3b54-4f1b-a287-740b5a133871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\M52233\CodeWarrior">
+      <UniqueIdentifier>{576d10bc-0ef0-4962-bf83-32ddb10902f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\M52233\IAR">
+      <UniqueIdentifier>{a00664a3-454b-4f4e-b5b6-7e593ea704d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\MCF51CN">
+      <UniqueIdentifier>{58198758-7d68-41ab-8076-d0c3ee7c37fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\MCF51QE">
+      <UniqueIdentifier>{905a0951-7822-4849-857c-7be701cd1843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\iMX21">
+      <UniqueIdentifier>{6360444e-6296-4c1c-aca4-df9e56e915e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\iMX27">
+      <UniqueIdentifier>{37d9d630-7788-426b-b617-10c34a637963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MAC71xx">
+      <UniqueIdentifier>{a0862ecf-6119-4828-ad68-ae441f950838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MC9S08">
+      <UniqueIdentifier>{04d14776-96a9-4381-a81f-56066f67d183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MC9S12">
+      <UniqueIdentifier>{053e838f-b3dd-4b58-a45d-96a85df6e0a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MC9S12X">
+      <UniqueIdentifier>{92821650-2e0e-46f8-84de-173efe482e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MPC55xx">
+      <UniqueIdentifier>{b40fbca7-a652-499d-be5e-ebfbcd8e1aa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MPC8349E">
+      <UniqueIdentifier>{1dd09a80-b5de-4795-8fdc-25f27c07dc0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Infineon">
+      <UniqueIdentifier>{c736d3aa-6ae8-4bf7-8079-68130f22bb41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Infineon\XMC">
+      <UniqueIdentifier>{4aa2d944-2bda-4c03-90f2-f9bd0b6c32f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Lattice">
+      <UniqueIdentifier>{14e4e3b5-1278-46cd-816f-08bbd12ca376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Lattice\LatticeMico32">
+      <UniqueIdentifier>{80efe3e5-f867-4591-a381-d9cd899a5662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\LuminaryMicro">
+      <UniqueIdentifier>{fa8df710-cd75-4f27-b175-078e392e974a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\LuminaryMicro\LM3Sxxxx">
+      <UniqueIdentifier>{836e4501-0096-4e5f-a234-04e78c5441de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip">
+      <UniqueIdentifier>{515ab3d5-27ea-4838-a4f1-07eda4c0bbc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\dsPIC33">
+      <UniqueIdentifier>{e307a644-9705-4173-b168-780927b027d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\dsPIC33\C30">
+      <UniqueIdentifier>{72db699c-10e7-4272-99d3-e72080a81223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\dsPIC33\DSPICC">
+      <UniqueIdentifier>{11e5badc-ec53-4b7d-b38a-f0193f454131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\dsPIC33\ICCDSPIC">
+      <UniqueIdentifier>{8ac745b8-a36c-4859-b8c2-33ac98536a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\PIC24">
+      <UniqueIdentifier>{615264ae-c55d-4ff4-a4bb-56190fbc1024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\PIC24\C30">
+      <UniqueIdentifier>{8f5859c0-f453-4185-bd60-3f93d7d7bbe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\PIC24\DSPICC">
+      <UniqueIdentifier>{7237f9b9-26c1-45ea-b110-31edf4fbf162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\PIC24\ICCDSPIC">
+      <UniqueIdentifier>{a69b0033-6b9e-4663-8180-2f022437978b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\PIC32">
+      <UniqueIdentifier>{7dc408d9-6a79-4445-a6f5-b21ca1a39980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\PIC32\Microchip_C32">
+      <UniqueIdentifier>{e7b3fddc-fea6-4b78-9593-603b77b07ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP">
+      <UniqueIdentifier>{c1f7ae3a-ab6d-4c35-82d3-f446630da751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LH79520">
+      <UniqueIdentifier>{7e5fa503-9f78-41c5-abcd-5ff09ebd08ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LH7952x">
+      <UniqueIdentifier>{a2788158-5eea-4b51-8d16-bbab192f9a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LH7A404">
+      <UniqueIdentifier>{b210cec6-15ee-428e-bacc-cc2b6f0e790a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC17xx">
+      <UniqueIdentifier>{164335ba-b556-4593-9fdd-31ccad27f77d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC21xx">
+      <UniqueIdentifier>{53d2aa86-b27a-457d-8f88-be7e7d11f022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC2378">
+      <UniqueIdentifier>{ee5891c7-133b-4f8b-8aad-cfe972a25728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC24xx">
+      <UniqueIdentifier>{708b32eb-495f-49d8-ab1b-ec6613066a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC2888">
+      <UniqueIdentifier>{ccad1578-c37e-43e8-9b60-88da346f42f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC313x">
+      <UniqueIdentifier>{4afe49de-5fbc-4d8f-86d7-c019b84f63b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC3xxx">
+      <UniqueIdentifier>{9bb7956e-8567-4c43-95dd-67a2560bb2a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\OKI">
+      <UniqueIdentifier>{914ac1e1-e844-4147-bc58-6fd04847b6bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\OKI\ML67Q4051">
+      <UniqueIdentifier>{e52aaa43-1878-4557-8029-38ff3047f64b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas">
+      <UniqueIdentifier>{65e03b9f-c7b9-41cb-8fbb-af57b9cb34ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H836077">
+      <UniqueIdentifier>{1c11a5cc-3990-4a05-ad08-34dcc486d4e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2215R">
+      <UniqueIdentifier>{1cce9109-61ad-464b-bbf6-e984229723d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2218">
+      <UniqueIdentifier>{0c823a2b-b43e-48cc-9343-e1112f885ad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2472">
+      <UniqueIdentifier>{49417d27-baaf-47a3-b132-fc6065df8bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H8SX1664">
+      <UniqueIdentifier>{7b440df2-54ce-4c4d-b1b7-11ba11076904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\RX62N">
+      <UniqueIdentifier>{8c293456-8f19-4b0b-9d56-30e6653a6242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7086">
+      <UniqueIdentifier>{de33f106-ba08-4641-81a2-a566c4c93bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7201">
+      <UniqueIdentifier>{dd480df7-d958-4a9b-8ad2-0ef26d7948c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7203">
+      <UniqueIdentifier>{13848051-4b6c-4a85-8dec-8f7ec3611368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7211">
+      <UniqueIdentifier>{ec6cf67e-ca1c-4f7f-bcb7-cdf190bee7ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7216">
+      <UniqueIdentifier>{91b7c8d4-7cac-4b3c-9d4b-75ebb1695518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7264">
+      <UniqueIdentifier>{67403b9d-3ffd-451d-8a4c-bd502053eb9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST">
+      <UniqueIdentifier>{ef49cb11-1f6f-435c-be7a-420defe975e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STM32">
+      <UniqueIdentifier>{0a423b3f-091d-4a9e-a410-7cffa15937ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STR71x">
+      <UniqueIdentifier>{2183865e-3ba5-492d-8b7a-4808dea32cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STR73x">
+      <UniqueIdentifier>{658fffd9-eacb-4298-ab99-93b0484aa17d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STR75x">
+      <UniqueIdentifier>{051f591b-7e12-4046-8afa-e27d77b0e9bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STR91x">
+      <UniqueIdentifier>{fdada8f4-5651-44f8-9aaa-a3ce210957d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Template">
+      <UniqueIdentifier>{3fda7490-810a-4a4b-8395-71a133c8062f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\TI">
+      <UniqueIdentifier>{50d36f43-80a1-4144-885b-4c7604a30047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\TI\TMS470">
+      <UniqueIdentifier>{9a47d650-c3b8-42a6-ac43-12d9c9b47959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Toshiba">
+      <UniqueIdentifier>{46877687-826a-458e-b9c0-ff64f68cd99a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Toshiba\TMPM330">
+      <UniqueIdentifier>{3bcdc294-1b45-4de9-8bb7-0ed0925c9b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Toshiba\TMPM369">
+      <UniqueIdentifier>{4de0ca82-9674-4531-b0bb-f833b470ef56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\RS-232\Source">
+      <UniqueIdentifier>{c94832ee-e5b1-4af1-ae58-07e0359c4007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\Source">
+      <UniqueIdentifier>{1b94ed59-1291-412b-983b-979d50f054ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\TCPIP">
+      <UniqueIdentifier>{d47d925c-a27d-4ea1-97f4-aa676e60a05f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\TCPIP\OS">
+      <UniqueIdentifier>{0a88a4c2-a36f-4ac1-a6ea-2295148fff7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\TCPIP\OS\uCOS-II">
+      <UniqueIdentifier>{0e7ae008-0681-455f-9b1c-9abea9a78aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\TCPIP\OS\uCOS-III">
+      <UniqueIdentifier>{7b0aafab-e9dd-4b54-8c45-59df39bb05f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\TCPIP\Source">
+      <UniqueIdentifier>{dcff8043-a038-4b3d-8432-c69cf2e79702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\USB">
+      <UniqueIdentifier>{337212e2-d28b-464a-bd5d-cd56ce988371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\USB\App">
+      <UniqueIdentifier>{76c2d9a9-c922-447b-9cc7-6e89c7beb272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\USB\OS">
+      <UniqueIdentifier>{c5bedbb5-1431-4eea-8249-a9c5b5f153cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\USB\OS\uCOS-III">
+      <UniqueIdentifier>{26599a55-70ab-4eed-ada9-5c3170ee9ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Communication\Generic\USB\Source">
+      <UniqueIdentifier>{5f5c2b93-c366-4d7d-ac82-54559fa5b18d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Scope">
+      <UniqueIdentifier>{bffa5a0d-2910-4216-b020-cc376a6d3070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Scope\cfg">
+      <UniqueIdentifier>{292c43c0-89fc-4e49-83af-438abaa2fb0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Terminal">
+      <UniqueIdentifier>{0b043f87-11bd-44aa-83fd-35bae757a0b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Terminal\App">
+      <UniqueIdentifier>{81ad6524-97b4-43b4-a6b6-47fa779a23d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Terminal\Cfg">
+      <UniqueIdentifier>{d569d9b1-07ee-40a6-9229-8f61de61aec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Terminal\OS">
+      <UniqueIdentifier>{3f3d1837-b8cb-43e1-985f-cbabbb1efa71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Terminal\OS\None">
+      <UniqueIdentifier>{df0feca0-bf61-4496-9b1d-9cb1e538e06f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Terminal\OS\uCOS-II">
+      <UniqueIdentifier>{a5c0775a-5085-43e8-929c-4357607475f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UC_PROBE\Target\Terminal\OS\uCOS-III">
+      <UniqueIdentifier>{baa514ae-dbda-4760-ab17-a53dfd9a0d51}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\USER\main.c">
@@ -279,11 +1146,599 @@
     <ClCompile Include="..\..\..\HARDWARE\StandbyGPIO\StandbyGPIO.c">
       <Filter>Source files\HARDWARE</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Scope\probe_scope.c">
-      <Filter>Source files\UC_PROBE</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\HARDWARE\TIMER\timer.c">
       <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\DCC\probe_dcc.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\DCC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\OS\None\probe_com_os.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\OS\None</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\OS\uCOS-II\probe_com_os.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\OS\uCOS-II</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\OS\uCOS-III\probe_com_os.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\OS\uCOS-III</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\OS\None\probe_rs232_os.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\OS\None</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\OS\uCOS-II\probe_rs232_os.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\OS\uCOS-II</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\OS\uCOS-III\probe_rs232_os.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\OS\uCOS-III</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Actel\M1A3P_16550\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Actel\M1A3P_16550</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Actel\M1A3P_CoreUART\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Actel\M1A3P_CoreUART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\AnalogDevices\ADuC7026\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\AnalogDevices\ADuC7026</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM3U\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM3U</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7L\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7L</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7S\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7S</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7SE\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7SE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7X\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7X</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9260\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9260</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9261\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9261</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9263\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9263</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9RL\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9RL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9XE\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9XE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\ATmega128\IAR\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\ATmega128\IAR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\ATXmega128\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\ATXmega128</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AVR32AP7000\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AVR32AP7000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AVR32UC3\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AVR32UC3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Cypress\PSoC5\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Cypress\PSoC5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52223\CodeWarrior\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52223\CodeWarrior</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52223\IAR\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52223\IAR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52229\CodeWarrior\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52229\CodeWarrior</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5235\CodeWarrior\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5235\CodeWarrior</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5253\CodeWarrior\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5253\CodeWarrior</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5275\CodeWarrior\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5275\CodeWarrior</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5275\IAR\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5275\IAR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\54451\CodeWarrior\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\54451\CodeWarrior</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\M52233\CodeWarrior\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\M52233\CodeWarrior</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\M52233\IAR\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\M52233\IAR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\MCF51CN\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\MCF51CN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\MCF51QE\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\MCF51QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\iMX21\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\iMX21</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\iMX27\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\iMX27</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\MAC71xx\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MAC71xx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\MC9S08\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MC9S08</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\MC9S12\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MC9S12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\MC9S12X\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MC9S12X</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\MPC55xx\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MPC55xx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\MPC8349E\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MPC8349E</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Infineon\XMC\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Infineon\XMC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Lattice\LatticeMico32\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Lattice\LatticeMico32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\LuminaryMicro\LM3Sxxxx\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\LuminaryMicro\LM3Sxxxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Microchip\dsPIC33\C30\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\dsPIC33\C30</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Microchip\dsPIC33\DSPICC\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\dsPIC33\DSPICC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Microchip\dsPIC33\ICCDSPIC\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\dsPIC33\ICCDSPIC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Microchip\PIC24\C30\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\PIC24\C30</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Microchip\PIC24\DSPICC\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\PIC24\DSPICC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Microchip\PIC24\ICCDSPIC\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\PIC24\ICCDSPIC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Microchip\PIC32\Microchip_C32\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\PIC32\Microchip_C32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\NXP\LH79520\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LH79520</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\NXP\LH7952x\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LH7952x</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\NXP\LH7A404\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LH7A404</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\NXP\LPC17xx\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC17xx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\NXP\LPC21xx\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC21xx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\NXP\LPC2378\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC2378</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\NXP\LPC24xx\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC24xx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\NXP\LPC2888\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC2888</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\NXP\LPC313x\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC313x</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\NXP\LPC3xxx\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC3xxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\OKI\ML67Q4051\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\OKI\ML67Q4051</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\H836077\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H836077</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\H836077\probe_rs232c_isr.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H836077</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2215R\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2215R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2215R\probe_rs232c_isr.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2215R</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2218\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2218</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2218\probe_rs232c_isr.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2218</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2472\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2472</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2472\probe_rs232c_isr.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2472</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\H8SX1664\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H8SX1664</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\RX62N\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\RX62N</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\SH7086\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7086</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\SH7201\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7201</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\SH7203\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7203</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\SH7211\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7211</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\SH7216\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7216</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\SH7264\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7264</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\ST\STM32\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STM32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\ST\STM32\probe_rs232c_cmsis.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STM32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\ST\STR71x\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STR71x</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\ST\STR73x\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STR73x</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\ST\STR73x\probe_rs232c_lib.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STR73x</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\ST\STR75x\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STR75x</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\ST\STR91x\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STR91x</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Template\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\TI\TMS470\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\TI\TMS470</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Toshiba\TMPM330\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Toshiba\TMPM330</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Toshiba\TMPM369\probe_rs232c.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Toshiba\TMPM369</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Source\probe_rs232.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\RS-232\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\Source\probe_com.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\TCPIP\OS\uCOS-II\probe_tcpip_os.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\TCPIP\OS\uCOS-II</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\TCPIP\OS\uCOS-III\probe_tcpip_os.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\TCPIP\OS\uCOS-III</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\TCPIP\Source\probe_tcpip.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\TCPIP\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\USB\App\app_usbd.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\USB\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\USB\OS\uCOS-III\probe_usb_os.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\USB\OS\uCOS-III</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\USB\Source\probe_usb.c">
+      <Filter>Source files\UC_PROBE\Target\Communication\Generic\USB\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Terminal\probe_term.c">
+      <Filter>Source files\UC_PROBE\Target\Terminal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Terminal\App\app_probe_term.c">
+      <Filter>Source files\UC_PROBE\Target\Terminal\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Terminal\OS\None\probe_term_os.c">
+      <Filter>Source files\UC_PROBE\Target\Terminal\OS\None</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Terminal\OS\uCOS-II\probe_term_os.c">
+      <Filter>Source files\UC_PROBE\Target\Terminal\OS\uCOS-II</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Terminal\OS\uCOS-III\probe_term_os.c">
+      <Filter>Source files\UC_PROBE\Target\Terminal\OS\uCOS-III</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\DCC\probe_dcc.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\DCC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\Cfg\Template\probe_com_cfg.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\Cfg\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Actel\M1A3P_16550\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Actel\M1A3P_16550</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Actel\M1A3P_CoreUART\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Actel\M1A3P_CoreUART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\AnalogDevices\ADuC7026\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\AnalogDevices\ADuC7026</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM3U\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM3U</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7L\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7L</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7S\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7S</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7SE\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7SE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7X\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM7X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9260\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9260</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9261\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9261</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9263\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9263</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9RL\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9RL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9XE\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AT91SAM9XE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\ATmega128\IAR\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\ATmega128\IAR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\ATXmega128\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\ATXmega128</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AVR32AP7000\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AVR32AP7000</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Atmel\AVR32UC3\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Atmel\AVR32UC3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Cypress\PSoC5\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Cypress\PSoC5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52223\CodeWarrior\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52223\CodeWarrior</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52223\IAR\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52223\IAR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52229\CodeWarrior\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\52229\CodeWarrior</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5235\CodeWarrior\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5235\CodeWarrior</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5253\CodeWarrior\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5253\CodeWarrior</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5275\CodeWarrior\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5275\CodeWarrior</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5275\IAR\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\5275\IAR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\54451\CodeWarrior\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\54451\CodeWarrior</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\M52233\CodeWarrior\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\M52233\CodeWarrior</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\M52233\IAR\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\M52233\IAR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\MCF51CN\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\MCF51CN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\MCF51QE\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\Coldfire\MCF51QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\iMX21\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\iMX21</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\iMX27\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\iMX27</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\MAC71xx\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MAC71xx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\MC9S08\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MC9S08</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\MC9S12\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MC9S12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\MC9S12X\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MC9S12X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\MPC55xx\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MPC55xx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Freescale\MPC8349E\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Freescale\MPC8349E</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Infineon\XMC\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Infineon\XMC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Lattice\LatticeMico32\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Lattice\LatticeMico32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\LuminaryMicro\LM3Sxxxx\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\LuminaryMicro\LM3Sxxxx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Microchip\dsPIC33\C30\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\dsPIC33\C30</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Microchip\dsPIC33\DSPICC\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\dsPIC33\DSPICC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Microchip\dsPIC33\ICCDSPIC\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\dsPIC33\ICCDSPIC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Microchip\PIC24\C30\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\PIC24\C30</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Microchip\PIC24\DSPICC\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\PIC24\DSPICC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Microchip\PIC24\ICCDSPIC\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\PIC24\ICCDSPIC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Microchip\PIC32\Microchip_C32\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Microchip\PIC32\Microchip_C32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\NXP\LH79520\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LH79520</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\NXP\LH7952x\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LH7952x</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\NXP\LH7A404\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LH7A404</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\NXP\LPC17xx\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC17xx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\NXP\LPC21xx\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC21xx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\NXP\LPC2378\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC2378</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\NXP\LPC24xx\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC24xx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\NXP\LPC2888\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC2888</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\NXP\LPC313x\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC313x</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\NXP\LPC3xxx\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\NXP\LPC3xxx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\OKI\ML67Q4051\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\OKI\ML67Q4051</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\H836077\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H836077</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2215R\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2215R</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2218\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2218</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2472\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H8S2472</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\H8SX1664\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\H8SX1664</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\RX62N\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\RX62N</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\SH7086\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7086</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\SH7201\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7201</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\SH7203\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7203</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\SH7211\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7211</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\SH7216\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7216</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Renesas\SH7264\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Renesas\SH7264</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\ST\STM32\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STM32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\ST\STR71x\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STR71x</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\ST\STR73x\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STR73x</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\ST\STR75x\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STR75x</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\ST\STR91x\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\ST\STR91x</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Template\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\TI\TMS470\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\TI\TMS470</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Toshiba\TMPM330\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Toshiba\TMPM330</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Ports\Toshiba\TMPM369\probe_rs232c.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Ports\Toshiba\TMPM369</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\RS-232\Source\probe_rs232.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\RS-232\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\Source\probe_com.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\TCPIP\Source\probe_tcpip.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\TCPIP\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Communication\Generic\USB\Source\probe_usb.h">
+      <Filter>Header files\UC_PROBE\Target\Communication\Generic\USB\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Scope\probe_scope.h">
+      <Filter>Header files\UC_PROBE\Target\Scope</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Scope\cfg\probe_scope_cfg.h">
+      <Filter>Header files\UC_PROBE\Target\Scope\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Terminal\probe_term.h">
+      <Filter>Header files\UC_PROBE\Target\Terminal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UCOSIII\uC-Probe\Target\Terminal\Cfg\probe_term_cfg.h">
+      <Filter>Header files\UC_PROBE\Target\Terminal\Cfg</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UCOSIII\uC-Probe\Target\Scope\probe_scope.c">
+      <Filter>Source files\UC_PROBE\Target\Scope</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

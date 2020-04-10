@@ -39,7 +39,7 @@
 */
 
 #define    PROBE_DCC_MODULE
-#include  <probe_dcc.h>
+#include  "probe_dcc.h"
 
 
                                                                 /* This directive suppresses warnings for non-void ...  */

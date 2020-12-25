@@ -5,6 +5,7 @@
 #include "lcd.h"
 #include "key.h"
 #include "includes.h"
+#include "math.h"
 //ALIENTEK 探索者STM32F407开发板 UCOSIII实验
 //例10-3 UCOSIII 信号量用于任务同步
 
@@ -174,6 +175,8 @@ CPU_TS Debug_task1_CyclesStart, Debug_task1_CyclesDelta;
 CPU_TS Debug_task1_ts;
 
 OS_SEM_CTR Debug_SemaphoreCount = 0;
+float x = 1.0;
+float y = 1.0;
 //任务1的任务函数
 void task1_task(void *p_arg)
 {
@@ -182,6 +185,7 @@ void task1_task(void *p_arg)
 	while(1)
 	{
 		StandbyIO1(1);
+		y = tanh(x);
 		Debug_task1_CyclesStart = OS_TS_GET();
 
 		key = KEY_Scan(0);  //扫描按键
@@ -221,6 +225,7 @@ CPU_TS Debug_task2_ts;
 CPU_TS Debug_Sem_ts;
 CPU_INT16U Debug_DelayTimeSet[4] = {0,0,1,0};//时、分、秒、毫秒
 
+
 //任务2的任务函数
 void task2_task(void *p_arg)
 {	
@@ -230,6 +235,8 @@ void task2_task(void *p_arg)
 	{
 		Debug_task2_CyclesStart = OS_TS_GET();
 		OSSemPend(&SYNC_SEM,0,OS_OPT_PEND_BLOCKING, &Debug_Sem_ts,&err); //请求信号量
+
+
 
 		StandbyIO2(1);
 		
@@ -244,7 +251,6 @@ void task2_task(void *p_arg)
 		StandbyIO2(0);
 		OSTimeDlyHMSM(0,0, Debug_DelayTimeSet[2], Debug_DelayTimeSet[3],OS_OPT_TIME_PERIODIC,&err);   //延时1s
 
-		
 		Debug_task2_CyclesDelta = OS_TS_GET() - Debug_task2_CyclesStart;
 	}
 }

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.852
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_3UseSemaphoresForTaskSynchronization", "10_3UseSemaphoresForTaskSynchronization\Project\VS\10_3UseSemaphoresForTaskSynchronization\10_3UseSemaphoresForTaskSynchronization.vcxproj", "{BC0DC83F-C34B-4FD6-A3DE-B645E37C2727}"
 EndProject
@@ -20,7 +20,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\..\..\嵌入式学习\资料\探索者F4\探索者F4 资料盘(A盘)\3，ALIENTEK探索者STM32F4开发板原理图\Explorer STM32F4_V2.2_SCH.pdf = ..\..\..\嵌入式学习\资料\探索者F4\探索者F4 资料盘(A盘)\3，ALIENTEK探索者STM32F4开发板原理图\Explorer STM32F4_V2.2_SCH.pdf
 		..\..\..\嵌入式学习\资料\探索者F4\探索者F4 资料盘(A盘)\8，STM32参考资料\STM32F4xx中文参考手册.pdf = ..\..\..\嵌入式学习\资料\探索者F4\探索者F4 资料盘(A盘)\8，STM32参考资料\STM32F4xx中文参考手册.pdf
 		..\..\..\嵌入式学习\资料\野火STM32\1-F429至尊版\A盘（资料盘）\4-开发软件\uC_Probe\第三步 帮助文件\uC-Probe-UsersManual.pdf = ..\..\..\嵌入式学习\资料\野火STM32\1-F429至尊版\A盘（资料盘）\4-开发软件\uC_Probe\第三步 帮助文件\uC-Probe-UsersManual.pdf
-		..\..\..\嵌入式学习\资料\野火STM32\1-F429至尊版\A盘（资料盘）\8-C语言学习资料\嵌入式实时操作系统μC／OS-III-原版书籍.pdf = ..\..\..\嵌入式学习\资料\野火STM32\1-F429至尊版\A盘（资料盘）\8-C语言学习资料\嵌入式实时操作系统μC／OS-III-原版书籍.pdf
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_3TimeSliceRotationSchedule", "06_3TimeSliceRotationSchedule\Project\VS\06_3TimeSliceRotationSchedule\06_3TimeSliceRotationSchedule.vcxproj", "{7A4B9E8D-D23A-4DE7-A848-D2C2D9F12936}"
